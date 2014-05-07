@@ -11,7 +11,7 @@ References
 
 * Gasteiner, Martin, and Peter Haber, eds. 2010. Digitale Arbeitstechniken für die Geistes- und Kulturwissenschaften. Vienna: UTB. http://www.utb-shop.de/digitale-arbeitstechniken.html.
 
-* Ruth Reiche, Rainer Becker, Michael Bender, Matthew Munson, Stefan Schmunk, Christof Schöch: "Verfahren der Digital Humanities in den Geistes- und Kulturwissenschaften" DARIAH-DE Working Papers Nr.4. Göttingen: DARIAH-DE, 2014 (Preprint). http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2014-4.pdf.
+* Ruth Reiche, Rainer Becker, Michael Bender, Matthew Munson, Stefan Schmunk, Christof Schöch: "Verfahren der Digital Humanities in den Geistes- und Kulturwissenschaften" DARIAH-DE Working Papers Nr.4. Göttingen: DARIAH-DE, 2014. http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2014-4.pdf.
 
 * Siemens, Ray; John Unsworth; Susan Schreibman, eds. 2004. A Companion to Digital Humanities. Hardcover. Oxford: Blackwell. http://www.digitalhumanities.org/companion/.
 
