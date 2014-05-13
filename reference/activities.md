@@ -81,7 +81,7 @@ This general research goal refers to the activity of extracting any kind of info
 
 content_analysis
 ----------------
-"content_analysis" is a method which aims to analyse aspects of digital objects relating to their meaning, such as identifying concepts or meaningful units. Relevant techniques include "topic_modeling", "sentiment_analysis", "information_retrieval", "discourse_analysis", but also "named_entity_recognition".
+"content_analysis" is a method which aims to analyze aspects of digital objects relating to their meaning, such as identifying concepts or meaningful units. Relevant techniques include "topic_modeling", "sentiment_analysis", "information_retrieval", "discourse_analysis", but also "named_entity_recognition".
 
 network_analysis
 ----------------
@@ -105,11 +105,11 @@ Stylistic Analysis consists of identifying stylistic or formal features of digit
 
 visualization
 -------------
-"visualization" refers to activities which serve to summarise and present in a graphical form, and to use such graphical forms analytically, that is to detect patterns, structures, or points of interest in the underlying data. Virtually any kind of data can be visualized, and the forms of visualizations can be images, maps, timelines, graphs, or tables, and the like. Relevant techniques include "plotting" and "mapping". 
+"visualization" refers to activities which serve to summarize and present in a graphical form, and to use such graphical forms analytically, that is to detect patterns, structures, or points of interest in the underlying data. Virtually any kind of data can be visualized, and the forms of visualizations can be images, maps, timelines, graphs, or tables, and the like. Relevant techniques include "plotting" and "mapping". 
 
 5 - interpretation
 ==================
-Interpretation is the activity of ascribing meaning to phenomena observed in Analysis. Therefore, interpretation usually follows analysis, although it could also be considered that interpretation defines the hermeneutic perspective of any method of analysis.  
+Interpretation is the activity of ascribing meaning to phenomena observed in "analysis". Therefore, interpretation usually follows analysis, although it could also be considered that interpretation defines the hermeneutic perspective of any method of analysis.  
 
 contextualizing
 ---------------
@@ -117,7 +117,7 @@ contextualizing
 
 modeling
 --------
-"modeling" is the activity of creating an abstract representation of a complex phenomenon, usually in a machine-readable way, possibly in an interactive way (i.e. it includes “simulation”). Models become machine-readable when modelling produces a schema that describes the elements and the structure of an object of inquiry in an explicit way. Modeling can also refer to the activity of transforming or manipulating a digital object in such a way as to make it compatible with a previously constructed model or schema. "mapping", for instance, is an example of a spatial model. Workflow design is included as part of "modeling", using an object such as "process".
+"modeling" is the activity of creating an abstract representation of a complex phenomenon, usually in a machine-readable way, possibly in an interactive way (i.e. it includes “simulation”). Models become machine-readable when modeling produces a schema that describes the elements and the structure of an object of inquiry in an explicit way. Modeling can also refer to the activity of transforming or manipulating a digital object in such a way as to make it compatible with a previously constructed model or schema. "mapping", for instance, is an example of a spatial model. Workflow design is included as part of "modeling", using an object such as "process".
 
 theorizing
 ----------
@@ -161,7 +161,7 @@ communicating
 
 crowdsourcing
 -------------
-"crowdsourcing" refers to the paradigm of user-generated content in a web 2.0 context, applied here to the domain of digital humanities research. Crowdsourcing may include gamification, which may be understood as one form of creating motivation in crowdsourcing endeavors. 
+"crowdsourcing" refers to the paradigm of user-generated content in a web 2.0 context, applied here to the domain of digital humanities research. "crowdsourcing" may include "gamification", which may be understood as one form of creating motivation in crowdsourcing endeavors. 
 
 publishing
 ----------
@@ -174,7 +174,7 @@ sharing
 Meta-Activities
 ===============
 
-Meta-Activities are activities which, unlike regular research activities, do not apply directly to a research object, but rather to a combination of a research activity with a research object. A case in point would be a tutorial "teaching" the digital "encoding" of "music", or a report "introducing" readers to "pattern_recognition" in "images". Meta-Activity tags can be added to provide additional context to a typical activity+object pair of tags. In some cases, however, meta-activities may also apply to objects, for example in the case of objects like “infrastructure” or “dgital_humanities”.  
+Meta-Activities are activities which, unlike regular research activities, do not apply directly to a research object, but rather to a combination of a research activity with a research object. A case in point would be a tutorial "teaching" the digital "encoding" of "music", or a report "introducing" readers to "pattern_recognition" in "images". Meta-Activity tags can be added to provide additional context to a typical activity+object pair of tags. In some cases, however, meta-activities may also apply to objects, for example in the case of objects like “infrastructure” or “digital_humanities”.  
 
 assessing
 ---------------
