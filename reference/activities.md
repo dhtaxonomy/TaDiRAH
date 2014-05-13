@@ -99,9 +99,9 @@ structural_analysis
 -------------------
 "structural_analysis" involves analysis of objects on the level of the relations between structural elements of a cultural artefact (level of morphology or syntax in linguistics). Relevant techniques include: "pos_tagging", "tree_tagging", "collocation_analysis", "concordancing".
 
-Stylistic Analysis
+stylistic_analysis
 ------------------
-Stylistic Analysis consists of identifying stylistic or formal features of digital objects. Although computational stylistics is in many cases applied to texts and based on linguistic features, it can also be applied to other media such as physical artifacts, painting, music or movies. Relevant techniques include: Stylometry, Principal Component Analysis, Cluster Analysis, Paleographic Analysis. 
+"stylistic_analysis" consists of identifying stylistic or formal features of digital objects. Although computational stylistics is in many cases applied to texts and based on linguistic features, it can also be applied to other media such as physical artifacts, painting, music or movies. Relevant techniques include: Stylometry, Principal Component Analysis, Cluster Analysis, Paleographic Analysis. 
 
 visualization
 -------------
@@ -109,7 +109,7 @@ visualization
 
 5 - interpretation
 ==================
-Interpretation is the activity of ascribing meaning to phenomena observed in "analysis". Therefore, interpretation usually follows analysis, although it could also be considered that interpretation defines the hermeneutic perspective of any method of analysis.  
+"interpretation" is the activity of ascribing meaning to phenomena observed in "analysis". Therefore, interpretation usually follows analysis, although it could also be considered that interpretation defines the hermeneutic perspective of any method of analysis.  
 
 contextualizing
 ---------------
@@ -171,10 +171,10 @@ sharing
 -------
 "sharing" refers to the activity of making objects publically available through informal channels such as blogs, code sharing sites such as GitHUB, or other social media sites. 
 
-Meta-Activities
+meta_activities
 ===============
 
-Meta-Activities are activities which, unlike regular research activities, do not apply directly to a research object, but rather to a combination of a research activity with a research object. A case in point would be a tutorial "teaching" the digital "encoding" of "music", or a report "introducing" readers to "pattern_recognition" in "images". Meta-Activity tags can be added to provide additional context to a typical activity+object pair of tags. In some cases, however, meta-activities may also apply to objects, for example in the case of objects like “infrastructure” or “digital_humanities”.  
+"meta_activities" are activities which, unlike regular research activities, do not apply directly to a research object, but rather to a combination of a research activity with a research object. A case in point would be a tutorial "teaching" the digital "encoding" of "music", or a report "introducing" readers to "pattern_recognition" in "images". Meta-Activity tags can be added to provide additional context to a typical activity+object pair of tags. In some cases, however, meta-activities may also apply to objects, for example in the case of objects like “infrastructure” or “digital_humanities”.  
 
 assessing
 ---------------
