@@ -25,6 +25,16 @@ Coordinators
 * Jody Perkins, Oxford OH, USA
 * Christof Schöch, Würzburg, Germany
 
+Initiatives using TaDiRAH
+-------------------------
+* Doing Digital Humanities Bibliography, DARIAH-DE: http://https://www.zotero.org/groups/doing_digital_humanities_-_a_dariah_bibliography/items/order/creator/sort/asc
+* Digital Humanities Course Registry, DARIAH-DE Cologne / CLARIAH-NL Rotterdam, http://dhcoursereg.hki.uni-koeln.de/
+
+Presentations and publications on TaDiRAH
+-----------------------
+* Borek, Luise; Quinn Dombrowski; Matthew Munson; Jody Perkins; Christof Schöch: "Scholarly primitives revisited: towards a practical taxonomy of digital humanities research activities and objects", short paper, Digital Humanities Conference 2014, Lausanne, Switzerland, July 7-12, 2014, http://dh2014.org/paper-session-details/. 
+* Dombrowski, Quinn & Jody Perkins: "TaDiRAH: Building Capacity for Integrated Access", dh+lib, May 21, 2014, http://acrl.ala.org/dh/2014/05/21/tadirah-building-capacity-integrated-access/.
+
 Good to know
 ------------
 
