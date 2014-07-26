@@ -8,7 +8,7 @@ Repository content
 
 * Reading - section providing a reader-friendly version of the taxonomy
 * Reference - section providing a semi-technical reference version of the taxonomy
-
+* SKOS - (forthcoming) section providing a machine-readable version in SKOS derived from http://tadirah.dariah.eu/vocab/
 
 Aspects of the taxonomy
 -----------------------
@@ -21,14 +21,15 @@ Coordinators
 ------------
 * Luise Borek, Darmstadt, Germany
 * Quinn Dombrowski, Berkeley, CA, USA
-* Matthew Munson, Leipzig, Germany
 * Jody Perkins, Oxford OH, USA
 * Christof Schöch, Würzburg, Germany
+* (formerly) Matthew Munson, Leipzig, Germany
 
 Initiatives using TaDiRAH
 -------------------------
 * Doing Digital Humanities Bibliography, DARIAH-DE: http://https://www.zotero.org/groups/doing_digital_humanities_-_a_dariah_bibliography/items/order/creator/sort/asc
 * Digital Humanities Course Registry, DARIAH-DE Cologne / CLARIAH-NL Rotterdam, http://dhcoursereg.hki.uni-koeln.de/
+* ... more currently in preparation
 
 Presentations and publications on TaDiRAH
 -----------------------
