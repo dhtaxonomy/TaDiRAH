@@ -27,7 +27,7 @@ Coordinators
 
 Contributors
 ------------
-* Diego Ferreyra, CAICYT - CONICET, Buenos Aires, Argentina (TemaTres Admin.)
+* Diego Ferreyra, CAICYT - CONICET, Buenos Aires, Argentina (TemaTres development and administration)
 * Gimena del Rio Riande, SECRIT-IIBICRIT, CONICET, Buenos Aires, Argentina (Spanish translation)
 
 Initiatives using TaDiRAH
