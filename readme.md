@@ -25,6 +25,11 @@ Coordinators
 * Christof Schöch, Würzburg, Germany
 * (formerly) Matthew Munson, Leipzig, Germany
 
+Contributors
+------------
+* Diego Ferreyra, CAICYT - CONICET, Buenos Aires, Argentina (TemaTres Admin.)
+* Gimena del Rio Riande, SECRIT-IIBICRIT, CONICET, Buenos Aires, Argentina (Spanish translation)
+
 Initiatives using TaDiRAH
 -------------------------
 * Doing Digital Humanities Bibliography, DARIAH-DE: http://https://www.zotero.org/groups/doing_digital_humanities_-_a_dariah_bibliography/items/order/creator/sort/asc
