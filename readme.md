@@ -8,7 +8,7 @@ Repository content
 
 * Reading - section providing a reader-friendly version of the taxonomy
 * Reference - section providing a semi-technical reference version of the taxonomy
-* SKOS - (forthcoming) section providing a machine-readable version in SKOS derived from http://tadirah.dariah.eu/vocab/
+* see also: machine-readable version in SKOS at http://tadirah.dariah.eu/vocab/
 
 Aspects of the taxonomy
 -----------------------
@@ -34,17 +34,19 @@ Initiatives using TaDiRAH
 -------------------------
 * Doing Digital Humanities Bibliography, DARIAH-DE: http://https://www.zotero.org/groups/doing_digital_humanities_-_a_dariah_bibliography/items/order/creator/sort/asc
 * Digital Humanities Course Registry, DARIAH-DE Cologne / CLARIAH-NL Rotterdam, http://dhcoursereg.hki.uni-koeln.de/
-* ... more currently in preparation
+* DiRT Digital Research Tools: http://dirtdirectory.org/
+* ... more in preparation
 
 Presentations and publications on TaDiRAH
 -----------------------
-* Borek, Luise; Quinn Dombrowski; Matthew Munson; Jody Perkins; Christof Schöch: "Scholarly primitives revisited: towards a practical taxonomy of digital humanities research activities and objects", short paper, Digital Humanities Conference 2014, Lausanne, Switzerland, July 7-12, 2014, http://dh2014.org/paper-session-details/. 
-* Dombrowski, Quinn & Jody Perkins: "TaDiRAH: Building Capacity for Integrated Access", dh+lib, May 21, 2014, http://acrl.ala.org/dh/2014/05/21/tadirah-building-capacity-integrated-access/.
+* Borek, Luise; Quinn Dombrowski; Matthew Munson; Jody Perkins; Christof Schöch: "Scholarly primitives revisited: towards a practical taxonomy of digital humanities research activities and objects", short paper, Digital Humanities Conference 2014, Lausanne, Switzerland, July 7-12, 2014, http://dh2014.org/paper-session-details/
+* Dombrowski, Quinn & Jody Perkins: "TaDiRAH: Building Capacity for Integrated Access", dh+lib, May 21, 2014, http://acrl.ala.org/dh/2014/05/21/tadirah-building-capacity-integrated-access/
+* Jody Perkins, Quinn Dombrowski, Luise Borek, Christof Schöch: "Building bridges to the future of a distributed network: From DiRT categories to TaDiRAH, a methods taxonomy for digital humanities", Proceedings of the International Conference on Dublin Core and Metadata Applications 2014, 2014, http://dcpapers.dublincore.org/pubs/article/view/3720 
 
 Good to know
 ------------
 
-If you have comments on the taxonomy, please use the issue tracker here on GitHub. You are welcome to fork and reuse the taxonomy in your project. 
+If you have comments on the taxonomy, please use the issue tracker here on GitHub. You are welcome to fork and reuse the taxonomy in your project. Please tell us about it!
 
 TaDiRAH is usually pronounced "ta-DEE-ra" and is not an animal. However, DiRT and DARIAH are both partial anagrams of it.
 
