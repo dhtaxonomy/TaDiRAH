@@ -33,8 +33,8 @@ Contributors
 Initiatives using TaDiRAH
 -------------------------
 * Doing Digital Humanities Bibliography, DARIAH-DE: http://https://www.zotero.org/groups/doing_digital_humanities_-_a_dariah_bibliography/items/order/creator/sort/asc
-* Digital Humanities Course Registry, DARIAH-DE Cologne / CLARIAH-NL Rotterdam, http://dhcoursereg.hki.uni-koeln.de/
 * DiRT Digital Research Tools: http://dirtdirectory.org/
+* Digital Humanities Course Registry, DARIAH-DE Cologne / CLARIAH-NL Rotterdam, https://dh-registry.de.dariah.eu/
 * ... more in preparation
 
 Presentations and publications on TaDiRAH
