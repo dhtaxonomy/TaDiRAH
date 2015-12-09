@@ -60,11 +60,20 @@ Schreiben
 Schreiben bezeichnet die Aktivität, bei der neuer Text erzeugt wird (im Unterschied zum Erfassen von existierendem Text). In vorliegenden Kontext bedeutet dies das Verfassen von Aufsätzen und Berichten, schließt aber andere Schrifterzeugnisse nicht aus.
 
 3 - Anreichern
-============
+==============
+Anreichern bezeichnet das Hinzufügen von Information zu einem bestimmten Objekt, zum Beispiel eine genauere Angabe zu Herkuft, Beschaffenheit, Struktur oder Bedeutung. Diese Aktivität folgt typischerweise auf das Erfassen eines Objekts.
 
 Annotieren
+----------
+Annotieren bedeutet, Informationen zu einem digitalen Objekt zu erheben, beispielsweise können Kommentare, Metadaten oder Schlagwörter einer digitalisierten Repräsentation beigefügt oder in einer separaten Datei gespeichert werden. Annotationen dienen dazu, Teile zu kommentieren oder zu kontextualisieren (erklärende Annotationen), um strukturelle oder linguistische Merkmale aufzuzeichnen (strukturelle/linguistische Annotation), um in Form von Linked Open Data die Beziehung zwischen verschiedenen Objekten maschinenlesbar zu machen oder, im Falle generischer Metadaten, Informationen über ein gesamtes Objekt zu speichern. Kodierung ist eine Technik, die dem Annotieren verbunden ist, sowie POS-Tagging, Tree-Tagging und Georeferenzierung.
+
+Bereinigen
+----------
+Das Bereinigen von Daten hat zum Ziel, die Güte eines bestehenden digitalen Objekts zu verbessern. Darunter fallen Aktivitäten wie Fehlerkorrektur in geschriebenen Texten oder OCR-Ergebnissen, Debuggen von Code oder Verbesserung der Qualität von Video-, Audio- oder Bilddateien.
 
 Bearbeiten
+----------
+Bearbeiten bedeutet die konkrete Auszeichnung von Dokumenten mit strukturellen, layout-bezogenen, semantischen oder anderen Informationen, entweder als Teil des Dokuments oder als separate Datei. Bearbeiten ist normalerweise Teil der größeren Aktivtät des wissenschaftlichen Editierens von Quellen. Die Aktivität basiert auf der Transkription des Dokumentes (also dem Ergebnis von Datenerkennung) und geleitet von dem Modell des Dokuments (also dem Ergebnis von Modellierung).
 
 4 - Analysis
 ============
