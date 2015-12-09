@@ -5,7 +5,14 @@ Bei der Taxonomy of Digital Research Activities in the Humanities, kurz TaDiRAH,
 
 ## Übersetzung
 
-+ Claudia Müller-Birn (FU Berlin, Beitrag im Rahmen des Einstein-Zirkel Digital Humanities)
+Verantwortlich für die aktuelle Fassung: 
+
 + Luise Borek (TU Darmstadt)
 + Klaus Thoden (MPIWG, Berlin)
 + Christof Schöch (Univ. Würzburg)
+
+Auf der Grundlage einer Übersetzung (im Rahmen des Einstein-Zirkel Digital Humanities) von: 
+
++ Claudia Müller-Birn (FU Berlin)
++ Melanie Siemund (HU Berlin)
++ Saskia Lindner
