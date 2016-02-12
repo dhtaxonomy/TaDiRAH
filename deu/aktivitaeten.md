@@ -1,7 +1,7 @@
 Forschungsaktivitäten
 ===========================
 
-Forschungsaktivitäten werden üblicherweise auf ein oder  mehrere Forschungsobjekte angewandt. Ein Artikel über das Modellieren von Merkmalen einer Handschrift würde daher die Tags "Modellieren" und "Handschrift" erhalten. Ein einfacher Text-Editor bekäme die Tags “Schreiben” sowie “Code” und “Text”.
+Forschungsaktivitäten werden üblicherweise auf ein oder  mehrere Forschungsobjekte angewandt. Ein Artikel über das Modellieren von Merkmalen einer Handschrift würde daher die Tags "Modellieren" und "Handschrift" erhalten. Ein einfacher Text-Editor bekäme die Tags "Schreiben" sowie "Code" und "Text".
 
 1 - Erfassen
 ============
