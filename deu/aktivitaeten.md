@@ -21,7 +21,7 @@ Entdecken beschreibt das Identifizieren von Forschungsobjekten, Forschungsergebn
 
 Sammeln
 -------
-Sammeln beschreibt das Aggregieren entdeckter Ressourcen. Dies geschieht für gewöhnlich auf strukturierte Art, z.B. wenn alle Veröffentlichungen zu einem spezifischenThema im Rahmen eines literarischen Reviews zusammengeführt werden oder wenn die Werke eines bestimmten Autors zur weiteren Analyse aus einer digitalen Sammlung herausgezogen werden. Verwandte Techniken sind web crawling und scraping.
+Sammeln beschreibt das Aggregieren entdeckter Ressourcen. Dies geschieht für gewöhnlich auf strukturierte Art, z.B. wenn alle Veröffentlichungen zu einem spezifischen Thema im Rahmen eines literarischen Reviews zusammengeführt werden oder wenn die Werke eines bestimmten Autors zur weiteren Analyse aus einer digitalen Sammlung herausgezogen werden. Verwandte Techniken sind web crawling und scraping.
 
 Bilderfassung
 -------------
@@ -173,7 +173,7 @@ Teilen meint das öffentliche Verfügbarmachen von Objekten mittels informeller 
 
 Rahmenaktivitäten
 ============
-Bei Rahmenaktivitäten handelt es sich um solche Aktivitäten, die sich, anders als reguläre Aktivitäten, nicht unmittelbar auf ein Forschungsobjekt beziehen, sondern auf eine Kombination von Forschungsaktivität und Forschungsobjekt. Beispiele wären das Unterrichten digitaler Musikauszeichnung oder die Überprüfung der Qualität von Mustererkennung in Bildern vorstellt. Rahmenaktivitäten-Tags können hinzugefügt werden, um zusätzlichen Kontext für typische Aktivität+Objekt Tag-Paare zu schaffen. In einigen Fällen können sich Rahmenaktivitäten auch auf Objekte beziehen, etwa bei abstrakten Objekten wie "Infrastruktur" oder "Digitale Geisteswissenschaften". 
+Bei Rahmenaktivitäten handelt es sich um solche Aktivitäten, die sich, anders als reguläre Aktivitäten, nicht unmittelbar auf ein Forschungsobjekt beziehen, sondern auf eine Kombination von Forschungsaktivität und Forschungsobjekt. Beispiele wären das Unterrichten digitaler Musikauszeichnung oder die Überprüfung der Qualität von Mustererkennung in Bildern. Rahmenaktivitäten-Tags können hinzugefügt werden, um zusätzlichen Kontext für typische Aktivität+Objekt Tag-Paare zu schaffen. In einigen Fällen können sich Rahmenaktivitäten auch auf Objekte beziehen, etwa bei abstrakten Objekten wie "Infrastruktur" oder "Digitale Geisteswissenschaften". 
 
 Meta: Prüfen
 ----------
