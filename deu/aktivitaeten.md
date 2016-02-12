@@ -75,7 +75,7 @@ Bearbeiten
 ----------
 Bearbeiten bezeichnet das Explizit-Machen struktureller, Layout-spezifischer, semantischer oder sonstiger Informationen über einen bestimmten Teil eines Dokuments durch das Hinzufügen (inline oder stand-off) von Markup. Häufig erfolgt es im Rahmen der übergeordneten Aktivität des wissenschaftlichen Edierens textlicher, musikalischer oder sonstiger Quellen. Es baut auf der Transkription eines Dokuments auf (dem Ergebnis von Data Recognition) und wird vom Modell des Dokuments geleitet (das Ergebnis der Modellierung).
 
-4 - Analysis
+4 - Analyse
 ============
 Dieses allgemeine Forschungsziel bezieht sich auf die Aktivität des Extrahierens jeglicher Information aus offenen, geschlossenen, strukturierten oder unstrukturierten Datensammlungen, auf das Entdecken wiederkehrender Phänomene, Einheiten, Elemente, Muster, Gruppen und ähnlichem. Es kann sich auf strukturelle, formale oder semantische Aspekte von Daten beziehen. Die Analyse schließt auch Methoden ein, welche zur Visualisierung der Ergebnisse verwendet werden. Methoden und Techniken zur Analyse schließen oftmals an die Ergebnisse von Erfassen und Anreichern an; das Anreichern  hängt dabei jedoch von Vorannahmen, Forschungsfragen und Analyse-Ergebnissen ab.
 
