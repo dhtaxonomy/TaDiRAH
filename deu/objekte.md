@@ -3,7 +3,8 @@ Forschungsgegenstände
  
 * Artefakte 
 * Bibliographien 
-* Bilder 
+* Bilder (2D) 
+* Bilder (3D)
 * Computer 
 * Dateien 
 * Daten 
