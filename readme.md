@@ -39,10 +39,13 @@ Initiatives using TaDiRAH
 * Doing Digital Humanities Bibliography, DARIAH-DE: http://https://www.zotero.org/groups/doing_digital_humanities_-_a_dariah_bibliography/items/order/creator/sort/asc
 * DiRT Digital Research Tools: http://dirtdirectory.org/
 * Digital Humanities Course Registry, DARIAH-DE Cologne / CLARIAH-NL Rotterdam, https://dh-registry.de.dariah.eu/
+* DHd 2016 conference abstract classification: http://www.dhd2016.de 
+* Survey Forschungspraxis in den Geisteswissenschaften, 2015-2016: http://ww2.unipark.de/uc/practices4humanities/
 * ... more in preparation
 
 Presentations and publications on TaDiRAH
 -----------------------
+*  Borek, Luise; Quinn Dombrowski; Jody Perkins; Christof Schöch: "TaDiRAH: a Case Study in Pragmatic Classification", Digital Humanities Quarterly 10.1, 2016. http://digitalhumanities.org/dhq/vol/10/1/000235/000235.html
 * Borek, Luise; Quinn Dombrowski; Matthew Munson; Jody Perkins; Christof Schöch: "Scholarly primitives revisited: towards a practical taxonomy of digital humanities research activities and objects", short paper, Digital Humanities Conference 2014, Lausanne, Switzerland, July 7-12, 2014, http://dh2014.org/paper-session-details/
 * Dombrowski, Quinn & Jody Perkins: "TaDiRAH: Building Capacity for Integrated Access", dh+lib, May 21, 2014, http://acrl.ala.org/dh/2014/05/21/tadirah-building-capacity-integrated-access/
 * Jody Perkins, Quinn Dombrowski, Luise Borek, Christof Schöch: "Building bridges to the future of a distributed network: From DiRT categories to TaDiRAH, a methods taxonomy for digital humanities", Proceedings of the International Conference on Dublin Core and Metadata Applications 2014, 2014, http://dcpapers.dublincore.org/pubs/article/view/3720 
