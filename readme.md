@@ -43,7 +43,7 @@ Initiatives using TaDiRAH
 * Survey Forschungspraxis in den Geisteswissenschaften, 2015-2016: http://ww2.unipark.de/uc/practices4humanities/ and http://www.dhd2016.de/abstracts/vortr%C3%A4ge-015.html
 * Interdisziplinärer Forschungsverbund Digital Humanities in Berlin "DH-Forschungsprojekte in der Region": http://www.ifdhberlin.de/forschung/dh-forschungsprojekte-in-der-region
 * NeDiMAH Methods Ontology (NeMO): http://nemo.dcu.gr/index.php
-*... more in preparation
+* ... more in preparation
 
 Presentations and publications on TaDiRAH
 -----------------------
