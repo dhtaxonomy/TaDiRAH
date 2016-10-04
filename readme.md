@@ -40,8 +40,10 @@ Initiatives using TaDiRAH
 * DiRT Digital Research Tools: http://dirtdirectory.org/
 * Digital Humanities Course Registry, DARIAH-DE Cologne / CLARIAH-NL Rotterdam, https://dh-registry.de.dariah.eu/
 * DHd 2016 conference abstract classification: http://www.dhd2016.de 
-* Survey Forschungspraxis in den Geisteswissenschaften, 2015-2016: http://ww2.unipark.de/uc/practices4humanities/
-* ... more in preparation
+* Survey Forschungspraxis in den Geisteswissenschaften, 2015-2016: http://ww2.unipark.de/uc/practices4humanities/ and http://www.dhd2016.de/abstracts/vortr%C3%A4ge-015.html
+* Interdisziplinärer Forschungsverbund Digital Humanities in Berlin "DH-Forschungsprojekte in der Region": http://www.ifdhberlin.de/forschung/dh-forschungsprojekte-in-der-region
+* NeDiMAH Methods Ontology (NeMO): http://nemo.dcu.gr/index.php
+*... more in preparation
 
 Presentations and publications on TaDiRAH
 -----------------------
