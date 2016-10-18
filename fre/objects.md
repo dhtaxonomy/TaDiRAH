@@ -1,40 +1,40 @@
-Digital Humanities Research Objects
-===================================
+Objets de recherche des Humanités Numériques
+============================================
 
-* Artifacts
-* BibliographicListings
-* Computers
-* Curricula
-* DigitalHumanities
-* Data
-* File
+* Artéfacts
+* Bibliographies
+* Ordinateurs
+* Formations
+* Humanités Numériques
+* Données
+* Fichier
 * Images
-* Images(3D)
+* Images (3D)
 * Infrastructure
 * Interaction
-* Language
-* Link
-* Literature
-* Manuscript
-* Map
-* Metadata
-* Methods
-* Multimedia
+* Langage
+* Lien
+* Littérature
+* Manuscrit
+* Carte
+* Métadonnées
+* Méthodes
+* Multimédia
 * Multimodal
-* NamedEntities
-* Persons
-* Projects
-* Research
-* ResearchProcess
-* ResearchResults
-* SheetMusic
-* Software
-* Sound
+* Entités Nommées
+* Personnes
+* Projets
+* Recherche
+* Processus de Recherche
+* Résultats de Recherche
+* Partitions de Musique
+* Logiciel
+* Son
 * Standards
-* Text
-* TextBearingObjects
-* Tools
-* Video
-* Visualization
-* VREs
+* Texte
+* Objets porteurs de texte
+* Outils
+* Vidéo
+* Visualisation
+* Environnement de Recherche Numérique
 

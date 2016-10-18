@@ -1,4 +1,4 @@
-Research Techniques
+Techniques de Recherche
 ======================================
 
 Technique > related Goal-Method
@@ -6,36 +6,36 @@ Technique > related Goal-Method
 
 * Bit Stream Preservation > Storage-Preservation
 * Brainstorming
-* Browsing
-* Cluster Analysis > Analysis-Stylistic Analysis
-* Collocation Analysis > Analysis- Structural Analysis
-* Commenting
-* Concordancing > Analysis-Structural Analysis
-* Debugging
-* Distance Measures > Analysis-Stylistic Analysis
+* Naviguer
+* Analyse de Cluster > Analyse - Analyse Stylistique
+* Analyse de Cooccurence > Analyse -  Analyse Structurelle
+* Commenter
+* Concordancing > Analyse-Structural Analyse
+* Debugguer
+* Mesures de Distance > Analyse-Stylistic Analyse
 * Durable Persistent Media > Storage-Preservation
-* Emulation > Storage-Preservation
-* Encoding
-* Gamification > Dissemination-Crowdsourcing
-* Georeferencing > Enrichment-Annotation
-* Information Retrieval > Analysis-Content Analysis
+* Émulation > Storage-Preservation
+* Encoder
+* Ludification > Dissémination - Production Participative
+* Géoréférencement > Enrichissement - Annotation
+* Information Retrieval > Analyse-Content Analyse
 * Linked open data > Enrichment-Annotation; Dissemination-Publishing
-* Machine Learning > Analysis-Structural Analysis; Analysis-Stylistic Analysis; Analysis-Content Analysis
+* Machine Learning > Analyse-Structural Analyse; Analyse-Stylistic Analyse; Analyse-Content Analyse
 * Mapping
 * Migration > Storage-Preservation
-* Named Entity Recognition > Enrichment-Annotation; Analysis-Content Analysis 
+* Named Entity Recognition > Enrichment-Annotation; Analyse-Content Analyse 
 * Open Archival Information Systems > Storage-Preservation
-* Pattern Recognition > Analysis-Relational Analysis
+* Pattern Recognition > Analyse-Relational Analyse
 * Photography
-* POS-Tagging > Analysis-Structural Analysis
+* POS-Tagging > Analyse-Structural Analyse
 * Preservation Metadata > Storage-Preservation
-* Principal Component Analysis > Analysis-Stylistic Analysis
+* Principal Component Analyse > Analyse-Stylistic Analyse
 * Replication > Storage-Preservation
 * Scanning
 * Searching
-* Sentiment Analysis > Analysis-Content Analysis
-* Sequence Alignment > Analysis-Relational Analysis
+* Sentiment Analyse > Analyse-Content Analyse
+* Sequence Alignment > Analyse-Relational Analyse
 * Technology Preservation > Storage-Preservation
-* Topic Modeling > Analysis-Content Analysis
+* Topic Modeling > Analyse-Content Analyse
 * Versioning > Storage-Preservation
 * Web Crawling > Capture-Gathering
