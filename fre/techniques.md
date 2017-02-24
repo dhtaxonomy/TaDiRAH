@@ -1,41 +1,41 @@
 Techniques de Recherche
 ======================================
 
-Technique > related Goal-Method
+Technique > Objectif - Méthode
 -------------------------------
 
-* Bit Stream Preservation > Storage-Preservation
+* Bit Stream Preservation > Stockage - Conservation
 * Brainstorming
-* Naviguer
-* Analyse de Cluster > Analyse - Analyse Stylistique
-* Analyse de Cooccurence > Analyse -  Analyse Structurelle
-* Commenter
-* Concordancing > Analyse-Structural Analyse
-* Debugguer
-* Mesures de Distance > Analyse-Stylistic Analyse
-* Durable Persistent Media > Storage-Preservation
-* Émulation > Storage-Preservation
-* Encoder
-* Ludification > Dissémination - Production Participative
+* Navigation
+* Analyse de cluster > Analyse - Analyse stylistique
+* Analyse de co-occurence > Analyse - Analyse structurelle
+* Commentaire
+* Concordance > Analyse - Analyse structurelle
+* Débogage
+* Mesures de distance > Analyse - Analyse stylistique
+* Supports pérennes > Stockage - Conservation
+* Émulation > Stockage - Conservation
+* Encodage
+* Ludification > Dissémination - Crowdsourcing
 * Géoréférencement > Enrichissement - Annotation
-* Information Retrieval > Analyse-Content Analyse
-* Linked open data > Enrichment-Annotation; Dissemination-Publishing
-* Machine Learning > Analyse-Structural Analyse; Analyse-Stylistic Analyse; Analyse-Content Analyse
-* Mapping
-* Migration > Storage-Preservation
-* Named Entity Recognition > Enrichment-Annotation; Analyse-Content Analyse 
-* Open Archival Information Systems > Storage-Preservation
-* Pattern Recognition > Analyse-Relational Analyse
-* Photography
-* POS-Tagging > Analyse-Structural Analyse
-* Preservation Metadata > Storage-Preservation
-* Principal Component Analyse > Analyse-Stylistic Analyse
-* Replication > Storage-Preservation
-* Scanning
-* Searching
-* Sentiment Analyse > Analyse-Content Analyse
-* Sequence Alignment > Analyse-Relational Analyse
-* Technology Preservation > Storage-Preservation
-* Topic Modeling > Analyse-Content Analyse
-* Versioning > Storage-Preservation
-* Web Crawling > Capture-Gathering
+* Recherche d'information > Analyse - Analyse de contenu
+* Linked open data > Enrichissement - Annotation; Dissémination - Publication
+* Apprentissage automatique > Analyse - Analyse structurelle; Analyse - Analyse stylistique; Analyse - Analyse de contenu
+* Cartographie
+* Migration > Stockage - Conservation
+* Reconnaissance d'entités nommées > Enrichissement - Annotation; Analyse - Analyse de contenu
+* Open Archival Information Systems > Stockage - Conservation
+* Reconnaissance de formes > Analyse - Analyse relationnelle
+* Photographie
+* Étiquetage morpho-syntaxique > Analyse - Analyse structurelle
+* Métadonnées de conservation > Stockage - Conservation
+* Analyse en composantes principales > Analyse - Analyse stylistique
+* Réplication > Stockage - Conservation
+* Numérisation
+* Recherche
+* Analyse de sentiments > Analyse - Analyse de contenu
+* Alignement de séquences > Analyse - Analyse relationnelle
+* Conservation de technologie > Stockage - Conservation
+* Topic modeling > Analyse - Analyse de contenu
+* Versionnage > Stockage - Conservation
+* Indexation du Web > Acquisition - Collecte
