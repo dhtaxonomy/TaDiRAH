@@ -5,36 +5,36 @@ Objets de recherche des Humanités Numériques
 * Bibliographies
 * Ordinateurs
 * Formations
-* Humanités Numériques
+* HumanitésNumériques
 * Données
 * Fichier
-* Images
-* Images (3D)
+* Images2D
+* Images3D
 * Infrastructure
 * Interaction
-* Langage
+* LangueLangage
 * Lien
-* Littérature
+* TextesLittéraires
 * Manuscrit
 * Carte
 * Métadonnées
 * Méthodes
 * Multimédia
 * Multimodal
-* Entités Nommées
+* EntitésNommées
 * Personnes
 * Projets
 * Recherche
-* Processus de Recherche
-* Résultats de Recherche
-* Partitions de Musique
+* ProcessusDeRecherche
+* RésultatsDeRecherche
+* PartitionMusicale
 * Logiciel
 * Son
 * Standards
 * Texte
-* Objets porteurs de texte
+* ObjetsPorteursDeTexte
 * Outils
 * Vidéo
 * Visualisation
-* Environnement de Recherche Numérique
+* EnvironnementVirtuelDeRecherche
 
