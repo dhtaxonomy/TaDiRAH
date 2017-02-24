@@ -1,7 +1,7 @@
 TaDiRAH - Taxonomy of Digital Research Activities in the Humanities (v. 0.5.1, 05/2014)
 =====================================================================================
 
-This taxonomy of digital research activities in the humanities has been developed for use by community-driven sites and projects that aim to structure information relevant to digital humanities and make it more easily discoverable. The taxonomy is expected to be particularly useful to endeavors aiming to collect information on digital humanities tools, methods, projects, or readings. 
+This taxonomy of digital research activities in the humanities has been developed for use by community-driven sites and projects that aim to structure information relevant to digital humanities and make it more easily discoverable. The taxonomy is expected to be particularly useful to endeavors aiming to collect information on digital humanities tools, methods, projects, or readings.
 
 <a href="https://zenodo.org/badge/latestdoi/1105/dhtaxonomy/TaDiRAH"><img src="https://zenodo.org/badge/1105/dhtaxonomy/TaDiRAH.svg" alt="10.5281/zenodo.32492"></a>
 
@@ -12,6 +12,7 @@ Repository content
 * Reference - section providing a semi-technical reference version of the taxonomy
 * deu - German translation
 * esp - Spanish translation
+* fre - French translation (in progress)
 * see also: machine-readable version in SKOS at http://tadirah.dariah.eu/vocab/
 
 Aspects of the taxonomy
@@ -39,7 +40,7 @@ Initiatives using TaDiRAH
 * Doing Digital Humanities Bibliography, DARIAH-DE: http://https://www.zotero.org/groups/doing_digital_humanities_-_a_dariah_bibliography/items/order/creator/sort/asc
 * DiRT Digital Research Tools: http://dirtdirectory.org/
 * Digital Humanities Course Registry, DARIAH-DE Cologne / CLARIAH-NL Rotterdam, https://dh-registry.de.dariah.eu/
-* DHd 2016 conference abstract classification: http://www.dhd2016.de 
+* DHd 2016 conference abstract classification: http://www.dhd2016.de
 * Survey Forschungspraxis in den Geisteswissenschaften, 2015-2016: http://ww2.unipark.de/uc/practices4humanities/ and http://www.dhd2016.de/abstracts/vortr%C3%A4ge-015.html
 * Interdisziplinärer Forschungsverbund Digital Humanities in Berlin "DH-Forschungsprojekte in der Region": http://www.ifdhberlin.de/forschung/dh-forschungsprojekte-in-der-region
 * NeDiMAH Methods Ontology (NeMO): http://nemo.dcu.gr/index.php
@@ -51,7 +52,7 @@ Presentations and publications on TaDiRAH
 *  Borek, Luise; Christof Schöch; Klaus Thoden: "Digitale Forschungsaktivitäten multilingual: TaDiRAH für die deutschsprachige DH-Community" ([Poster](https://www.linglit.tu-darmstadt.de/fileadmin/linglit/borek/tadirah_DHd2016_poster.pdf)), DHd-Tagung, University of Leipzig, March 7-11,2016. https://www.conftool.pro/dhd2016/sessions.php
 * Borek, Luise; Quinn Dombrowski; Matthew Munson; Jody Perkins; Christof Schöch: "Scholarly primitives revisited: towards a practical taxonomy of digital humanities research activities and objects", short paper, Digital Humanities Conference 2014, Lausanne, Switzerland, July 7-12, 2014, http://dh2014.org/paper-session-details/
 * Dombrowski, Quinn & Jody Perkins: "TaDiRAH: Building Capacity for Integrated Access", dh+lib, May 21, 2014, http://acrl.ala.org/dh/2014/05/21/tadirah-building-capacity-integrated-access/
-* Jody Perkins, Quinn Dombrowski, Luise Borek, Christof Schöch: "Building bridges to the future of a distributed network: From DiRT categories to TaDiRAH, a methods taxonomy for digital humanities", Proceedings of the International Conference on Dublin Core and Metadata Applications 2014, 2014, http://dcpapers.dublincore.org/pubs/article/view/3720 
+* Jody Perkins, Quinn Dombrowski, Luise Borek, Christof Schöch: "Building bridges to the future of a distributed network: From DiRT categories to TaDiRAH, a methods taxonomy for digital humanities", Proceedings of the International Conference on Dublin Core and Metadata Applications 2014, 2014, http://dcpapers.dublincore.org/pubs/article/view/3720
 
 Good to know
 ------------
