@@ -5,7 +5,7 @@ TaDiRAH − version française
 
 + Aurélien Berra
 + Thibault Clérice
-+ Grandjean Martin
++ Martin Grandjean
 + Vincent Razanajao
 
 Cette traduction est une contribution d'[Humanistica](http://www.humanisti.ca), l'association francophone des humanités numériques.
