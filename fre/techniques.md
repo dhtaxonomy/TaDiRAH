@@ -7,7 +7,7 @@ Technique > Objectif - Méthode
 * Bit Stream Preservation > Stockage - Conservation
 * Brainstorming
 * Navigation
-* Analyse de cluster > Analyse - Analyse stylistique
+* Analyse de grappes de mots > Analyse - Analyse stylistique
 * Analyse de co-occurence > Analyse - Analyse structurelle
 * Commentaire
 * Concordance > Analyse - Analyse structurelle
@@ -27,7 +27,7 @@ Technique > Objectif - Méthode
 * Open Archival Information Systems > Stockage - Conservation
 * Reconnaissance de formes > Analyse - Analyse relationnelle
 * Photographie
-* Étiquetage morpho-syntaxique > Analyse - Analyse structurelle
+* Annotation des parties du discours > Analyse - Analyse structurelle
 * Métadonnées de conservation > Stockage - Conservation
 * Analyse en composantes principales > Analyse - Analyse stylistique
 * Réplication > Stockage - Conservation
