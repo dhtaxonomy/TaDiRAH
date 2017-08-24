@@ -47,43 +47,43 @@ La création désigne en général l'activité qui consiste à produire des obje
 
 Design
 ---------
-Le développement d'une interface, avec laquelle l'utilisateur est en mesure d'interagir pour réaliser diverses tâches et activités.
+Le développement d'une interface avec laquelle l'utilisateur est en mesure d'interagir pour réaliser diverses tâches et activités. Le design comprend également le développement de l'expérience utilisateur, prenant en compte les perceptions pratiques d'un individu, telles que l'utilité, la facilité d'usage et l'efficacité du système. En revanche, cette activité n'inclut pas la mise en œuvre du design (voir "Programmation" et "Développement Web"). Le design de bases de données est à placer sous la catégorie "Modélisation".
 
-with which the user is able to interact to perform various tasks and conduct activities. Also included here is the development of the user experience, where a person’s perceptions of the practical aspects such as utility, ease of use, and efficiency of the system are taken into consideration. Does not include the implementation of the design (see “Programming” or “Web development”). Database design is to be categorized using “Modeling”.
-
-Programming
+Programmation
 -----------
-Creation of code executable by a computer, that is creation of scripts or software. (This includes “Prototyping”, the creation of such code for testing or modeling purposes.) It is also closely related to the more broader activity of tool development. Programming is separate from Encoding (enriching a document by making structural, layout-related, semantic, or other information about a specific part of a document explicit by adding markup to its transcription).
+La création de code qu'un ordinateur peut exécuter, c'est-à-dire de scripts ou de logiciels. (Est inclus ici le "Prototypage", qui est la création d'un tel code en vue d'un test ou d'une modélisation.) Cette activité est étroitement liée à l'activité plus générale du développement d'outils. La Programmation est distincte de l'Encodage (lequel consiste à enrichir un document en explicitant, au moyen de balises ajoutées à sa transcription, des informations sur la structure, la présentation, la signification ou d'autres aspects encore d'une partie de ce document).
 
-Translation
+Traduction
 -----------
-Translation involves creating a new linguistic object based on a source document but written in a different language than the source. This applies to both natural languages and machine-readable programming languages.
+La traduction consiste à créer un nouvel objet linguistique fondé sur un document source mais rédigé dans une langue ou un langage différents de ceux de la source. Cette définition s'applique aussi bien aux langues naturelles qu'aux langages de programmation lisibles par les machines.
 
-Web development
+Développement Web
 ---------------
-Creation of websites, by building on a platform (e.g. content management systems such as Drupal, WordPress and Omeka) or writing HTML/CSS. Writing a module/plugin for a platform, or programming web-based applications, should use the “Programming” method.
+Création de sites Web, soit à partir d'une plateforme (systèmes de gestion de contenus comme Drupal, WordPress et Omeka) soit avec du code HTML et des CSS. Écrire un module ou un greffon pour une plateforme et programmer des applications Web sont des activités qui appartiennent à la méthode "Programmation". <!-- "method" ne semble pas un terme technique dans TaDIRAH… -->
 
-Writing
+Écriture
 --------
-Writing designates the activity of creating new texts (instead of capturing existing text). In our context, this would primarily concern research papers and reports, but may include other textually-oriented objects.
+Écriture désigne l'activité de créer de nouveaux textes (au lieu d'acquérir des textes existants). Dans le présent contexte, cela concernera surtout les articles et les rapports  scientifiques, mais pourra aussi comprendre d'autres objets en rapport avec le texte. <!-- "other textually-oriented objects" : peu clair -->
 
-3 – Enrichment
+3 – Enrichissement
 ==============
-Enrichment refers to the activity of adding information to an object of enquiry, by making its origin, nature, structure, meaning, or elements explicit. This activity typically follows the capture of the object.
+L'enrichissement est l'activité qui consiste à ajouter des informations à un objet de recherche, en explicitant son origine, sa nature, sa structure, sa signification ou ses éléments. Cette activité suit ordinairement l'acquisition de l'objet.
 
-Annotating
+Annotation
 ----------
-Annotating refers to the activity of making information about a digital object explicit by adding, e.g., comments, metadata or keywords to a digitized representation or to an annotation file associated with it. This can be in the form of annotations that comment on or contextualize a passage (explanatory annotations) in order to make structural or linguistic information explicit (structural/linguistic annotation), as linked open data making the relationships between objects machine-readable, or, in the case of general metadata, adding information about the object as a whole. Encoding is a technique associated with annotating, as are POS-Tagging, Tree-Tagging, and Georeferencing.
+L'annotation est l'activité qui consiste à expliciter des informations concernant un objet numérique, en ajoutant p. ex. des commentaires, des métadonnées ou des mots-clés à une représentation numérisée ou à un fichier d'annotations qui lui est associé. Cela peut prendre la forme d'annotations commentant ou mettant en contexte un passage (annotations explicatives) pour expliciter des informations de nature structurelle ou linguistique (annotations structurelles ou linguistiques), comme dans le cas de données liées ouvertes destinées à rendre les relations entre objets lisibles par les machines, ou bien, dans le cas de métadonnées génériques, d'annotations ajoutant des informations sur l'objet pris comme un tout. L'encodage est une technique associée à l'annotation, de même que l'étiquetage des parties du discours, l'étiquetage syntaxique ou le géoréférencement.
 
-Cleanup
+Nettoyage
 -------
-Data cleanup involves improving the quality of an existing digital object.  This could include such things as correcting errors in a written text, errors in OCR results, debugging code, improving the quality of video, audio, or image file.
+Le nettoyage des données consiste à améliorer la qualité d'un objet numérique existant. Cela peut comprendre notamment la correction d'erreurs dans un texte écrit, la correction d'erreurs d'OCR, le débogage et l'amélioration de la qualité de fichiers vidéo, de fichiers audio ou de fichiers d'images.
 
-Editing
+Édition
 -------
-Editing refers to making structural, layout-related, semantic, or other information about a specific part of a document explicit by adding (inline or stand-off) markup to its transcription. This is typically part of the larger activity of scholarly editing of textual, musical, or other sources. It is based on a transcription of the document (the result of data recognition) and guided by a model of the document (the result of modeling).
+L'édition est l'activité qui consiste à expliciter des informations sur la structure, la présentation, la signification ou d'autres aspects encore d'un document, au moyen de balises ajoutées à sa transcription (et soit insérées au fil du document, soit déportées dans un autre document). Elle s'incrit habituellement dans l'activité plus générale qu'est l'édition savante de sources textuelles, musicales ou de toute autre nature. L'édition se fonde sur une transcription du document (résultat de la reconnaissance de données) et est guidée par un modèle du document (résultat de la modélisation).
 
-4 – Analysis
+# PAUSE
+
+4 – Analyse
 ============
 This general research goal refers to the activity of extracting any kind of information from open or closed, structured or unstructured collections of data, of discovering recurring phenomena, units, elements, patterns, groupings, and the like. This can refer to structural, formal or semantic aspects of data. Analysis also includes methods used to visualize results. Methods and techniques related to this goal may be considered to follow Capture and Enrichment; however, Enrichment depends upon assumptions, research questions and results related to Analysis.
 
