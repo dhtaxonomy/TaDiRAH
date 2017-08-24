@@ -3,7 +3,7 @@ TaDiRAH − version française
 
 Cette traduction est une contribution d'[Humanistica](http://www.humanisti.ca), l'association francophone des humanités numériques.
 
-## Équipe de traduction
+## Équipe
 
 + Aurélien Berra
 + Thibault Clérice
@@ -12,5 +12,5 @@ Cette traduction est une contribution d'[Humanistica](http://www.humanisti.ca), 
 
 ## Dates
 
-2017-02-24
-…
+2017-02-24 (tous)
+2017-08-24 (AB)

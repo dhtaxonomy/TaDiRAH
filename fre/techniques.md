@@ -10,7 +10,7 @@ Technique > Objectif - Méthode
 * Brainstorming
 * Navigation
 * Analyse de grappes > Analyse - Analyse stylistique
-* Analyse de co-occurence > Analyse - Analyse structurelle
+* Analyse de co-occurrences > Analyse - Analyse structurelle
 * Commentaire
 * Concordance > Analyse - Analyse structurelle
 * Débogage
@@ -21,7 +21,7 @@ Technique > Objectif - Méthode
 * Ludification > Dissémination - Crowdsourcing
 * Géoréférencement > Enrichissement - Annotation
 * Recherche d'information > Analyse - Analyse de contenu
-* Données liées ouvertes > Enrichissement - Annotation; Dissémination - Publication <!-- suffisamment courant pour Linked open data : occurrences institutionnelles -->
+* Données liées ouvertes > Enrichissement - Annotation ; Dissémination - Publication <!-- suffisamment courant pour Linked open data : occurrences institutionnelles -->
 * Apprentissage automatique > Analyse - Analyse structurelle ; Analyse - Analyse stylistique ; Analyse - Analyse de contenu
 * Cartographie
 * Migration > Stockage - Conservation
@@ -38,6 +38,6 @@ Technique > Objectif - Méthode
 * Analyse de sentiments > Analyse - Analyse de contenu
 * Alignement de séquences > Analyse - Analyse relationnelle
 * Conservation de technologie > Stockage - Conservation
-* Topic modeling > Analyse - Analyse de contenu
+* Modélisation thématique > Analyse - Analyse de contenu <!-- je tente un équivalent de Topic modeling : pourquoi ne pas le traduire ? -->
 * Versionnage > Stockage - Conservation
 * Indexation du Web > Acquisition - Collecte
