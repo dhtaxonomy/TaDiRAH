@@ -1,6 +1,8 @@
 Objets de recherche des Humanités Numériques
 ============================================
 
+<!-- Les critères pour employer le singulier ou le pluriel ne sont pas clairs : nous avons respecté les choix de la version anglaise, mais les il serait bon de systématiser. -->
+
 * Artéfacts
 * Bibliographies
 * Ordinateurs
@@ -8,11 +10,11 @@ Objets de recherche des Humanités Numériques
 * HumanitésNumériques
 * Données
 * Fichier
-* Images2D
-* Images3D
+* Images2D <!-- ou Images, en général -->
+* Images3D <!-- ou Images(3D) comme en anglais -->
 * Infrastructure
 * Interaction
-* LangueLangage
+* LangueLangage <!-- ambiguïté à résoudre ? -->
 * Lien
 * TextesLittéraires
 * Manuscrit
@@ -36,5 +38,4 @@ Objets de recherche des Humanités Numériques
 * Outils
 * Vidéo
 * Visualisation
-* EnvironnementVirtuelDeRecherche
-
+* EnvironnementsVirtuelsDeRecherche <!-- trop long ? pas d'abréviation courante en français : garder l'anglais VRE et expliciter ailleurs ? -->
