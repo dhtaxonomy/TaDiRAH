@@ -123,37 +123,38 @@ La Contextualisation est l'activité qui consiste à créer des associations ent
 
 Modélisation
 ------------
-La Modélisation est l'activité qui consiste à créer une représentation abstraite d'un phénomène complexe, ordinairement sous une forme lisible par les machines et éventuellement sous une forme interactive (elle comprend donc la "simulation"). Des modèles deviennent lisibles par les machines lorsque la modélisation produit un schéma qui décrit les éléments et la structure d'un objet d'enquête d'une façon explicite. Le terme peut aussi désigner l'activité qui consiste à transformer ou à manipuler un objet numérique de sorte à le rendre compatible avec un modèle ou un schéma construit antérieurement. La Cartographie est ainsi un exemple de modèle spatial. La Conception d'un flux de travaux (*Workflow Design*) fait partie de la Modélisation et a recours à un objet tel que le Processus.
+La Modélisation est l'activité qui consiste à créer une représentation abstraite d'un phénomène complexe, ordinairement sous une forme lisible par les machines et éventuellement sous une forme interactive (elle comprend donc la "simulation"). Des modèles deviennent lisibles par les machines lorsque la modélisation produit un schéma qui décrit les éléments et la structure d'un objet d'enquête d'une façon explicite. Le terme peut aussi désigner l'activité qui consiste à transformer ou à manipuler un objet numérique de sorte à le rendre compatible avec un modèle ou un schéma construit antérieurement. La Cartographie est ainsi un exemple de modèle spatial. La Conception d'un flux de travaux (*Workflow Design*) fait partie de la Modélisation et recourt par exemple à l'objet Processus.
 
 Théorisation
 ------------
 La Théorisation est une méthode qui vise à faire entrer en relation un certain nombre d'éléments ou d'idées pour former un système cohérent fondé sur des principes généraux et capable d'expliquer les phénomènes ou observations qui sont pertinents. Elle repose sur des techniques telles que le raisonnement, la pensée abstraite, la conceptualisation et la définition. Une théorie peut être mise en œuvre sous la forme d'un modèle, ou bien un modèle peut susciter la formulation d'une théorie.
 
+6 – Stockage
+============
+Stocker est l'activité qui consiste à faire des copies numériques d'objets d'enquête, de résultats de recherche, de logiciels ou de services et à les laisser accessibles, sans nécessairement les rendre disponibles publiquement.
+
+Archivage
+---------
+L'Archivage est le processus qui consiste à déplacer des données ou d'autres ressources pour les conserver dans un espace à part. S'il s'agit d'archivage à long terme, il peut impliquer les activités liées à la conservation des données.
+
+Identification
+--------------
+L'Identification est l'activité qui consiste à nommer ou à attribuer des identifiants (éventuellement uniques et/ou pérennes) à des objets d'enquête ou à n'importe quel type d'objets numériques. Ajouter une description sous forme de métadonnées fait Identification de l'Annotation.
+
+Organisation
+------------
+L'Organisation concerne l'arrangement des objets (matériaux de recherche, jeux de données, images, etc.) d'une façon qui facilite d'autres activités de recherche. Elle peut également comprendre des activités qui favorisent la découverte, comme la création de métadonnées et leur amélioration.
+
+Conservation
+------------
+La Conservation est l'application de stratégies, d'activités et de technologies spécifiques en vue de garantir qu'un contenu numérique sera correctement rendu au fil du temps. Elle facilite le réemploi des données, des objets et des ressources liés à la recherche et peut comprendre des activités en rapport avec la durabilité et l'interopérabilité.
+Les techniques associées sont, notamment, les suivantes : Bit Stream Preservation, Supports pérennes, Émulation, Liaison des métadonnées <!-- Metadata Attachment – non mentionné ailleurs, comme d'autres techniques qui apparaissent ici… -->, Migration, Réplication, Conservation de technologie, Versionnage, recours à un Open Archival Information System <!-- singulier à System : voir le fichier Techniques --> et à des standards rendant possible l'interopérabilité.
+
 <!-- À POURSUIVRE -->
 
-6 – Storage
-===========
-Storing refers to the activity of making digital copies of objects of inquiry, results of research, or software and services and of keeping them accessible, without necessarily making them available to the public.
-
-Archiving
----------
-Archiving includes the process of moving data and other resources to a separate space for retention. If long-term archiving is involved, activities related to data preservation may also be involved.
-
-Identifying
------------
-Identifying refers to the activity of naming and/or assigning (possibly unique and/or persistent) identifiers to objects of enquiry or to any kind of digital object. Adding a metadata description of the object is part of Annotation.
-
-Organizing
-----------
-Organizing refers to the arrangement of objects (research materials, data sets, images, etc.) in a way that facilitates other research activities. May also include activities that support discovery such as metadata creation and enhancement.
-
-Preservation
-------------
-The application of specific strategies, activities and technologies for the purpose of ensuring an accurate rendering of digital content over time. It facilitates the reuse of research data, objects, and related resources and may include activities related to sustainability and interoperability. Related techniques include but are not limited to: Bit Stream Preservation, Durable Persistent Media, Emulation, Metadata Attachment, Migration, Replication, Technology Preservation, Versioning, the use of Open Archival Information Systems and standards that support interoperability.
-
-7 – Dissemination
+7 – Dissémination
 =================
-Dissemination refers to the activity of making objects of inquiry, results of research, or software and services available to fellow researchers or the wider public in a variety of more or less formal ways. It builds on or requires storing and can include releasing and sharing of data using a variety of methods and techniques including the application of linked open data.
+La Dissémination …  Dissemination refers to the activity of making objects of inquiry, results of research, or software and services available to fellow researchers or the wider public in a variety of more or less formal ways. It builds on or requires storing and can include releasing and sharing of data using a variety of methods and techniques including the application of linked open data.
 
 Collaboration
 -------------

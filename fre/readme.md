@@ -13,4 +13,4 @@ Cette traduction est une contribution d'[Humanistica](http://www.humanisti.ca), 
 ## Dates
 
 2017-02-24 (tous)
-2017-08-24 (AB)
+2017-08-24 et 2017-08-25 (AB)
