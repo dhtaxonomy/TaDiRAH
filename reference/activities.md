@@ -1,23 +1,23 @@
 Activities
 ==========
 
-Research activities are usually applied to one or several research objects. An article about modeling of manuscript properties would therefore be tagged with the tags “modeling” and “manuscript”. A plain text editor would be tagged with the tags "writing" and "code" and "text". 
+Research activities are usually applied to one or several research objects. An article about modeling of manuscript properties would therefore be tagged with the tags “modeling” and “manuscript”. A plain text editor would be tagged with the tags "writing" and "code" and "text".
 
 1 - capture
 ===========
-"capture" generally refers to the activity of creating digital surrogates of existing cultural artefacts, or expressing existing artifacts in a digital representation (digitization). This could be a manual process (as in "transcribing") or an automated procedure (as in "imaging" or "data_recognition"). Such capture precedes "enrichment" and "analysis", at least from a systematic point of view, if not in practice. 
+"capture" generally refers to the activity of creating digital surrogates of existing cultural artefacts, or expressing existing artifacts in a digital representation (digitization). This could be a manual process (as in "transcribing") or an automated procedure (as in "imaging" or "data_recognition"). Such capture precedes "enrichment" and "analysis", at least from a systematic point of view, if not in practice.
 
 conversion
 ----------
 "conversion" refers to changing the file format of an object (e.g. converting a .wmv video to a .mov file as well as converting VHS into a digital format) without fundamentally changing the content or nature of the object. When conversion concerns metadata, it involves mapping one metadata schema to another. More fundamental conversions, such as converting a scanned page image to an editable text document, are better referred to using “data_recognition”.
 
-data_recognition 
+data_recognition
 ---------------
 "data_recognition", for example OCR, refers to the process of treating the immediate products of digital data capture ("recording" or "imaging"), such as digital facsimiles of texts or of sheet music, in a way to extract discrete, machine-readable units from them, such as plain text words, musical notes, or still or moving image elements (including, for example, face recognition).
 
 discovering
 -----------
-"discovering" is the activity of seeking out objects of research, research results, or other information which is useful in a given search perspective. Discovering includes very directed techniques such as advanced querying of databases, less directed techniques such as simple "searching", and more serendipitous ones as "browsing", which would include faceted browsing. (It is different from "information_retrieval", which is a structured way of extracting some piece of information or some specific subset of objects from a resource.) 
+"discovering" is the activity of seeking out objects of research, research results, or other information which is useful in a given search perspective. Discovering includes very directed techniques such as advanced querying of databases, less directed techniques such as simple "searching", and more serendipitous ones as "browsing", which would include faceted browsing. (It is different from "information_retrieval", which is a structured way of extracting some piece of information or some specific subset of objects from a resource.)
 
 gathering
 ---------
@@ -57,11 +57,11 @@ Creation of websites, by building on a platform (e.g. content management systems
 
 writing
 --------
-"writing" designates the activity of creating new texts (instead of capturing existing text). In our context, this would primarily concern research papers and reports, but may include other textually-oriented objects. 
+"writing" designates the activity of creating new texts (instead of capturing existing text). In our context, this would primarily concern research papers and reports, but may include other textually-oriented objects.
 
 3 - enrichment
 ==============
-Enrichment refers to the activity of adding information to an object of enquiry, by making its origin, nature, structure, meaning, or elements explicit. This activity typically follows the capture of the object. 
+Enrichment refers to the activity of adding information to an object of enquiry, by making its origin, nature, structure, meaning, or elements explicit. This activity typically follows the capture of the object.
 
 annotating
 ----------
@@ -69,15 +69,15 @@ annotating
 
 cleanup
 -------
-Data "cleanup" involves improving the quality of an existing digital object. This could include such things as correcting errors in a written text, errors in OCR results, debugging code, improving the quality of video, audio, or image file. 
+Data "cleanup" involves improving the quality of an existing digital object. This could include such things as correcting errors in a written text, errors in OCR results, debugging code, improving the quality of video, audio, or image file.
 
 editing
 -------
-"editing" refers to making structural, layout-related, semantic, or other information about a specific part of a document explicit by adding (inline or stand-off) markup to its transcription. This is typically part of the larger activity of scholarly editing of textual, musical, or other sources. It is based on a transcription of the document (the result of "data_recognition") and guided by a model of the document (the result of "modeling"). 
+"editing" refers to making structural, layout-related, semantic, or other information about a specific part of a document explicit by adding (inline or stand-off) markup to its transcription. This is typically part of the larger activity of scholarly editing of textual, musical, or other sources. It is based on a transcription of the document (the result of "data_recognition") and guided by a model of the document (the result of "modeling").
 
 4 - analysis
 ============
-This general research goal refers to the activity of extracting any kind of information from open or closed, structured or unstructured collections of data, of discovering recurring phenomena, units, elements, patterns, groupings, and the like. This can refer to structural, formal or semantic aspects of data. Analysis also includes methods used to visualize results. Methods and techniques related to this goal may be considered to follow "capture" and "enrichment"; however, "enrichment" depends upon assumptions, research questions and results related to "analysis". 
+This general research goal refers to the activity of extracting any kind of information from open or closed, structured or unstructured collections of data, of discovering recurring phenomena, units, elements, patterns, groupings, and the like. This can refer to structural, formal or semantic aspects of data. Analysis also includes methods used to visualize results. Methods and techniques related to this goal may be considered to follow "capture" and "enrichment"; however, "enrichment" depends upon assumptions, research questions and results related to "analysis".
 
 content_analysis
 ----------------
@@ -85,7 +85,7 @@ content_analysis
 
 network_analysis
 ----------------
-"network_analysis" is a method to study the relations of (real or fictional) actors or other entities in a mediated network, which can take the form of a social or academic online network, a set of correspondence, or a work of literature; the resulting network is usually made up of nodes (entities) and edges (relations). Relevant techniques include "named_entity_recognition". When the artefacts themselves (texts, images, etc.) and their relations are concerned, the corresponding research activity would be "relational_analysis". 
+"network_analysis" is a method to study the relations of (real or fictional) actors or other entities in a mediated network, which can take the form of a social or academic online network, a set of correspondence, or a work of literature; the resulting network is usually made up of nodes (entities) and edges (relations). Relevant techniques include "named_entity_recognition". When the artefacts themselves (texts, images, etc.) and their relations are concerned, the corresponding research activity would be "relational_analysis".
 
 relational_analysis
 -------------------
@@ -101,19 +101,19 @@ structural_analysis
 
 stylistic_analysis
 ------------------
-"stylistic_analysis" consists of identifying stylistic or formal features of digital objects. Although computational stylistics is in many cases applied to texts and based on linguistic features, it can also be applied to other media such as physical artifacts, painting, music or movies. Relevant techniques include: Stylometry, Principal Component Analysis, Cluster Analysis, Paleographic Analysis. 
+"stylistic_analysis" consists of identifying stylistic or formal features of digital objects. Although computational stylistics is in many cases applied to texts and based on linguistic features, it can also be applied to other media such as physical artifacts, painting, music or movies. Relevant techniques include: Stylometry, Principal Component Analysis, Cluster Analysis, Paleographic Analysis.
 
 visualization
 -------------
-"visualization" refers to activities which serve to summarize and present in a graphical form, and to use such graphical forms analytically, that is to detect patterns, structures, or points of interest in the underlying data. Virtually any kind of data can be visualized, and the forms of visualizations can be images, maps, timelines, graphs, or tables, and the like. Relevant techniques include "plotting" and "mapping". 
+"visualization" refers to activities which serve to summarize and present in a graphical form, and to use such graphical forms analytically, that is to detect patterns, structures, or points of interest in the underlying data. Virtually any kind of data can be visualized, and the forms of visualizations can be images, maps, timelines, graphs, or tables, and the like. Relevant techniques include "plotting" and "mapping".
 
 5 - interpretation
 ==================
-"interpretation" is the activity of ascribing meaning to phenomena observed in "analysis". Therefore, interpretation usually follows analysis, although it could also be considered that interpretation defines the hermeneutic perspective of any method of analysis.  
+"interpretation" is the activity of ascribing meaning to phenomena observed in "analysis". Therefore, interpretation usually follows analysis, although it could also be considered that interpretation defines the hermeneutic perspective of any method of analysis.
 
 contextualizing
 ---------------
-"contextualizing" is the activity of creating associations between an object of investigation and other, more established or better-understood objects in a relation of geographical, temporal, or thematic proximity to the object of investigation, with the aim of ascribing meaning to that object. Such contextualizing may build on existing annotations and/or metadata.  
+"contextualizing" is the activity of creating associations between an object of investigation and other, more established or better-understood objects in a relation of geographical, temporal, or thematic proximity to the object of investigation, with the aim of ascribing meaning to that object. Such contextualizing may build on existing annotations and/or metadata.
 
 modeling
 --------
@@ -125,7 +125,7 @@ theorizing
 
 6 - storage
 ===========
-Storing refers to the activity of making digital copies of objects of inquiry, results of research, or software and services and of keeping them accessible, without necessarily making them available to the public.  
+Storing refers to the activity of making digital copies of objects of inquiry, results of research, or software and services and of keeping them accessible, without necessarily making them available to the public.
 
 archiving
 ---------
@@ -149,7 +149,7 @@ Dissemination refers to the activity of making objects of inquiry, results of re
 
 collaboration
 -------------
-"collaboration" is involved in any research activity being done jointly by several researchers, possibly in different places and at different times. Research-oriented collaboration is enabled, particularly, through comprehensive Digital Research Environments, but can also happen around more specific activities, such as communication or sharing of resources. 
+"collaboration" is involved in any research activity being done jointly by several researchers, possibly in different places and at different times. Research-oriented collaboration is enabled, particularly, through comprehensive Digital Research Environments, but can also happen around more specific activities, such as communication or sharing of resources.
 
 commenting
 ----------
@@ -157,11 +157,11 @@ commenting
 
 communicating
 -------------
-"communicating" refers to the activity of exchanging ideas with other people, primarily, but not exclusively, using linguistic means. Relevant techniques include "email", "chat", "audio_conferencing". 
+"communicating" refers to the activity of exchanging ideas with other people, primarily, but not exclusively, using linguistic means. Relevant techniques include "email", "chat", "audio_conferencing".
 
 crowdsourcing
 -------------
-"crowdsourcing" refers to the paradigm of user-generated content in a web 2.0 context, applied here to the domain of digital humanities research. "crowdsourcing" may include "gamification", which may be understood as one form of creating motivation in crowdsourcing endeavors. 
+"crowdsourcing" refers to the paradigm of user-generated content in a web 2.0 context, applied here to the domain of digital humanities research. "crowdsourcing" may include "gamification", which may be understood as one form of creating motivation in crowdsourcing endeavors.
 
 publishing
 ----------
@@ -169,29 +169,29 @@ publishing
 
 sharing
 -------
-"sharing" refers to the activity of making objects publically available through informal channels such as blogs, code sharing sites such as GitHUB, or other social media sites. 
+"sharing" refers to the activity of making objects publically available through informal channels such as blogs, code sharing sites such as GitHub, or other social media sites.
 
 meta_activities
 ===============
 
-"meta_activities" are activities which, unlike regular research activities, do not apply directly to a research object, but rather to a combination of a research activity with a research object. A case in point would be a tutorial "teaching" the digital "encoding" of "music", or a report "introducing" readers to "pattern_recognition" in "images". Meta-Activity tags can be added to provide additional context to a typical activity+object pair of tags. In some cases, however, meta-activities may also apply to objects, for example in the case of objects like “infrastructure” or “digital_humanities”.  
+"meta_activities" are activities which, unlike regular research activities, do not apply directly to a research object, but rather to a combination of a research activity with a research object. A case in point would be a tutorial "teaching" the digital "encoding" of "music", or a report "introducing" readers to "pattern_recognition" in "images". Meta-Activity tags can be added to provide additional context to a typical activity+object pair of tags. In some cases, however, meta-activities may also apply to objects, for example in the case of objects like “infrastructure” or “digital_humanities”.
 
 assessing
 ---------------
-"assessing" refers to the activity of verifying the existence of certain properties, usually indicative of some desirable quality in some outcome of an activity. This may refer to reviewing research papers or conference proposals, to evaluating the coherence of the annotation of audio-visual materials, or to an assessment of the usefulness of the Digital Humanities. 
+"assessing" refers to the activity of verifying the existence of certain properties, usually indicative of some desirable quality in some outcome of an activity. This may refer to reviewing research papers or conference proposals, to evaluating the coherence of the annotation of audio-visual materials, or to an assessment of the usefulness of the Digital Humanities.
 
 community_building
 -----------------------
-"community_building" is the activity of creating or enhancing a community with a common interest. It may include "dissemination", "teaching" as well as advocating for specific activities, practices, or values. 
+"community_building" is the activity of creating or enhancing a community with a common interest. It may include "dissemination", "teaching" as well as advocating for specific activities, practices, or values.
 
 give_overview
 ------------------
-"give_overview" refers to the activity of providing information which is relatively general or provides a historical or systematic overview of a given topic. Nevertheless, it can be aimed at experts or beginners in a field, subfield or specialty. 
+"give_overview" refers to the activity of providing information which is relatively general or provides a historical or systematic overview of a given topic. Nevertheless, it can be aimed at experts or beginners in a field, subfield or specialty.
 
 project_management
 -----------------------
-"project_management" involves activities such as developing a strategy and assessing risk for conducting a project, as well as task management activities, such as keeping a record of tasks, due dates, and other relevant information. It may include activities such as planning, documenting, getting funding, but also sending reminders and status reports. "project_management" is related to "collaboration". 
+"project_management" involves activities such as developing a strategy and assessing risk for conducting a project, as well as task management activities, such as keeping a record of tasks, due dates, and other relevant information. It may include activities such as planning, documenting, getting funding, but also sending reminders and status reports. "project_management" is related to "collaboration".
 
 teaching_and_learning
 -----------------------
-"teaching_and_learning" involves one group of people interactively helping another group of people acquire and/or develop skills, competencies, and knowledge that lets them solve problems in a specific area of research. 
+"teaching_and_learning" involves one group of people interactively helping another group of people acquire and/or develop skills, competencies, and knowledge that let them solve problems in a specific area of research.

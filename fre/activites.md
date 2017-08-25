@@ -3,7 +3,7 @@ Activités de recherche
 
 <!-- Titre différent dans dossiers reading et reference + mise en forme erronée dans reading pour ajouter "Research" -->
 
-<!-- Majuscules respectées pour les noms de techniques, etc., mais l'anglais n'est pas tout à fait cohérent -->
+<!-- Majuscules respectées pour les noms de techniques, etc., mais l'anglais n'est pas cohérent -->
 
 <!-- Le mode d'introduction des définitions varie au fil du document -->
 
@@ -154,53 +154,53 @@ Les techniques associées sont, notamment, les suivantes : Bit Stream Preservati
 
 7 – Dissémination
 =================
-La Dissémination …  Dissemination refers to the activity of making objects of inquiry, results of research, or software and services available to fellow researchers or the wider public in a variety of more or less formal ways. It builds on or requires storing and can include releasing and sharing of data using a variety of methods and techniques including the application of linked open data.
+La Dissémination est l'activité qui consiste à rendre disponibles des objets d'enquête, des résultats de recherche ou des logiciels et des services à l'intention de collègues chercheurs ou d'un public plus large, de diverses façons plus ou moins formelles. Elle exige un stockage et peut comprendre une publication et un partage de données recourant à diverses méthodes et techniques, dont l'application des principes des données liées ouvertes.
 
 Collaboration
 -------------
-Collaboration is involved in any research activity being done jointly by several researchers, possibly in different places and at different times. Research-oriented collaboration is enabled, particularly, through comprehensive Digital Research Environments, but can also happen around more specific activities, such as communication or sharing of resources.
+La Collaboration est pratiquée dans toute activité de recherche réalisée conjointement par plusieurs chercheurs, éventuellement en différents lieux et à différents moments. Une collaboration dans une perspective de recherche est rendue possible, en particulier, par des Environnements virtuels de recherche complets, mais elle peut également avoir lieu à l'occasion d'activités plus spécifiques, telles que des activités de communication ou le partage de ressources.
 
-Commenting
-----------
-Commenting is the activity of adding information to a piece of data, usually in a way that separates the data to which the comment is attached and the comment. It usually serves to express some opinion, to add contextual information, or to engage in communication or collaboration with others about the object commented on. This is different from Annotating (as defined here) which refers to adding descriptive or explanatory information to sections of an object with the aim of making inherent qualities, structures, or meanings of that section explicit.
+Commentaire
+-----------
+Le Commentaire est l'activité qui consiste à ajouter des informations à un élément de données, habituellement d'une manière qui maintient une séparation entre les données auxquelles le commentaire est lié et le commentaire lui-même. Il sert ordinairement à exprimer une opinion, à ajouter des informations contextuelles ou à participer à des formes de communication ou de collaboration au sujet de l'objet commenté. Il diffère de l'Annotation (telle qu'elle est définie ici), car cette dernière désigne le fait d'ajouter des informations descriptives ou explicatives à des sections d'un objet dans le but d'en expliciter les qualités intrinsèques, les structures ou les significations.
 
-Communicating
+Communication
 -------------
-Communicating refers to the activity of exchanging ideas with other people, primarily, but not exclusively, using linguistic means. Relevant techniques include Email, Chat, Audio-Conferencing.
+La Communication est l'activité qui consiste à échanger des idées avec d'autres personnes, prioritairement, mais non exclusivement, par des moyens linguistiques. Les techniques pertinentes sont notamment le Courriel, la Discussion en ligne (*Chat*) et l'Audio-conférence.
 
 Crowdsourcing
 -------------
-Crowdsourcing refers to the paradigm of user-generated content in a web 2.0 context, applied here to the domain of digital humanities research. Crowdsourcing may include gamification, which may be understood as one form of creating motivation in crowdsourcing endeavors.
+Le Crowdsourcing, ou production participative, est le paradigme de la génération de contenu par les utilisateurs dans le cadre du Web 2.0, ici appliquée au domaine de la recherche en humanités numériques. Le Crowdsourcing peut englober la Ludification, comprise comme l'une des formes par lesquelles on suscite la motivation dans les projets participatifs.
 
-Publishing
-----------
-Publishing refers to the activity of making any kind of object formally available to the wider public. This can involve objects of research, research data, research results, or tools and services. Publishing can be closed or open access / open source, and research results can be published in print or digital formats.
+Publication
+-----------
+La Publication est l'activité qui consiste à rendre officiellement disponible tout type d'objet à un large public. Elle peut comprendre des objets de recherche, des données de recherche ou bien des outils et des services. La Publication peut être soit fermée soit en accès libre (*open access*, *open source*), et les résultats de recherche peuvent être publiés sous une forme imprimée ou numérique.
 
-Sharing
+Partage
 -------
-Sharing refers to the activity of making objects publically available through informal channels such as blogs, code sharing sites such as GitHUB, or other social media sites.
+Le Partage est l'activité qui consiste à rendre des objets publiquement disponibles par des canaux informels tels que des blogs, des sites de partage de code comme GitHub ou d'autres sites de médias sociaux.
 
-Meta-Activities
-===============
+Méta-activités
+==============
 
-Meta-Activities are activities which, unlike regular research activities, do not apply directly to a research object, but rather to a combination of a research activity with a research object. A case in point would be a tutorial Teaching the digital Encoding of music, or a report Introducing Pattern Recognition in images. Meta-Activity tags can be added to provide additional context to a typical activity+object pair of tags. In some cases, however, meta-activities may also apply to objects, for example in the case of objects like “Infrastructure” or “Digital Humanities”.
+Les Méta-activités sont des activités qui, contrairement aux activités de recherche normales, ne concernent pas directement un objet de recherche, mais plutôt la combinaison d'une activité de recherche et d'un objet de recherche. Des cas représentatifs seraient un tutoriel destiné à enseigner l'encodage numérique de la musique ou un rapport présentant l'usage de la reconnaissance de formes pour l'analyse des images. L'étiquette Méta-activités peut permettre de fournir des informations supplémentaires dans le cas typique d'un couple d'étiquette activité + objet. Cependant, dans certains cas, la catégorie de Méta-activités peut aussi s'appliquer à des objets, par exemple s'il s'agit d'objets comme "Infrastructure" ou "Humanités numériques" ("*Digital Humanities*").
 
-Meta: Assessing
----------------
-Assessing refers to the activity of verifying the existence of certain properties, usually indicative of some desirable quality in some outcome of an activity. This may refer to reviewing research papers or conference proposals, to evaluating the coherence of the annotation of audio-visual materials, or to an assessment of the usefulness of the Digital Humanities.
+Méta : Évaluation
+-----------------
+L'Évaluation est l'activité qui consiste à contrôler l'existence de certaines propriétés indiquant habituellement la présence d'une qualité désirable dans le résultat de l'activité. Il peut s'agir d'évaluer des articles scientifiques ou des propositions de communications, d'apprécier la cohérence de l'annotation de matériaux audio-visuels ou bien de mesurer l'utilité des humanités numériques.
 
-Meta: CommunityBuilding
------------------------
-Community building is the activity of creating or enhancing a community with a common interest. It may include dissemination, teaching as well as advocating for specific activities, practices, or values.
+Méta : ConstructionDeCommunauté
+-------------------------------
+La Construction de communauté (*Community building*) est l'activité qui consiste à créer ou à développer une communauté fondée sur un intérêt partagé. Il peut comprendre la dissémination et l'enseignement, aussi bien que la défense et illustration d'activités, de pratiques et de valeurs spécifiques.
 
-Meta: GiveOverview
-------------------
-GiveOverview refers to the activity of providing information which is relatively general or provides a historical or systematic overview of a given topic. Nevertheless, it can be aimed at experts or beginners in a field, subfield or specialty.
+Méta : DonnerUnAperçu
+---------------------
+Donner un aperçu est l'activité qui consiste à fournir des informations relativement générales ou à tracer un aperçu historique ou systématique d'un sujet donnée. Elle peut néanmoins s'adresser autant à des experts qu'à des débutants dans un champ, un sous-champ ou une spécialité.
 
-Meta: ProjectManagement
------------------------
-Project management involves activities such as developing a strategy and assessing risk for conducting a project, as well as task management activities, such as keeping a record of tasks, due dates, and other relevant information. It may include activities such as planning, documenting, getting funding, but also sending reminders and status reports. Project Management is related to Collaboration.
+Méta : SupervisionDeProjet
+--------------------------
+La Supervision de projet (*Project management*) comprend des activités telles que développer une stratégie et évaluer les risques, ou encore assurer la gestion des tâches, en documentant les tâches, les échéances et toute autre information pertinente. Elle peut comprendre des activités comme la planification, la documentation, la recherche de financements, ainsi que l'envoi de rappels et de rapports d'activité. La Supervision de projet est également liée à la Collaboration.
 
-Meta: Teaching/Learning
------------------------
-Teaching and Learning involves one group of people interactively helping another group of people acquire and/or develop skills, competencies, and knowledge that lets them solve problems in a specific area of research.
+Méta : EnseignementEtApprentissage
+----------------------------------
+L'Enseignement et apprentissage suppose un groupe de personnes aidant, par une interaction, un autre groupe de personnes à acquérir ou développer des savoir-faire, des compétences et des connaissances qui leur permettent de résoudre des problèmes dans un domaine de recherche particulier.

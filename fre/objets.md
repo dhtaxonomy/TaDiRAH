@@ -1,7 +1,7 @@
 Objets de recherche des Humanités Numériques
 ============================================
 
-<!-- Les critères pour employer le singulier ou le pluriel ne sont pas clairs : nous avons respecté les choix de la version anglaise, mais les il serait bon de systématiser. -->
+<!-- Les critères pour employer le singulier ou le pluriel ne sont pas clairs : nous avons généralement respecté les choix de la version anglaise, mais les il serait bon de systématiser. -->
 
 * Artéfacts
 * Bibliographies

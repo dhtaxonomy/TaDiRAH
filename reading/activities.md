@@ -169,7 +169,7 @@ Publishing refers to the activity of making any kind of object formally availabl
 
 Sharing
 -------
-Sharing refers to the activity of making objects publically available through informal channels such as blogs, code sharing sites such as GitHUB, or other social media sites.
+Sharing refers to the activity of making objects publically available through informal channels such as blogs, code sharing sites such as GitHub, or other social media sites.
 
 Meta-Activities
 ===============
@@ -194,4 +194,4 @@ Project management involves activities such as developing a strategy and assessi
 
 Meta: Teaching/Learning
 -----------------------
-Teaching and Learning involves one group of people interactively helping another group of people acquire and/or develop skills, competencies, and knowledge that lets them solve problems in a specific area of research.
+Teaching and Learning involves one group of people interactively helping another group of people acquire and/or develop skills, competencies, and knowledge that let them solve problems in a specific area of research.
