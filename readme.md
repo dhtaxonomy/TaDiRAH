@@ -8,12 +8,12 @@ This taxonomy of digital research activities in the humanities has been develope
 Repository content
 ------------------
 
-* reading: section providing a reader-friendly version of the taxonomy
-* reference: section providing a semi-technical reference version of the taxonomy
-* deu: German translation
-* esp: Spanish translation
-* fre: French translation (in progress)
-* see also: machine-readable version in SKOS at http://tadirah.dariah.eu/vocab/
+* `reading`: reader-friendly version of the taxonomy
+* `reference`: semi-technical reference version of the taxonomy
+* `deu`: German translation
+* `esp`: Spanish translation
+* `fre`: French translation (in progress)
+* See also the machine-readable version in SKOS at http://tadirah.dariah.eu/vocab/
 
 Aspects of the taxonomy
 -----------------------
