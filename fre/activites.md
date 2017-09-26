@@ -1,17 +1,11 @@
 Activités de recherche
 ======================
 
-<!-- Titre différent dans dossiers reading et reference + mise en forme erronée dans reading pour ajouter "Research" -->
-
-<!-- Majuscules respectées pour les noms de techniques, etc., mais l'anglais n'est pas cohérent -->
-
-<!-- Le mode d'introduction des définitions varie au fil du document -->
-
-Les activités de recherche portent habituellement sur un ou plusieurs objets de recherche. Un article sur la modélisation des propriétés des manuscrits doit donc recevoir les étiquettes "Modélisation" <!-- étiquette existante ? --> et "Manuscrit". Un éditeur de texte recevrait les étiquettes "Écriture", "Code" et "Texte".
+Les activités de recherche portent habituellement sur un ou plusieurs objets de recherche. Un article sur la modélisation des propriétés des manuscrits doit donc recevoir les étiquettes "Modélisation" et "Manuscrit". Un éditeur de texte recevrait les étiquettes "Écriture", "Code" et "Texte".
 
 1 – Acquisition
 ===============
-L'Acquisition désigne en général l'activité qui consiste à créer des équivalents numériques d'artéfacts culturels existants, ou à exprimer dans une représentation numérique des artéfacts culturels existants (numérisation) <!-- clarifier : le "ou" est-il un "c'est-à-dire" ? ou la notion d'expression introduit-elle une différence par rapport à "équivalents" ? -->. Il peut s'agir d'un processus manuel (comme dans la Transcription) ou d'une procédure automatique (comme dans l'Imagerie ou la ReconnaissanceDeDonnées). Cette acquisition précède l'Enrichissement et l'Analyse, du moins d'un point de vue systématique, sinon dans la pratique.
+L'Acquisition désigne en général l'activité qui consiste à créer des équivalents numériques d'artéfacts culturels existants, ou exprimer dans une représentation numérique des artéfacts culturels existants (numérisation). Il peut s'agir d'un processus manuel (comme dans la Transcription) ou d'une procédure automatique (comme dans l'Imagerie ou la ReconnaissanceDeDonnées). Cette acquisition précède l'Enrichissement et l'Analyse, du moins d'un point de vue systématique, sinon dans la pratique.
 
 Conversion
 ----------
@@ -59,11 +53,11 @@ La Traduction consiste à créer un nouvel objet linguistique fondé sur un docu
 
 Développement Web
 -----------------
-Création de sites Web, soit à partir d'une plateforme (systèmes de gestion de contenus comme Drupal, WordPress et Omeka) soit avec du code HTML et des CSS. Écrire un module ou un greffon pour une plateforme et programmer des applications Web sont des activités qui appartiennent à la méthode "Programmation". <!-- "method" ne semble pas un terme technique dans TaDIRAH… -->
+Création de sites Web, soit à partir d'une plateforme (systèmes de gestion de contenus comme Drupal, WordPress et Omeka) soit avec du code HTML et des CSS. Écrire un module ou un greffon pour une plateforme et programmer des applications Web sont des activités qui appartiennent à la méthode "Programmation".
 
 Écriture
 --------
-L'Écriture est l'activité qui consiste à créer de nouveaux textes (au lieu d'acquérir des textes existants). Dans le présent contexte, cela concernera surtout les articles et les rapports  scientifiques, mais pourra aussi comprendre d'autres objets en rapport avec le texte. <!-- "other textually-oriented objects" : peu clair -->
+L'Écriture est l'activité qui consiste à créer de nouveaux textes (au lieu d'acquérir des textes existants). Dans le présent contexte, cela concernera surtout les articles et les rapports  scientifiques, mais pourra aussi comprendre d'autres objets en rapport avec le texte.
 
 3 – Enrichissement
 ==================
@@ -87,11 +81,11 @@ Cet objectif de recherche très général consiste à extraire des informations 
 
 Analyse de contenu
 ------------------
-L'Analyse de contenu est une méthode qui vise à analyser des aspects des objets numériques en rapport avec leur signification, par exemple en identifiant des concepts ou des unités signifiantes. <!-- Syntaxe étrange en anglais : "is a method which aims to analyse aspects of digital objects relating to their meaning, such as identifying concepts or meaningful units" --> Les techniques pertinentes sont notamment la Modélisation thématique (*Topic Modeling*), l'Analyse de sentiments, la Recherche d'informations (*Information Retrieval*), l'Analyse de discours, ainsi que la Reconnaissance d'entités nommées.
+L'Analyse de contenu est une méthode qui vise à analyser des aspects des objets numériques en rapport avec leur signification, par exemple en identifiant des concepts ou des unités signifiantes. Les techniques pertinentes sont notamment la Modélisation thématique (*Topic Modeling*), l'Analyse de sentiments, la Recherche d'informations (*Information Retrieval*), l'Analyse de discours, ainsi que la Reconnaissance d'entités nommées.
 
 Analyse de réseaux
 ------------------
-L'Analyse de réseaux est une méthode permettant d'étudier les relations d'acteurs (réels ou fictifs) ou d'autres entités au sein d'un réseau donné <!-- l'anglais "mediated network" n'est pas clair : je suis l'allemand -->, qui peut prendre la forme d'un réseau en ligne, que ce soit un réseau social ou universitaire, d'un ensemble de correspondances ou d'un ouvrage littéraire ; le réseau qui en résulte est habituellement composé de sommets ou nœuds (les entités) et d'arêtes (les relations). L'une des techniques pertinentes est la Reconnaissance d'entités nommées. Lorsque l'on s'intéresse aux artéfacts eux-mêmes (textes, images, etc.) et à leurs relations, l'activité de recherche correspondante sera l'Analyse relationnelle.
+L'Analyse de réseaux est une méthode permettant d'étudier les relations d'acteurs (réels ou fictifs) ou d'autres entités au sein d'un réseau donné, qui peut prendre la forme d'un réseau en ligne, que ce soit un réseau social ou universitaire, d'un ensemble de correspondances ou d'un ouvrage littéraire ; le réseau qui en résulte est habituellement composé de sommets ou nœuds (les entités) et d'arêtes (les relations). L'une des techniques pertinentes est la Reconnaissance d'entités nommées. Lorsque l'on s'intéresse aux artéfacts eux-mêmes (textes, images, etc.) et à leurs relations, l'activité de recherche correspondante sera l'Analyse relationnelle.
 
 Analyse relationnelle
 ---------------------
@@ -148,7 +142,7 @@ L'Organisation concerne l'arrangement des objets (matériaux de recherche, jeux 
 Conservation
 ------------
 La Conservation est l'application de stratégies, d'activités et de technologies spécifiques en vue de garantir qu'un contenu numérique sera correctement rendu au fil du temps. Elle facilite le réemploi des données, des objets et des ressources liés à la recherche et peut comprendre des activités en rapport avec la durabilité et l'interopérabilité.
-Les techniques associées sont, notamment, les suivantes : Bit Stream Preservation, Supports pérennes, Émulation, Liaison des métadonnées <!-- Metadata Attachment – non mentionné ailleurs, comme d'autres techniques qui apparaissent ici… -->, Migration, Réplication, Conservation de technologie, Versionnage, recours à un Open Archival Information System <!-- singulier à System : voir le fichier Techniques --> et à des standards rendant possible l'interopérabilité.
+Les techniques associées sont, notamment, les suivantes : Bit Stream Preservation, Supports pérennes, Émulation, Liaison des métadonnées, Migration, Réplication, Conservation de technologie, Versionnage, recours à un Open Archival Information System et à des standards rendant possible l'interopérabilité.
 
 7 – Dissémination
 =================

@@ -1,8 +1,6 @@
 Objets de recherche en humanités humériques
 ============================================
 
-<!-- Les critères pour employer le singulier ou le pluriel ne sont pas clairs : nous avons généralement respecté les choix de la version anglaise, mais les il serait bon de systématiser. -->
-
 * Artéfacts
 * Bibliographies
 * Ordinateurs
@@ -10,11 +8,11 @@ Objets de recherche en humanités humériques
 * HumanitésNumériques
 * Données
 * Fichier
-* Images2D <!-- ou Images, en général -->
-* Images3D <!-- ou Images(3D) comme en anglais -->
+* Images2D
+* Images3D
 * Infrastructure
 * Interaction
-* LangueLangage <!-- ambiguïté à résoudre ? -->
+* LangueLangage
 * Lien
 * TextesLittéraires
 * Manuscrit
@@ -38,4 +36,4 @@ Objets de recherche en humanités humériques
 * Outils
 * Vidéo
 * Visualisation
-* EnvironnementsVirtuelsDeRecherche <!-- trop long ? pas d'abréviation courante en français : garder l'anglais VRE et expliciter ailleurs ? -->
+* EnvironnementsVirtuelsDeRecherche
