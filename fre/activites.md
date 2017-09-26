@@ -150,8 +150,6 @@ Conservation
 La Conservation est l'application de stratégies, d'activités et de technologies spécifiques en vue de garantir qu'un contenu numérique sera correctement rendu au fil du temps. Elle facilite le réemploi des données, des objets et des ressources liés à la recherche et peut comprendre des activités en rapport avec la durabilité et l'interopérabilité.
 Les techniques associées sont, notamment, les suivantes : Bit Stream Preservation, Supports pérennes, Émulation, Liaison des métadonnées <!-- Metadata Attachment – non mentionné ailleurs, comme d'autres techniques qui apparaissent ici… -->, Migration, Réplication, Conservation de technologie, Versionnage, recours à un Open Archival Information System <!-- singulier à System : voir le fichier Techniques --> et à des standards rendant possible l'interopérabilité.
 
-<!-- À POURSUIVRE -->
-
 7 – Dissémination
 =================
 La Dissémination est l'activité qui consiste à rendre disponibles des objets d'enquête, des résultats de recherche ou des logiciels et des services à l'intention de collègues chercheurs ou d'un public plus large, de diverses façons plus ou moins formelles. Elle exige un stockage et peut comprendre une publication et un partage de données recourant à diverses méthodes et techniques, dont l'application des principes des données liées ouvertes.
