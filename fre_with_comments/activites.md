@@ -7,7 +7,7 @@ Activités de recherche
 
 <!-- Le mode d'introduction des définitions varie au fil du document -->
 
-Les activités de recherche portent habituellement sur un ou plusieurs objets de recherche. Un article sur la modélisation des propriétés des manuscrits doit donc recevoir les étiquettes "Modélisation" <!-- étiquette existante ? --> et "Manuscrit". Un éditeur de texte recevrait les étiquettes "Écriture", "Code" et "Texte".
+Les activités de recherche portent habituellement sur un ou plusieurs objets de recherche. Un article sur la modélisation des propriétés des manuscrits doit donc recevoir les étiquettes "Modélisation" et "Manuscrit". Un éditeur de texte recevrait les étiquettes "Écriture", "Code" et "Texte".
 
 1 – Acquisition
 ===============
