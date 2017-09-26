@@ -34,7 +34,7 @@ Technique > Objectif - Méthode
 * Analyse en composantes principales > Analyse - Analyse stylistique
 * Réplication > Stockage - Conservation
 * Numérisation
-* Recherche <!-- Requête lève l'ambiguïté, mais est trop restrictif ? -->
+* Requête <!-- Recherche est trop vaste ; Requête lève l'ambiguïté, mais est trop restrictif ? -->
 * Analyse de sentiments > Analyse - Analyse de contenu
 * Alignement de séquences > Analyse - Analyse relationnelle
 * Conservation de technologie > Stockage - Conservation
