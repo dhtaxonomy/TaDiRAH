@@ -1,4 +1,4 @@
-Objets de recherche des Humanités Numériques
+Objets de recherche en humanités humériques
 ============================================
 
 <!-- Les critères pour employer le singulier ou le pluriel ne sont pas clairs : nous avons généralement respecté les choix de la version anglaise, mais les il serait bon de systématiser. -->
