@@ -1,4 +1,4 @@
-*Research*** Activities
+Research Activities
 ===================
 
 Research activities are usually applied to one or several research objects. An article about modeling of manuscript properties would therefore be tagged with the tags “Modeling” and “Manuscript”. A plain text editor would be tagged with the tags "Writing" and "Code" and "Text".
@@ -81,7 +81,7 @@ This general research goal refers to the activity of extracting any kind of info
 
 Content Analysis
 ----------------
-Content Analysis is a method which aims to analyse aspects of digital objects relating to their meaning, such as identifying concepts or meaningful units. Relevant techniques include Topic Modeling, Sentiment Analysis, Information Retrieval, Discourse Analysis, but also Named Entity Recognition.
+Content Analysis is a method which aims to analyse aspects of digital objects relating to their meaning, such as concepts or meaningful units. Relevant techniques include Topic Modeling, Sentiment Analysis, Information Retrieval, Discourse Analysis, but also Named Entity Recognition.
 
 Network Analysis
 ----------------
