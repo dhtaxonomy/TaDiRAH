@@ -1,4 +1,4 @@
-Objets de recherche des Humanités Numériques
+Objets de recherche en humanités humériques
 ============================================
 
 * Artéfacts
@@ -36,5 +36,4 @@ Objets de recherche des Humanités Numériques
 * Outils
 * Vidéo
 * Visualisation
-* EnvironnementVirtuelDeRecherche
-
+* EnvironnementsVirtuelsDeRecherche

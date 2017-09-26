@@ -23,7 +23,7 @@ Technique > related Goal-Method
 * Machine Learning > Analysis-Structural Analysis; Analysis-Stylistic Analysis; Analysis-Content Analysis
 * Mapping
 * Migration > Storage-Preservation
-* Named Entity Recognition > Enrichment-Annotation; Analysis-Content Analysis 
+* Named Entity Recognition > Enrichment-Annotation; Analysis-Content Analysis
 * Open Archival Information Systems > Storage-Preservation
 * Pattern Recognition > Analysis-Relational Analysis
 * Photography
