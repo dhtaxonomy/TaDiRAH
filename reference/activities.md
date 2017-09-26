@@ -81,7 +81,7 @@ This general research goal refers to the activity of extracting any kind of info
 
 content_analysis
 ----------------
-"content_analysis" is a method which aims to analyze aspects of digital objects relating to their meaning, such as identifying concepts or meaningful units. Relevant techniques include "topic_modeling", "sentiment_analysis", "information_retrieval", "discourse_analysis", but also "named_entity_recognition".
+"content_analysis" is a method which aims to analyze aspects of digital objects relating to their meaning, such as concepts or meaningful units. Relevant techniques include "topic_modeling", "sentiment_analysis", "information_retrieval", "discourse_analysis", but also "named_entity_recognition".
 
 network_analysis
 ----------------
