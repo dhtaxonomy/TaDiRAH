@@ -1,0 +1,39 @@
+Objets de recherche en humanités humériques
+============================================
+
+* Artéfacts
+* Bibliographies
+* Ordinateurs
+* Formations
+* HumanitésNumériques
+* Données
+* Fichier
+* Images2D
+* Images3D
+* Infrastructure
+* Interaction
+* LangueLangage
+* Lien
+* TextesLittéraires
+* Manuscrit
+* Carte
+* Métadonnées
+* Méthodes
+* Multimédia
+* Multimodal
+* EntitésNommées
+* Personnes
+* Projets
+* Recherche
+* ProcessusDeRecherche
+* RésultatsDeRecherche
+* PartitionMusicale
+* Logiciel
+* Son
+* Standards
+* Texte
+* ObjetsPorteursDeTexte
+* Outils
+* Vidéo
+* Visualisation
+* EnvironnementsVirtuelsDeRecherche
