@@ -1,5 +1,5 @@
 Activities
-==============
+==========
 
 Research activities are usually applied to one or several research objects. An article about modeling of manuscript properties would therefore be tagged with the tags “modeling” and “manuscript”. A plain text editor would be tagged with the tags "writing" and "code" and "text".
 
