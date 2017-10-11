@@ -1,5 +1,5 @@
 Objets de recherche en humanités humériques
-============================================
+===========================================
 
 * Artéfacts
 * Bibliographies
