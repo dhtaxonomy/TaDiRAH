@@ -13,7 +13,7 @@ La Conversion désigne le fait de modifier le format de fichier d'un objet (p. e
 
 ReconnaissanceDeDonnées
 -----------------------
-La Reconnaissance de données, la Reconnaissance Optique de Caractères (ROC ou plus généralement OCR) par exemple, désigne le processus qui consiste à traiter les résultats immédiats de l'acquisition numérique de données (enregistrement ou imagerie), tels que des fac-similés de textes ou de partitions musicales, de façon à en extraire des unités discrètes, lisibles par une machine, comme des mots en texte brut, des notes de musique ou bien des éléments d'images fixes ou animées (notamment dans la reconnaissance faciale).
+La Reconnaissance de données, par exemple la reconnaissance optique de caractères (ROC, en anglais OCR), désigne le processus qui consiste à traiter les résultats immédiats de l'acquisition numérique de données (enregistrement ou imagerie), tels que des fac-similés de textes ou de partitions musicales, de façon à en extraire des unités discrètes, lisibles par une machine, comme des mots en texte brut, des notes de musique ou bien des éléments d'images fixes ou animées (notamment dans la reconnaissance faciale).
 
 Découverte
 ----------
@@ -117,7 +117,7 @@ La Contextualisation est l'activité qui consiste à créer des associations ent
 
 Modélisation
 ------------
-La Modélisation est l'activité qui consiste à créer une représentation abstraite d'un phénomène complexe, ordinairement sous une forme lisible par les machines et éventuellement sous une forme interactive (elle comprend donc la "simulation"). Des modèles deviennent lisibles par les machines lorsque la modélisation produit un schéma qui décrit les éléments et la structure d'un objet d'enquête d'une façon explicite. Le terme peut aussi désigner l'activité qui consiste à transformer ou à manipuler un objet numérique de sorte à le rendre compatible avec un modèle ou un schéma construit antérieurement. La Cartographie est ainsi un exemple de modèle spatial. La Conception d'un flux de travaux (*Workflow Design*) fait partie de la Modélisation et recourt par exemple à l'objet ProcessusDeRecherche.
+La Modélisation est l'activité qui consiste à créer une représentation abstraite d'un phénomène complexe, ordinairement sous une forme lisible par les machines et éventuellement sous une forme interactive (elle comprend donc la "simulation"). Des modèles deviennent lisibles par les machines lorsque la modélisation produit un schéma qui décrit les éléments et la structure d'un objet d'enquête d'une façon explicite. Le terme peut aussi désigner l'activité qui consiste à transformer ou à manipuler un objet numérique de sorte à le rendre compatible avec un modèle ou un schéma construit antérieurement. La Cartographie est ainsi un exemple de modèle spatial. La Conception d'un flux de travaux (*Workflow Design*) fait partie de la Modélisation et recourt par exemple à l'objet Processus.
 
 Théorisation
 ------------
@@ -137,19 +137,19 @@ L'Identification est l'activité qui consiste à nommer ou à attribuer des iden
 
 Organisation
 ------------
-L'Organisation concerne l'arrangement des objets (matériaux de recherche, jeux de données, images, etc.) d'une façon qui facilite d'autres activités de recherche. Elle peut également comprendre des activités qui favorisent la découverte, comme la création de métadonnées ("Annotation") et leur amélioration ("Enrichissement").
+L'Organisation concerne l'arrangement des objets (matériaux de recherche, jeux de données, images, etc.) d'une façon qui facilite d'autres activités de recherche. Elle peut également comprendre des activités qui favorisent la découverte, comme la "Création" de "Métadonnées" et leur amélioration ("Enrichissement").
 
 Conservation
 ------------
-La Conservation est l'application de stratégies, d'activités et de technologies spécifiques en vue de garantir qu'un contenu numérique sera correctement rendu au fil du temps. Elle facilite le réemploi des données, des objets et des ressources liés à la recherche et peut comprendre des activités en rapport avec la durabilité et l'interopérabilité. Les techniques associées sont, notamment, les suivantes :" Bit Stream Preservation", "Supports pérennes", "Émulation", Liaison des métadonnées, "Migration", "Réplication", "Conservation de technologie", "Versionnage", recours à un "Open Archival Information System" et à des standards rendant possible l'interopérabilité.
+La Conservation est l'application de stratégies, d'activités et de technologies spécifiques en vue de garantir qu'un contenu numérique sera correctement rendu au fil du temps. Elle facilite le réemploi des données, des objets et des ressources liés à la recherche et peut comprendre des activités en rapport avec la durabilité et l'interopérabilité. Les techniques associées sont, notamment, les suivantes : "Bit Stream Preservation", "Supports pérennes", "Émulation", Liaison des métadonnées, "Migration", "Réplication", "Conservation de technologie", "Versionnage", recours à un "Open Archival Information System" et à des standards rendant possible l'interopérabilité.
 
 7 – Dissémination
 =================
-La Dissémination est l'activité qui consiste à rendre disponibles des objets d'enquête, des résultats de recherche ou des logiciels et des services à l'intention de collègues chercheurs ou d'un public plus large, de diverses façons plus ou moins formelles. Elle exige un stockage et peut comprendre une publication et un partage de données recourant à diverses méthodes et techniques, dont la mise en place de données liées ouvertes.
+La Dissémination est l'activité qui consiste à rendre disponibles des objets d'enquête, des résultats de recherche ou des logiciels et des services à l'intention de collègues chercheurs ou d'un public plus large, de diverses façons plus ou moins formelles. Elle exige un stockage et peut comprendre une publication et un partage de données recourant à diverses méthodes et techniques, dont l'usage de données liées ouvertes.
 
 Collaboration
 -------------
-La Collaboration est pratiquée dans toute activité de recherche réalisée conjointement par plusieurs chercheurs, éventuellement en différents lieux et à différents moments. Une collaboration dans une perspective de recherche est rendue possible, en particulier, par des EnvironnementsVirtuelsDeRecherche complets, mais elle peut également avoir lieu à l'occasion d'activités plus spécifiques, telles que des activités de "Communication" ou le "Partage" de ressources.
+La Collaboration est pratiquée dans toute activité de recherche réalisée conjointement par plusieurs chercheurs, éventuellement en différents lieux et à différents moments. Une collaboration dans une perspective de recherche est rendue possible, en particulier, par des Environnements numériques De recherche complets, mais elle peut également avoir lieu à l'occasion d'activités plus spécifiques, telles que des activités de "Communication" ou le "Partage" de ressources.
 
 Commentaire
 -----------
@@ -174,7 +174,7 @@ Le Partage est l'activité qui consiste à rendre des objets publiquement dispon
 Méta-activités
 ==============
 
-Les Méta-activités sont des activités qui, contrairement aux activités de recherche habituelles, ne concernent pas directement un objet de recherche, mais plutôt la combinaison d'une activité de recherche et d'un objet de recherche. Des cas représentatifs seraient un tutoriel destiné à enseigner l'encodage numérique de la musique ou un rapport présentant l'usage de la reconnaissance de formes pour l'analyse des images. L'étiquette Méta-activités peut permettre de fournir des informations supplémentaires dans le cas typique d'un couple d'étiquette activité + objet. Cependant, dans certains cas, la catégorie de Méta-activités peut aussi s'appliquer à des objets, par exemple s'il s'agit d'objets comme "Infrastructure" ou "HumanitésNumériques" ("*Digital Humanities*").
+Les Méta-activités sont des activités qui, contrairement aux activités de recherche habituelles, ne concernent pas directement un objet de recherche, mais plutôt la combinaison d'une activité de recherche et d'un objet de recherche. Des cas représentatifs seraient un tutoriel destiné à enseigner l'encodage numérique de la musique ou un rapport présentant l'usage de la reconnaissance de formes pour l'analyse des images. L'étiquette Méta-activités peut permettre de fournir des informations supplémentaires dans le cas typique d'un couple d'étiquette activité + objet. Cependant, dans certains cas, la catégorie de Méta-activités peut aussi s'appliquer à des objets, par exemple s'il s'agit d'objets comme "Infrastructure" ou "HumanitésNumériques".
 
 Méta : Évaluation
 -----------------
@@ -190,7 +190,7 @@ Donner un aperçu est l'activité qui consiste à fournir des informations relat
 
 Méta : GestionDeProjet
 --------------------------
-La Gestion de projet (*Project management*) comprend des activités telles que développer une stratégie et évaluer les risques, ou encore assurer la gestion des tâches, en documentant les tâches, les échéances et toute autre information pertinente. Elle peut comprendre des activités comme la planification, la documentation, la recherche de financements, ainsi que l'envoi de rappels et de rapports d'activité. La Gestion de projet est également liée à la "Collaboration".
+La Gestion de projet comprend des activités telles que développer une stratégie et évaluer les risques, ou encore assurer la gestion des tâches, en documentant les tâches, les échéances et toute autre information pertinente. Elle peut comprendre des activités comme la planification, la documentation, la recherche de financements, ainsi que l'envoi de rappels et de rapports d'activité. La Gestion de projet est également liée à la "Collaboration".
 
 Méta : EnseignementEtApprentissage
 ----------------------------------
