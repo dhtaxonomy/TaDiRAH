@@ -13,7 +13,7 @@ La Conversion désigne le fait de modifier le format de fichier d'un objet (p. e
 
 ReconnaissanceDeDonnées
 -----------------------
-La Reconnaissance de données, l'OCR par exemple, désigne le processus qui consiste à traiter les résultats immédiats de l'acquisition numérique de données (enregistrement ou imagerie), tels que des fac-similés de textes ou de partitions musicales, de façon à en extraire des unités discrètes, lisibles par une machine, comme des mots en texte brut, des notes de musique ou bien des éléments d'images fixes ou animées (notamment dans la reconnaissance faciale).
+La Reconnaissance de données, par exemple la reconnaissance optique de caractères (ROC, en anglais OCR), désigne le processus qui consiste à traiter les résultats immédiats de l'acquisition numérique de données (enregistrement ou imagerie), tels que des fac-similés de textes ou de partitions musicales, de façon à en extraire des unités discrètes, lisibles par une machine, comme des mots en texte brut, des notes de musique ou bien des éléments d'images fixes ou animées (notamment dans la reconnaissance faciale).
 
 Découverte
 ----------
@@ -53,7 +53,7 @@ La Traduction consiste à créer un nouvel objet linguistique fondé sur un docu
 
 Développement Web
 -----------------
-Création de sites Web, soit à partir d'une plateforme (systèmes de gestion de contenus comme Drupal, WordPress et Omeka) soit avec du code HTML et des CSS. Écrire un module ou un greffon pour une plateforme et programmer des applications Web sont des activités qui appartiennent à la méthode "Programmation".
+Création de sites Web, soit à partir d'une plateforme (par exemple des systèmes de gestion de contenus comme Drupal, WordPress et Omeka) soit avec du code HTML et des CSS. Écrire un module ou un greffon pour une plateforme et programmer des applications Web sont des activités qui appartiennent à la méthode "Programmation".
 
 Écriture
 --------
@@ -81,31 +81,31 @@ Cet objectif de recherche très général consiste à extraire des informations 
 
 Analyse de contenu
 ------------------
-L'Analyse de contenu est une méthode qui vise à analyser des aspects des objets numériques en rapport avec leur signification, par exemple en identifiant des concepts ou des unités signifiantes. Les techniques pertinentes sont notamment la Modélisation thématique (*Topic Modeling*), l'Analyse de sentiments, la Recherche d'informations (*Information Retrieval*), l'Analyse de discours, ainsi que la Reconnaissance d'entités nommées.
+L'Analyse de contenu est une méthode qui vise à analyser des aspects des objets numériques en rapport avec leur signification, par exemple en identifiant des concepts ou des unités signifiantes. Les techniques pertinentes sont notamment la "Modélisation thématique" (*Topic Modeling*), l'"Analyse de sentiments", la "Recherche d'information" (*Information Retrieval*), l'Analyse de discours, ainsi que la "Reconnaissance d'entités nommées".
 
 Analyse de réseaux
 ------------------
-L'Analyse de réseaux est une méthode permettant d'étudier les relations d'acteurs (réels ou fictifs) ou d'autres entités au sein d'un réseau donné, qui peut prendre la forme d'un réseau en ligne, que ce soit un réseau social ou universitaire, d'un ensemble de correspondances ou d'un ouvrage littéraire ; le réseau qui en résulte est habituellement composé de sommets ou nœuds (les entités) et d'arêtes (les relations). L'une des techniques pertinentes est la Reconnaissance d'entités nommées. Lorsque l'on s'intéresse aux artéfacts eux-mêmes (textes, images, etc.) et à leurs relations, l'activité de recherche correspondante sera l'Analyse relationnelle.
+L'Analyse de réseaux est une méthode permettant d'étudier les relations d'acteurs (réels ou fictifs) ou d'autres entités au sein d'un réseau donné, qui peut prendre la forme d'un réseau en ligne, que ce soit un réseau social ou universitaire, d'un ensemble de correspondances ou d'un ouvrage littéraire ; le réseau qui en résulte est habituellement composé de sommets ou nœuds (les entités) et d'arêtes (les relations). L'une des techniques pertinentes est la "Reconnaissance d'entités nommées". Lorsque l'on s'intéresse aux artéfacts eux-mêmes (textes, images, etc.) et à leurs relations, l'activité de recherche correspondante sera l'"Analyse relationnelle".
 
 Analyse relationnelle
 ---------------------
-L'Analyse relationnelle consiste en des techniques computationnelles destinées à découvrir des relations particulières entre plusieurs objets de recherche. Dans les études textuelles, il peut s'agir de découvrir des recoupements entre différents textes (étude du réemploi de textes ou détection de plagiat) ou des variations entre plusieurs versions d'un même texte (collation), ou bien d'évaluer la similarité de textes à partir de les caractéristiques stylistiques (stylométrie). Par analogie, ces méthodes peuvent également s'appliquer à d'autres artéfacts culturels, comme la musique, les films ou la peinture. Les techniques pertinentes sont notamment l'Alignement de séquences, la Collation et les techniques associées à l'Analyse stylistique.
+L'Analyse relationnelle consiste en des techniques computationnelles destinées à découvrir des relations particulières entre plusieurs objets de recherche. Dans les études textuelles, il peut s'agir de découvrir des recoupements entre différents textes (étude du réemploi de textes ou détection de plagiat) ou des variations entre plusieurs versions d'un même texte (collation), ou bien d'évaluer la similarité de textes à partir de les caractéristiques stylistiques (stylométrie). Par analogie, ces méthodes peuvent également s'appliquer à d'autres artéfacts culturels, comme la musique, les films ou la peinture. Les techniques pertinentes sont notamment l'"Alignement de séquences", la Collation et les techniques associées à l'"Analyse stylistique".
 
 Analyse spatiale
 ----------------
-L'Analyse spatiale est la découverte, dans les données, de tendances ou de formes relatives à leurs aspects spatiaux ou géographiques. Elle se fonde souvent sur des techniques d'annotation des données, telles que le géoréférencement ou la reconnaissance d'entités nommées, et peut conduire à une visualisation ou à une modélisation sous la forme de cartes (voir Modélisation).
+L'Analyse spatiale est la découverte, dans les données, de tendances ou de formes relatives à leurs aspects spatiaux ou géographiques. Elle se fonde souvent sur des techniques d'"Annotation" des données, telles que le "Géoréférencement" ou la "Reconnaissance d'entités nommées", et peut conduire à une "Visualisation" ou à une modélisation sous la forme de cartes (voir "Modélisation").
 
 Analyse structurelle
 --------------------
-L'Analyse structurelle consiste en l'analyse d'objets sur le plan des relations entre les éléments structurels d'un artéfact culturel (en linguistique, niveau de la morphologie ou de la syntaxe). Les techniques pertinentes sont notamment l'Étiquetage des parties du discours, l'Étiquetage syntaxique, l'Analyse de co-occurrences et l'Élaboration de concordances.
+L'Analyse structurelle consiste en l'analyse d'objets sur le plan des relations entre les éléments structurels d'un artéfact culturel (en linguistique, niveau de la morphologie ou de la syntaxe). Les techniques pertinentes sont notamment l'"Annotation des parties du discours", l'Étiquetage syntaxique, l'Analyse de co-occurrences et l'Élaboration de concordances.
 
 Analyse stylistique
 -------------------
-L'Analyse stylistique consiste à identifier les caractéristiques stylistiques ou formelles d'objets numériques. Bien que la stylistique computationnelle soit dans bien des cas appliquée à des textes et fondées sur des caractéristiques linguistiques, elle peut également s'appliquer à d'autres médias tels que des artéfacts physiques, des peintures, de la musique ou des films. Les techniques pertinentes sont notamment la Stylométrie, l'Analyse en composantes principales, l'Analyse de grappes et l'Analyse paléographique.
+L'Analyse stylistique consiste à identifier les caractéristiques stylistiques ou formelles d'objets numériques. Bien que la stylistique computationnelle soit dans bien des cas appliquée à des textes et fondées sur des caractéristiques linguistiques, elle peut également s'appliquer à d'autres médias tels que des artéfacts physiques, des peintures, de la musique ou des films. Les techniques pertinentes sont notamment la Stylométrie, l'"Analyse en composantes principales", l'"Analyse de grappes" et l'Analyse paléographique.
 
 Visualisation
 -------------
-La Visualisation concerne des activités qui visent à résumer et à présenter sous une forme graphique, ainsi qu'à utiliser ces formes graphiques d'une manière analytique, c'est-à-dire afin de détecter des formes, des structures ou des phénomènes intéressants dans les données prises pour base. On peut visualiser à peu près n'importe quel type de données, et les visualisations peuvent prendre la forme d'images, de cartes, de frises chronologiques, de graphiques, de tableaux, etc. Les techniques pertinentes sont notamment l'Élaboration de figures et la Cartographie.
+La Visualisation concerne des activités qui visent à résumer et à présenter sous une forme graphique, ainsi qu'à utiliser ces formes graphiques d'une manière analytique, c'est-à-dire afin de détecter des formes, des structures ou des phénomènes intéressants dans les données prises pour base. On peut visualiser à peu près n'importe quel type de données, et les visualisations peuvent prendre la forme d'images, de cartes, de frises chronologiques, de graphiques, de tableaux, etc. Les techniques pertinentes sont notamment l'Élaboration de figures et la "Cartographie".
 
 5 – Interprétation
 ==================
@@ -133,28 +133,27 @@ L'Archivage est le processus qui consiste à déplacer des données ou d'autres 
 
 Identification
 --------------
-L'Identification est l'activité qui consiste à nommer ou à attribuer des identifiants (éventuellement uniques et/ou pérennes) à des objets d'enquête ou à n'importe quel type d'objets numériques. Ajouter une description sous forme de métadonnées fait Identification de l'Annotation.
+L'Identification est l'activité qui consiste à nommer ou à attribuer des identifiants (éventuellement uniques et/ou pérennes) à des objets d'enquête ou à n'importe quel type d'objets numériques. Ajouter une description sous forme de métadonnées fait Identification de l'"Annotation".
 
 Organisation
 ------------
-L'Organisation concerne l'arrangement des objets (matériaux de recherche, jeux de données, images, etc.) d'une façon qui facilite d'autres activités de recherche. Elle peut également comprendre des activités qui favorisent la découverte, comme la création de métadonnées et leur amélioration.
+L'Organisation concerne l'arrangement des objets (matériaux de recherche, jeux de données, images, etc.) d'une façon qui facilite d'autres activités de recherche. Elle peut également comprendre des activités qui favorisent la découverte, comme la "Création" de "Métadonnées" et leur amélioration ("Enrichissement").
 
 Conservation
 ------------
-La Conservation est l'application de stratégies, d'activités et de technologies spécifiques en vue de garantir qu'un contenu numérique sera correctement rendu au fil du temps. Elle facilite le réemploi des données, des objets et des ressources liés à la recherche et peut comprendre des activités en rapport avec la durabilité et l'interopérabilité.
-Les techniques associées sont, notamment, les suivantes : Bit Stream Preservation, Supports pérennes, Émulation, Liaison des métadonnées, Migration, Réplication, Conservation de technologie, Versionnage, recours à un Open Archival Information System et à des standards rendant possible l'interopérabilité.
+La Conservation est l'application de stratégies, d'activités et de technologies spécifiques en vue de garantir qu'un contenu numérique sera correctement rendu au fil du temps. Elle facilite le réemploi des données, des objets et des ressources liés à la recherche et peut comprendre des activités en rapport avec la durabilité et l'interopérabilité. Les techniques associées sont, notamment, les suivantes : "Bit Stream Preservation", "Supports pérennes", "Émulation", Liaison des métadonnées, "Migration", "Réplication", "Conservation de technologie", "Versionnage", recours à un "Open Archival Information System" et à des standards rendant possible l'interopérabilité.
 
 7 – Dissémination
 =================
-La Dissémination est l'activité qui consiste à rendre disponibles des objets d'enquête, des résultats de recherche ou des logiciels et des services à l'intention de collègues chercheurs ou d'un public plus large, de diverses façons plus ou moins formelles. Elle exige un stockage et peut comprendre une publication et un partage de données recourant à diverses méthodes et techniques, dont l'application des principes des données liées ouvertes.
+La Dissémination est l'activité qui consiste à rendre disponibles des objets d'enquête, des résultats de recherche ou des logiciels et des services à l'intention de collègues chercheurs ou d'un public plus large, de diverses façons plus ou moins formelles. Elle exige un stockage et peut comprendre une publication et un partage de données recourant à diverses méthodes et techniques, dont l'usage de données liées ouvertes.
 
 Collaboration
 -------------
-La Collaboration est pratiquée dans toute activité de recherche réalisée conjointement par plusieurs chercheurs, éventuellement en différents lieux et à différents moments. Une collaboration dans une perspective de recherche est rendue possible, en particulier, par des Environnements virtuels de recherche complets, mais elle peut également avoir lieu à l'occasion d'activités plus spécifiques, telles que des activités de communication ou le partage de ressources.
+La Collaboration est pratiquée dans toute activité de recherche réalisée conjointement par plusieurs chercheurs, éventuellement en différents lieux et à différents moments. Une collaboration dans une perspective de recherche est rendue possible, en particulier, par des Environnements numériques De recherche complets, mais elle peut également avoir lieu à l'occasion d'activités plus spécifiques, telles que des activités de "Communication" ou le "Partage" de ressources.
 
 Commentaire
 -----------
-Le Commentaire est l'activité qui consiste à ajouter des informations à un élément de données, habituellement d'une manière qui maintient une séparation entre les données auxquelles le commentaire est lié et le commentaire lui-même. Il sert ordinairement à exprimer une opinion, à ajouter des informations contextuelles ou à participer à des formes de communication ou de collaboration au sujet de l'objet commenté. Il diffère de l'Annotation (telle qu'elle est définie ici), car cette dernière désigne le fait d'ajouter des informations descriptives ou explicatives à des sections d'un objet dans le but d'en expliciter les qualités intrinsèques, les structures ou les significations.
+Le Commentaire est l'activité qui consiste à ajouter des informations à un élément de données, habituellement d'une manière qui maintient une séparation entre les données auxquelles le commentaire est lié et le commentaire lui-même. Il sert ordinairement à exprimer une opinion, à ajouter des informations contextuelles ou à participer à des formes de communication ou de collaboration au sujet de l'objet commenté. Il diffère de l'"Annotation" (telle qu'elle est définie ici), car cette dernière désigne le fait d'ajouter des informations descriptives ou explicatives à des sections d'un objet dans le but d'en expliciter les qualités intrinsèques, les structures ou les significations.
 
 Communication
 -------------
@@ -162,7 +161,7 @@ La Communication est l'activité qui consiste à échanger des idées avec d'aut
 
 Crowdsourcing
 -------------
-Le Crowdsourcing, ou production participative, est le paradigme de la génération de contenu par les utilisateurs dans le cadre du Web 2.0, ici appliquée au domaine de la recherche en humanités numériques. Le Crowdsourcing peut englober la Ludification, comprise comme l'une des formes par lesquelles on suscite la motivation dans les projets participatifs.
+Le Crowdsourcing, ou production participative, est le paradigme de la génération de contenu par les utilisateurs dans le cadre du Web 2.0, ici appliquée au domaine de la recherche en humanités numériques. Le Crowdsourcing peut englober la "Ludification", comprise comme l'une des formes par lesquelles on suscite la motivation dans les projets participatifs.
 
 Publication
 -----------
@@ -175,7 +174,7 @@ Le Partage est l'activité qui consiste à rendre des objets publiquement dispon
 Méta-activités
 ==============
 
-Les Méta-activités sont des activités qui, contrairement aux activités de recherche habituelles, ne concernent pas directement un objet de recherche, mais plutôt la combinaison d'une activité de recherche et d'un objet de recherche. Des cas représentatifs seraient un tutoriel destiné à enseigner l'encodage numérique de la musique ou un rapport présentant l'usage de la reconnaissance de formes pour l'analyse des images. L'étiquette Méta-activités peut permettre de fournir des informations supplémentaires dans le cas typique d'un couple d'étiquette activité + objet. Cependant, dans certains cas, la catégorie de Méta-activités peut aussi s'appliquer à des objets, par exemple s'il s'agit d'objets comme "Infrastructure" ou "Humanités numériques" ("*Digital Humanities*").
+Les Méta-activités sont des activités qui, contrairement aux activités de recherche habituelles, ne concernent pas directement un objet de recherche, mais plutôt la combinaison d'une activité de recherche et d'un objet de recherche. Des cas représentatifs seraient un tutoriel destiné à enseigner l'encodage numérique de la musique ou un rapport présentant l'usage de la reconnaissance de formes pour l'analyse des images. L'étiquette Méta-activités peut permettre de fournir des informations supplémentaires dans le cas typique d'un couple d'étiquette activité + objet. Cependant, dans certains cas, la catégorie de Méta-activités peut aussi s'appliquer à des objets, par exemple s'il s'agit d'objets comme "Infrastructure" ou "HumanitésNumériques".
 
 Méta : Évaluation
 -----------------
@@ -183,15 +182,15 @@ L'Évaluation est l'activité qui consiste à contrôler l'existence de certaine
 
 Méta : ConstructionDeCommunauté
 -------------------------------
-La Construction de communauté (*Community building*) est l'activité qui consiste à créer ou à développer une communauté fondée sur un intérêt partagé. Il peut comprendre la dissémination et l'enseignement, aussi bien que la défense et illustration d'activités, de pratiques et de valeurs spécifiques.
+La Construction de communauté (*Community building*) est l'activité qui consiste à créer ou à développer une communauté fondée sur un intérêt partagé. Il peut comprendre la "Dissémination" et l'enseignement, aussi bien que la défense et illustration d'activités, de pratiques et de valeurs spécifiques.
 
 Méta : DonnerUnAperçu
 ---------------------
 Donner un aperçu est l'activité qui consiste à fournir des informations relativement générales ou à tracer un aperçu historique ou systématique d'un sujet donnée. Elle peut néanmoins s'adresser autant à des experts qu'à des débutants dans un champ, un sous-champ ou une spécialité.
 
-Méta : SupervisionDeProjet
+Méta : GestionDeProjet
 --------------------------
-La Supervision de projet (*Project management*) comprend des activités telles que développer une stratégie et évaluer les risques, ou encore assurer la gestion des tâches, en documentant les tâches, les échéances et toute autre information pertinente. Elle peut comprendre des activités comme la planification, la documentation, la recherche de financements, ainsi que l'envoi de rappels et de rapports d'activité. La Supervision de projet est également liée à la Collaboration.
+La Gestion de projet comprend des activités telles que développer une stratégie et évaluer les risques, ou encore assurer la gestion des tâches, en documentant les tâches, les échéances et toute autre information pertinente. Elle peut comprendre des activités comme la planification, la documentation, la recherche de financements, ainsi que l'envoi de rappels et de rapports d'activité. La Gestion de projet est également liée à la "Collaboration".
 
 Méta : EnseignementEtApprentissage
 ----------------------------------
