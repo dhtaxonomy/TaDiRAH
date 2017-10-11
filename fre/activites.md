@@ -81,7 +81,7 @@ Cet objectif de recherche très général consiste à extraire des informations 
 
 Analyse de contenu
 ------------------
-L'Analyse de contenu est une méthode qui vise à analyser des aspects des objets numériques en rapport avec leur signification, par exemple en identifiant des concepts ou des unités signifiantes. Les techniques pertinentes sont notamment la "Modélisation thématique" (*Topic Modeling*), l'"Analyse de sentiments", la "Recherche d'information" (*Information Retrieval*), l'Analyse de discours, ainsi que la "Reconnaissance d'entités nommées".
+L'Analyse de contenu est une méthode qui vise à analyser des aspects des objets numériques en rapport avec leur signification, par exemple en identifiant des concepts ou des unités signifiantes. Les techniques pertinentes sont notamment la "Modélisation thématique" (*topic modeling*), l'"Analyse de sentiments", la "Recherche d'information" (*information retrieval*), l'Analyse de discours, ainsi que la "Reconnaissance d'entités nommées".
 
 Analyse de réseaux
 ------------------
@@ -117,7 +117,7 @@ La Contextualisation est l'activité qui consiste à créer des associations ent
 
 Modélisation
 ------------
-La Modélisation est l'activité qui consiste à créer une représentation abstraite d'un phénomène complexe, ordinairement sous une forme lisible par les machines et éventuellement sous une forme interactive (elle comprend donc la "simulation"). Des modèles deviennent lisibles par les machines lorsque la modélisation produit un schéma qui décrit les éléments et la structure d'un objet d'enquête d'une façon explicite. Le terme peut aussi désigner l'activité qui consiste à transformer ou à manipuler un objet numérique de sorte à le rendre compatible avec un modèle ou un schéma construit antérieurement. La Cartographie est ainsi un exemple de modèle spatial. La Conception d'un flux de travaux (*Workflow Design*) fait partie de la Modélisation et recourt par exemple à l'objet Processus.
+La Modélisation est l'activité qui consiste à créer une représentation abstraite d'un phénomène complexe, ordinairement sous une forme lisible par les machines et éventuellement sous une forme interactive (elle comprend donc la "simulation"). Des modèles deviennent lisibles par les machines lorsque la modélisation produit un schéma qui décrit les éléments et la structure d'un objet d'enquête d'une façon explicite. Le terme peut aussi désigner l'activité qui consiste à transformer ou à manipuler un objet numérique de sorte à le rendre compatible avec un modèle ou un schéma construit antérieurement. La Cartographie est ainsi un exemple de modèle spatial. La Conception d'un flux de travaux (*workflow design*) fait partie de la Modélisation et recourt par exemple à l'objet Processus.
 
 Théorisation
 ------------
@@ -157,7 +157,7 @@ Le Commentaire est l'activité qui consiste à ajouter des informations à un é
 
 Communication
 -------------
-La Communication est l'activité qui consiste à échanger des idées avec d'autres personnes, prioritairement, mais non exclusivement, par des moyens linguistiques. Les techniques pertinentes sont notamment le Courriel, la Discussion en ligne (*Chat*) et l'Audio-conférence.
+La Communication est l'activité qui consiste à échanger des idées avec d'autres personnes, prioritairement, mais non exclusivement, par des moyens linguistiques. Les techniques pertinentes sont notamment le Courriel, la Discussion en ligne (*chat*) et l'Audio-conférence.
 
 Crowdsourcing
 -------------
@@ -182,7 +182,7 @@ L'Évaluation est l'activité qui consiste à contrôler l'existence de certaine
 
 Méta : ConstructionDeCommunauté
 -------------------------------
-La Construction de communauté (*Community building*) est l'activité qui consiste à créer ou à développer une communauté fondée sur un intérêt partagé. Il peut comprendre la "Dissémination" et l'enseignement, aussi bien que la défense et illustration d'activités, de pratiques et de valeurs spécifiques.
+La Construction de communauté (*community building*) est l'activité qui consiste à créer ou à développer une communauté fondée sur un intérêt partagé. Il peut comprendre la "Dissémination" et l'enseignement, aussi bien que la défense et illustration d'activités, de pratiques et de valeurs spécifiques.
 
 Méta : DonnerUnAperçu
 ---------------------
