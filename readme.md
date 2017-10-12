@@ -12,7 +12,7 @@ Repository content
 * `reference`: semi-technical reference version of the taxonomy
 * `deu`: German translation
 * `esp`: Spanish translation
-* `fre`: French translation (in progress)
+* `fre`: French translation
 * See also the machine-readable version in SKOS at http://tadirah.dariah.eu/vocab/
 
 Aspects of the taxonomy
@@ -33,6 +33,7 @@ Contributors
 ------------
 * Diego Ferreyra, CAICYT - CONICET, Buenos Aires, Argentina (TemaTres development and administration)
 * Gimena del Rio Riande, SECRIT-IIBICRIT, CONICET, Buenos Aires, Argentina (Spanish translation)
+* Aurélien Berra, Thibault Clérice, Martin Grandjean and Vincent Razanajao, Humanistica, France, Switzerland and Belgium (French translation)
 
 Initiatives using TaDiRAH
 -------------------------
