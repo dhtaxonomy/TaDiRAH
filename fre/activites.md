@@ -118,7 +118,7 @@ La "Contextualisation" est l'activité qui consiste à créer des associations e
 
 Modélisation
 ------------
-La "Modélisation" est l'activité qui consiste à créer une représentation abstraite d'un phénomène complexe, ordinairement sous une forme lisible par les machines et éventuellement sous une forme interactive (elle comprend donc la "Simulation"). Des modèles deviennent lisibles par les machines lorsque la modélisation produit un schéma qui décrit les éléments et la structure d'un objet d'enquête d'une façon explicite. Le terme peut aussi désigner l'activité qui consiste à transformer ou à manipuler un objet numérique de sorte à le rendre compatible avec un modèle ou un schéma construit antérieurement. La "Cartographie" est ainsi un exemple de modèle spatial. La "Conception d'un flux de travaux" (*workflow design*) fait partie de la "Modélisation" et recourt par exemple à l'objet "Processus".
+La "Modélisation" est l'activité qui consiste à créer une représentation abstraite d'un phénomène complexe, ordinairement sous une forme lisible par les machines et éventuellement sous une forme interactive (elle comprend donc la "Simulation"). Des modèles deviennent lisibles par les machines lorsque la modélisation produit un schéma qui décrit les éléments et la structure d'un objet d'enquête d'une façon explicite. Le terme peut aussi désigner l'activité qui consiste à transformer ou à manipuler un objet numérique de sorte à le rendre compatible avec un modèle ou un schéma construit antérieurement. La "Cartographie" est ainsi un exemple de modèle spatial. La "Conception d'un flux de travaux" (*workflow design*) fait partie de la "Modélisation" et recourt par exemple à l'objet "Processus de recherche".
 
 
 Théorisation
