@@ -11,7 +11,7 @@ Conversion
 ----------
 La "Conversion" désigne le fait de modifier le format de fichier d'un objet (p. ex. convertir une vidéo en WMV en un fichier MOV, aussi bien que convertir du VHS dans un format numérique) sans changer fondamentalement le contenu ou la nature de l'objet. Quand la conversion concerne les métadonnées, il s'agit d'opérer une correspondance entre deux schémas de métadonnées. Pour désigner des conversions plus fondamentales, telle que la conversion de l'image d'une page numérisée en un document de texte modifiable, mieux vaut parler de "Reconnaissance de données".
 
-ReconnaissanceDeDonnées
+Reconnaissance de données
 -----------------------
 La "Reconnaissance de données", par exemple la reconnaissance optique de caractères (ROC, en anglais OCR), désigne le processus qui consiste à traiter les résultats immédiats de l'acquisition numérique de données ("Enregistrement" ou "Imagerie"), tels que des fac-similés de textes ou de partitions musicales, de façon à en extraire des unités discrètes, lisibles par une machine, comme des mots en texte brut, des notes de musique ou bien des éléments d'images fixes ou animées (notamment dans la reconnaissance faciale).
 
@@ -177,25 +177,25 @@ Le "Partage" est l'activité qui consiste à rendre des objets publiquement disp
 Méta-activités
 ==============
 
-Les "Méta-activités" sont des activités qui, contrairement aux activités de recherche habituelles, ne concernent pas directement un objet de recherche, mais plutôt la combinaison d'une activité de recherche et d'un objet de recherche. Des cas représentatifs seraient un tutoriel destiné à enseigner ("Enseignement") l'"Encodage" numérique de la "Musique" ou un rapport présentant ("Présentation") l'usage de la "Reconnaissance de formes" pour l'analyse des "Images". L'étiquette Méta-activités peut permettre de fournir des informations supplémentaires dans le cas typique d'un couple d'étiquette activité + objet. Cependant, dans certains cas, la catégorie de Méta-activités peut aussi s'appliquer à des objets, par exemple s'il s'agit d'objets comme "Infrastructure" ou "HumanitésNumériques".
+Les "Méta-activités" sont des activités qui, contrairement aux activités de recherche habituelles, ne concernent pas directement un objet de recherche, mais plutôt la combinaison d'une activité de recherche et d'un objet de recherche. Des cas représentatifs seraient un tutoriel destiné à enseigner ("Enseignement") l'"Encodage" numérique de la "Musique" ou un rapport présentant ("Présentation") l'usage de la "Reconnaissance de formes" pour l'analyse des "Images". L'étiquette Méta-activités peut permettre de fournir des informations supplémentaires dans le cas typique d'un couple d'étiquette activité + objet. Cependant, dans certains cas, la catégorie de Méta-activités peut aussi s'appliquer à des objets, par exemple s'il s'agit d'objets comme "Infrastructure" ou "Humanités numériques".
 
 Méta : Évaluation
 -----------------
 L'"Évaluation" est l'activité qui consiste à contrôler l'existence de certaines propriétés indiquant habituellement la présence d'une qualité désirable dans le résultat de l'activité. Il peut s'agir d'évaluer des articles scientifiques ou des propositions de communications, d'apprécier la cohérence de l'annotation de matériaux audio-visuels ou bien de mesurer l'utilité des humanités numériques.
 
-Méta : ConstructionDeCommunauté
+Méta : Construction de communauté
 -------------------------------
 La "Construction de communauté" (*community building*) est l'activité qui consiste à créer ou à développer une communauté fondée sur un intérêt partagé. Il peut comprendre la "Dissémination" et l'"Enseignement", aussi bien que la défense et illustration d'activités, de pratiques et de valeurs spécifiques.
 
 
-Méta : DonnerUnAperçu
+Méta : Donner un aperçu
 ---------------------
 "Donner un aperçu" est l'activité qui consiste à fournir des informations relativement générales ou à tracer un aperçu historique ou systématique d'un sujet donnée. Elle peut néanmoins s'adresser autant à des experts qu'à des débutants dans un champ, un sous-champ ou une spécialité.
 
-Méta : GestionDeProjet
+Méta : Gestion de projet
 --------------------------
 La "Gestion de projet" comprend des activités telles que développer une stratégie et évaluer les risques, ou encore assurer la gestion des tâches, en documentant les tâches, les échéances et toute autre information pertinente. Elle peut comprendre des activités comme la planification, la documentation, la recherche de financements, ainsi que l'envoi de rappels et de rapports d'activité. La "Gestion de projet" est également liée à la "Collaboration".
 
-Méta : EnseignementEtApprentissage
+Méta : Enseignement et apprentissage
 ----------------------------------
 L'"Enseignement et apprentissage" suppose un groupe de personnes aidant, par une interaction, un autre groupe de personnes à acquérir ou développer des savoir-faire, des compétences et des connaissances qui leur permettent de résoudre des problèmes dans un domaine de recherche particulier.
