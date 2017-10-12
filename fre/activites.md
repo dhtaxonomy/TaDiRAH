@@ -151,7 +151,7 @@ La "Dissémination" est l'activité qui consiste à rendre disponibles des objet
 
 Collaboration
 -------------
-La "Collaboration" est pratiquée dans toute activité de recherche réalisée conjointement par plusieurs chercheurs, éventuellement en différents lieux et à différents moments. Une collaboration dans une perspective de recherche est rendue possible, en particulier, par des Environnements numériques De recherche complets, mais elle peut également avoir lieu à l'occasion d'activités plus spécifiques, telles que des activités de "Communication" ou le "Partage" de ressources.
+La "Collaboration" est pratiquée dans toute activité de recherche réalisée conjointement par plusieurs chercheurs, éventuellement en différents lieux et à différents moments. Une collaboration dans une perspective de recherche est rendue possible, en particulier, par des Environnements numériques de recherche complets, mais elle peut également avoir lieu à l'occasion d'activités plus spécifiques, telles que des activités de "Communication" ou le "Partage" de ressources.
 
 Commentaire
 -----------
