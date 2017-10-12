@@ -11,7 +11,7 @@ Conversion
 ----------
 La "Conversion" désigne le fait de modifier le format de fichier d'un objet (p. ex. convertir une vidéo en WMV en un fichier MOV, aussi bien que convertir du VHS dans un format numérique) sans changer fondamentalement le contenu ou la nature de l'objet. Quand la conversion concerne les métadonnées, il s'agit d'opérer une correspondance entre deux schémas de métadonnées. Pour désigner des conversions plus fondamentales, telle que la conversion de l'image d'une page numérisée en un document de texte modifiable, mieux vaut parler de "Reconnaissance de données".
 
-ReconnaissanceDeDonnées
+Reconnaissance de données
 -----------------------
 La "Reconnaissance de données", par exemple la reconnaissance optique de caractères (ROC, en anglais OCR), désigne le processus qui consiste à traiter les résultats immédiats de l'acquisition numérique de données ("Enregistrement" ou "Imagerie"), tels que des fac-similés de textes ou de partitions musicales, de façon à en extraire des unités discrètes, lisibles par une machine, comme des mots en texte brut, des notes de musique ou bien des éléments d'images fixes ou animées (notamment dans la reconnaissance faciale).
 
@@ -83,10 +83,9 @@ Analyse de contenu
 ------------------
 L'"Analyse de contenu" est une méthode qui vise à analyser des aspects des objets numériques en rapport avec leur signification, par exemple en identifiant des concepts ou des unités signifiantes. Les techniques pertinentes sont notamment la "Modélisation thématique" (*topic modeling*), l'"Analyse de sentiments", la "Recherche d'information" (*information retrieval*), l'"Analyse de discours", ainsi que la "Reconnaissance d'entités nommées".
 
-
 Analyse de réseaux
 ------------------
-L'"Analyse de réseaux" est une méthode permettant d'étudier les relations d'acteurs (réels ou fictifs) ou d'autres entités au sein d'un réseau donné, qui peut prendre la forme d'un réseau en ligne, que ce soit un réseau social ou universitaire, d'un ensemble de correspondances ou d'un ouvrage littéraire ; le réseau qui en résulte est habituellement composé de sommets ou nœuds (les entités) et d'arêtes (les relations). L'une des techniques pertinentes est la "Reconnaissance d'entités nommées". Lorsque l'on s'intéresse aux artéfacts eux-mêmes (textes, images, etc.) et à leurs relations, l'activité de recherche correspondante sera l'"Analyse relationnelle".
+L'"Analyse de réseaux" est une méthode permettant d'étudier les relations d'acteurs (réels ou fictifs) ou d'autres entités au sein d'un réseau donné, qui peut prendre la forme d'un réseau en ligne, que ce soit un réseau social ou universitaire, d'un ensemble de correspondances ou d'un ouvrage littéraire ; le réseau qui en résulte est habituellement composé de sommets ou nœuds (les entités) et d'arêtes (les relations). L'une des techniques pertinentes est la "Reconnaissance d'entités nommées". Lorsque l'on s'intéresse aux artéfacts eux-mêmes (textes, images, etc.) et à leurs relations, l'activité de recherche correspondante sera l'"Analyse relationnelle".
 
 Analyse relationnelle
 ---------------------
@@ -118,8 +117,7 @@ La "Contextualisation" est l'activité qui consiste à créer des associations e
 
 Modélisation
 ------------
-La "Modélisation" est l'activité qui consiste à créer une représentation abstraite d'un phénomène complexe, ordinairement sous une forme lisible par les machines et éventuellement sous une forme interactive (elle comprend donc la "Simulation"). Des modèles deviennent lisibles par les machines lorsque la modélisation produit un schéma qui décrit les éléments et la structure d'un objet d'enquête d'une façon explicite. Le terme peut aussi désigner l'activité qui consiste à transformer ou à manipuler un objet numérique de sorte à le rendre compatible avec un modèle ou un schéma construit antérieurement. La "Cartographie" est ainsi un exemple de modèle spatial. La "Conception d'un flux de travaux" (*workflow design*) fait partie de la "Modélisation" et recourt par exemple à l'objet "Processus".
-
+La "Modélisation" est l'activité qui consiste à créer une représentation abstraite d'un phénomène complexe, ordinairement sous une forme lisible par les machines et éventuellement sous une forme interactive (elle comprend donc la "Simulation"). Des modèles deviennent lisibles par les machines lorsque la modélisation produit un schéma qui décrit les éléments et la structure d'un objet d'enquête d'une façon explicite. Le terme peut aussi désigner l'activité qui consiste à transformer ou à manipuler un objet numérique de sorte à le rendre compatible avec un modèle ou un schéma construit antérieurement. La "Cartographie" est ainsi un exemple de modèle spatial. La "Conception d'un flux de travaux" (*workflow design*) fait partie de la "Modélisation" et recourt par exemple à l'objet "Processus de recherche".
 
 Théorisation
 ------------
@@ -151,7 +149,7 @@ La "Dissémination" est l'activité qui consiste à rendre disponibles des objet
 
 Collaboration
 -------------
-La "Collaboration" est pratiquée dans toute activité de recherche réalisée conjointement par plusieurs chercheurs, éventuellement en différents lieux et à différents moments. Une collaboration dans une perspective de recherche est rendue possible, en particulier, par des Environnements numériques De recherche complets, mais elle peut également avoir lieu à l'occasion d'activités plus spécifiques, telles que des activités de "Communication" ou le "Partage" de ressources.
+La "Collaboration" est pratiquée dans toute activité de recherche réalisée conjointement par plusieurs chercheurs, éventuellement en différents lieux et à différents moments. Une collaboration dans une perspective de recherche est rendue possible, en particulier, par des Environnements numériques de recherche complets, mais elle peut également avoir lieu à l'occasion d'activités plus spécifiques, telles que des activités de "Communication" ou le "Partage" de ressources.
 
 Commentaire
 -----------
@@ -160,7 +158,6 @@ Le "Commentaire" est l'activité qui consiste à ajouter des informations à un 
 Communication
 -------------
 La "Communication" est l'activité qui consiste à échanger des idées avec d'autres personnes, prioritairement, mais non exclusivement, par des moyens linguistiques. Les techniques pertinentes sont notamment le "Courriel", la "Discussion en ligne" (*chat*) et l'"Audio-conférence".
-
 
 Crowdsourcing
 -------------
@@ -176,26 +173,24 @@ Le "Partage" est l'activité qui consiste à rendre des objets publiquement disp
 
 Méta-activités
 ==============
-
-Les "Méta-activités" sont des activités qui, contrairement aux activités de recherche habituelles, ne concernent pas directement un objet de recherche, mais plutôt la combinaison d'une activité de recherche et d'un objet de recherche. Des cas représentatifs seraient un tutoriel destiné à enseigner ("Enseignement") l'"Encodage" numérique de la "Musique" ou un rapport présentant ("Présentation") l'usage de la "Reconnaissance de formes" pour l'analyse des "Images". L'étiquette Méta-activités peut permettre de fournir des informations supplémentaires dans le cas typique d'un couple d'étiquette activité + objet. Cependant, dans certains cas, la catégorie de Méta-activités peut aussi s'appliquer à des objets, par exemple s'il s'agit d'objets comme "Infrastructure" ou "HumanitésNumériques".
+Les "Méta-activités" sont des activités qui, contrairement aux activités de recherche habituelles, ne concernent pas directement un objet de recherche, mais plutôt la combinaison d'une activité de recherche et d'un objet de recherche. Des cas représentatifs seraient un tutoriel destiné à enseigner ("Enseignement") l'"Encodage" numérique de la "Musique" ou un rapport présentant ("Présentation") l'usage de la "Reconnaissance de formes" pour l'analyse des "Images". L'étiquette Méta-activités peut permettre de fournir des informations supplémentaires dans le cas typique d'un couple d'étiquette activité + objet. Cependant, dans certains cas, la catégorie de Méta-activités peut aussi s'appliquer à des objets, par exemple s'il s'agit d'objets comme "Infrastructure" ou "Humanités numériques".
 
 Méta : Évaluation
 -----------------
 L'"Évaluation" est l'activité qui consiste à contrôler l'existence de certaines propriétés indiquant habituellement la présence d'une qualité désirable dans le résultat de l'activité. Il peut s'agir d'évaluer des articles scientifiques ou des propositions de communications, d'apprécier la cohérence de l'annotation de matériaux audio-visuels ou bien de mesurer l'utilité des humanités numériques.
 
-Méta : ConstructionDeCommunauté
+Méta : Construction de communauté
 -------------------------------
 La "Construction de communauté" (*community building*) est l'activité qui consiste à créer ou à développer une communauté fondée sur un intérêt partagé. Il peut comprendre la "Dissémination" et l'"Enseignement", aussi bien que la défense et illustration d'activités, de pratiques et de valeurs spécifiques.
 
-
-Méta : DonnerUnAperçu
+Méta : Donner un aperçu
 ---------------------
 "Donner un aperçu" est l'activité qui consiste à fournir des informations relativement générales ou à tracer un aperçu historique ou systématique d'un sujet donnée. Elle peut néanmoins s'adresser autant à des experts qu'à des débutants dans un champ, un sous-champ ou une spécialité.
 
-Méta : GestionDeProjet
+Méta : Gestion de projet
 --------------------------
 La "Gestion de projet" comprend des activités telles que développer une stratégie et évaluer les risques, ou encore assurer la gestion des tâches, en documentant les tâches, les échéances et toute autre information pertinente. Elle peut comprendre des activités comme la planification, la documentation, la recherche de financements, ainsi que l'envoi de rappels et de rapports d'activité. La "Gestion de projet" est également liée à la "Collaboration".
 
-Méta : EnseignementEtApprentissage
+Méta : Enseignement et apprentissage
 ----------------------------------
 L'"Enseignement et apprentissage" suppose un groupe de personnes aidant, par une interaction, un autre groupe de personnes à acquérir ou développer des savoir-faire, des compétences et des connaissances qui leur permettent de résoudre des problèmes dans un domaine de recherche particulier.
