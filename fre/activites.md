@@ -83,10 +83,9 @@ Analyse de contenu
 ------------------
 L'"Analyse de contenu" est une méthode qui vise à analyser des aspects des objets numériques en rapport avec leur signification, par exemple en identifiant des concepts ou des unités signifiantes. Les techniques pertinentes sont notamment la "Modélisation thématique" (*topic modeling*), l'"Analyse de sentiments", la "Recherche d'information" (*information retrieval*), l'"Analyse de discours", ainsi que la "Reconnaissance d'entités nommées".
 
-
 Analyse de réseaux
 ------------------
-L'"Analyse de réseaux" est une méthode permettant d'étudier les relations d'acteurs (réels ou fictifs) ou d'autres entités au sein d'un réseau donné, qui peut prendre la forme d'un réseau en ligne, que ce soit un réseau social ou universitaire, d'un ensemble de correspondances ou d'un ouvrage littéraire ; le réseau qui en résulte est habituellement composé de sommets ou nœuds (les entités) et d'arêtes (les relations). L'une des techniques pertinentes est la "Reconnaissance d'entités nommées". Lorsque l'on s'intéresse aux artéfacts eux-mêmes (textes, images, etc.) et à leurs relations, l'activité de recherche correspondante sera l'"Analyse relationnelle".
+L'"Analyse de réseaux" est une méthode permettant d'étudier les relations d'acteurs (réels ou fictifs) ou d'autres entités au sein d'un réseau donné, qui peut prendre la forme d'un réseau en ligne, que ce soit un réseau social ou universitaire, d'un ensemble de correspondances ou d'un ouvrage littéraire ; le réseau qui en résulte est habituellement composé de sommets ou nœuds (les entités) et d'arêtes (les relations). L'une des techniques pertinentes est la "Reconnaissance d'entités nommées". Lorsque l'on s'intéresse aux artéfacts eux-mêmes (textes, images, etc.) et à leurs relations, l'activité de recherche correspondante sera l'"Analyse relationnelle".
 
 Analyse relationnelle
 ---------------------
@@ -119,7 +118,6 @@ La "Contextualisation" est l'activité qui consiste à créer des associations e
 Modélisation
 ------------
 La "Modélisation" est l'activité qui consiste à créer une représentation abstraite d'un phénomène complexe, ordinairement sous une forme lisible par les machines et éventuellement sous une forme interactive (elle comprend donc la "Simulation"). Des modèles deviennent lisibles par les machines lorsque la modélisation produit un schéma qui décrit les éléments et la structure d'un objet d'enquête d'une façon explicite. Le terme peut aussi désigner l'activité qui consiste à transformer ou à manipuler un objet numérique de sorte à le rendre compatible avec un modèle ou un schéma construit antérieurement. La "Cartographie" est ainsi un exemple de modèle spatial. La "Conception d'un flux de travaux" (*workflow design*) fait partie de la "Modélisation" et recourt par exemple à l'objet "Processus de recherche".
-
 
 Théorisation
 ------------
@@ -161,7 +159,6 @@ Communication
 -------------
 La "Communication" est l'activité qui consiste à échanger des idées avec d'autres personnes, prioritairement, mais non exclusivement, par des moyens linguistiques. Les techniques pertinentes sont notamment le "Courriel", la "Discussion en ligne" (*chat*) et l'"Audio-conférence".
 
-
 Crowdsourcing
 -------------
 Le "Crowdsourcing", ou production participative, est le paradigme de la génération de contenu par les utilisateurs dans le cadre du Web 2.0, ici appliquée au domaine de la recherche en humanités numériques. Le "Crowdsourcing" peut englober la "Ludification", comprise comme l'une des formes par lesquelles on suscite la motivation dans les projets participatifs.
@@ -176,7 +173,6 @@ Le "Partage" est l'activité qui consiste à rendre des objets publiquement disp
 
 Méta-activités
 ==============
-
 Les "Méta-activités" sont des activités qui, contrairement aux activités de recherche habituelles, ne concernent pas directement un objet de recherche, mais plutôt la combinaison d'une activité de recherche et d'un objet de recherche. Des cas représentatifs seraient un tutoriel destiné à enseigner ("Enseignement") l'"Encodage" numérique de la "Musique" ou un rapport présentant ("Présentation") l'usage de la "Reconnaissance de formes" pour l'analyse des "Images". L'étiquette Méta-activités peut permettre de fournir des informations supplémentaires dans le cas typique d'un couple d'étiquette activité + objet. Cependant, dans certains cas, la catégorie de Méta-activités peut aussi s'appliquer à des objets, par exemple s'il s'agit d'objets comme "Infrastructure" ou "Humanités numériques".
 
 Méta : Évaluation
@@ -186,7 +182,6 @@ L'"Évaluation" est l'activité qui consiste à contrôler l'existence de certai
 Méta : Construction de communauté
 -------------------------------
 La "Construction de communauté" (*community building*) est l'activité qui consiste à créer ou à développer une communauté fondée sur un intérêt partagé. Il peut comprendre la "Dissémination" et l'"Enseignement", aussi bien que la défense et illustration d'activités, de pratiques et de valeurs spécifiques.
-
 
 Méta : Donner un aperçu
 ---------------------
