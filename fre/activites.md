@@ -41,11 +41,11 @@ La Création désigne en général l'activité qui consiste à produire des obje
 
 Design
 ------
-Le développement d'une interface avec laquelle l'utilisateur est en mesure d'interagir pour réaliser diverses tâches et activités. Le Design comprend également le développement de l'expérience utilisateur, prenant en compte les perceptions pratiques d'un individu, telles que l'utilité, la facilité d'usage et l'efficacité du système. En revanche, cette activité n'inclut pas la mise en œuvre du design (voir "Programmation" et "Développement Web"). Le design de bases de données est à placer sous la catégorie "Modélisation".
+Le Design est le développement d'une interface avec laquelle l'utilisateur est en mesure d'interagir pour réaliser diverses tâches et activités. Le Design comprend également le développement de l'expérience utilisateur, prenant en compte les perceptions pratiques d'un individu, telles que l'utilité, la facilité d'usage et l'efficacité du système. En revanche, cette activité n'inclut pas la mise en œuvre du design (voir "Programmation" et "Développement Web"). Le design de bases de données est à placer sous la catégorie "Modélisation".
 
 Programmation
 -------------
-La création de code qu'un ordinateur peut exécuter, c'est-à-dire de scripts ou de logiciels. (On y inclut le "Prototypage", qui est la création d'un tel code en vue d'un test ou d'une modélisation.) Cette activité est étroitement liée à l'activité plus générale du développement d'outils. La Programmation est distincte de l'"Encodage" (lequel consiste à enrichir un document en explicitant, au moyen de balises ajoutées à sa transcription, des informations sur la structure, la présentation, la signification ou d'autres aspects encore d'une partie de ce document).
+La Programmation consiste à créer du code qu'un ordinateur peut exécuter, c'est-à-dire de scripts ou de logiciels. (On y inclut le "Prototypage", qui est la création d'un tel code en vue d'un test ou d'une modélisation.) Cette activité est étroitement liée à l'activité plus générale du développement d'outils. La Programmation est distincte de l'"Encodage" (lequel consiste à enrichir un document en explicitant, au moyen de balises ajoutées à sa transcription, des informations sur la structure, la présentation, la signification ou d'autres aspects encore d'une partie de ce document).
 
 Traduction
 ----------
@@ -53,7 +53,7 @@ La "Traduction" consiste à créer un nouvel objet linguistique fondé sur un do
 
 Développement Web
 -----------------
-Création de sites Web, soit à partir d'une plateforme (par exemple des systèmes de gestion de contenus comme Drupal, WordPress et Omeka) soit avec du code HTML et des CSS. Écrire un module ou un greffon pour une plateforme et programmer des applications Web sont des activités qui appartiennent à la méthode "Programmation".
+Le Développement Web consiste à créer des sites Web, soit à partir d'une plateforme (par exemple des systèmes de gestion de contenus comme Drupal, WordPress et Omeka) soit avec du code HTML et des CSS. Écrire un module ou un greffon pour une plateforme et programmer des applications Web sont des activités qui appartiennent à la méthode "Programmation".
 
 Écriture
 --------
@@ -89,7 +89,7 @@ L'"Analyse de réseaux" est une méthode permettant d'étudier les relations d'a
 
 Analyse relationnelle
 ---------------------
-L'"Analyse relationnelle" consiste en des techniques computationnelles destinées à découvrir des relations particulières entre plusieurs objets de recherche. Dans les études textuelles, il peut s'agir de découvrir des recoupements entre différents textes (étude du réemploi de textes ou détection de plagiat) ou des variations entre plusieurs versions d'un même texte (collation), ou bien d'évaluer la similarité de textes à partir de les caractéristiques stylistiques (stylométrie). Par analogie, ces méthodes peuvent également s'appliquer à d'autres artéfacts culturels, comme la musique, les films ou la peinture. Les techniques pertinentes sont notamment l'"Alignement de séquences", la "Collation" et les techniques associées à l'"Analyse stylistique".
+L'"Analyse relationnelle" consiste en des techniques computationnelles destinées à découvrir des relations particulières entre plusieurs objets de recherche. Dans les études textuelles, il peut s'agir de découvrir des recoupements entre différents textes (étude du réemploi de textes ou détection de plagiat) ou des variations entre plusieurs versions d'un même texte (collation), ou bien d'évaluer la similarité de textes à partir de leurs caractéristiques stylistiques (stylométrie). Par analogie, ces méthodes peuvent également s'appliquer à d'autres artéfacts culturels, comme la musique, les films ou la peinture. Les techniques pertinentes sont notamment l'"Alignement de séquences", la "Collation" et les techniques associées à l'"Analyse stylistique".
 
 Analyse spatiale
 ----------------
@@ -101,7 +101,7 @@ L'"Analyse structurelle" consiste en l'analyse d'objets sur le plan des relation
 
 Analyse stylistique
 -------------------
-L'"Analyse stylistique" consiste à identifier les caractéristiques stylistiques ou formelles d'objets numériques. Bien que la stylistique computationnelle soit dans bien des cas appliquée à des textes et fondées sur des caractéristiques linguistiques, elle peut également s'appliquer à d'autres médias tels que des artéfacts physiques, des peintures, de la musique ou des films. Les techniques pertinentes sont notamment la "Stylométrie", l'"Analyse en composantes principales", l'"Analyse de grappes" et l'"Analyse paléographique".
+L'"Analyse stylistique" consiste à identifier les caractéristiques stylistiques ou formelles d'objets numériques. Bien que la stylistique computationnelle soit dans bien des cas appliquée à des textes et fondée sur des caractéristiques linguistiques, elle peut également s'appliquer à d'autres médias tels que des artéfacts physiques, des peintures, de la musique ou des films. Les techniques pertinentes sont notamment la "Stylométrie", l'"Analyse en composantes principales", l'"Analyse de grappes" et l'"Analyse paléographique".
 
 Visualisation
 -------------
@@ -133,7 +133,7 @@ L'"Archivage" est le processus qui consiste à déplacer des données ou d'autre
 
 Identification
 --------------
-L'"Identification" est l'activité qui consiste à nommer ou à attribuer des identifiants (éventuellement uniques et/ou pérennes) à des objets d'enquête ou à n'importe quel type d'objets numériques. Ajouter une description sous forme de métadonnées fait Identification de l'"Annotation".
+L'"Identification" est l'activité qui consiste à nommer ou à attribuer des identifiants (éventuellement uniques et/ou pérennes) à des objets d'enquête ou à n'importe quel type d'objets numériques. Ajouter une description sous forme de métadonnées fait partie de l'"Annotation".
 
 Organisation
 ------------
@@ -181,11 +181,11 @@ L'"Évaluation" est l'activité qui consiste à contrôler l'existence de certai
 
 Méta : Construction de communauté
 -------------------------------
-La "Construction de communauté" (*community building*) est l'activité qui consiste à créer ou à développer une communauté fondée sur un intérêt partagé. Il peut comprendre la "Dissémination" et l'"Enseignement", aussi bien que la défense et illustration d'activités, de pratiques et de valeurs spécifiques.
+La "Construction de communauté" (*community building*) est l'activité qui consiste à créer ou à développer une communauté fondée sur un intérêt partagé. Elle peut comprendre la "Dissémination" et l'"Enseignement", aussi bien que la défense et illustration d'activités, de pratiques et de valeurs spécifiques.
 
 Méta : Donner un aperçu
 ---------------------
-"Donner un aperçu" est l'activité qui consiste à fournir des informations relativement générales ou à tracer un aperçu historique ou systématique d'un sujet donnée. Elle peut néanmoins s'adresser autant à des experts qu'à des débutants dans un champ, un sous-champ ou une spécialité.
+"Donner un aperçu" est l'activité qui consiste à fournir des informations relativement générales ou à tracer un aperçu historique ou systématique d'un sujet donné. Elle peut néanmoins s'adresser autant à des experts qu'à des débutants dans un champ, un sous-champ ou une spécialité.
 
 Méta : Gestion de projet
 --------------------------
