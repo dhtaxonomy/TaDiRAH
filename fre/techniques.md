@@ -1,8 +1,8 @@
-Techniques de Recherche
-======================================
+Techniques de recherche
+=======================
 
 Technique > Objectif – Méthode
--------------------------------
+------------------------------
 
 * Bit Stream Preservation > Stockage – Conservation
 * Brainstorming
