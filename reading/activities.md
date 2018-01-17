@@ -5,7 +5,7 @@ Research activities are usually applied to one or several research objects. An a
 
 1 - Capture
 ===========
-Capture generally refers to the activity of creating digital surrogates of existing cultural artefacts, or expressing existing artifacts in a digital representation (digitization). This could be a manual process (as in Transcribing) or an automated procedure (as in Imaging or DataRecognition). Such capture precedes Enrichment and Analysis, at least from a systematic point of view, if not in practice.
+Capture generally refers to the activity of creating digital surrogates of existing cultural artifacts, or expressing existing artifacts in a digital representation (digitization). This could be a manual process (as in Transcribing) or an automated procedure (as in Imaging or DataRecognition). Such capture precedes Enrichment and Analysis, at least from a systematic point of view, if not in practice.
 
 Conversion
 ----------
@@ -45,7 +45,7 @@ The development of a user interface, with which the user is able to interact to 
 
 Programming
 -----------
-Creation of code executable by a computer, that is creation of scripts or software. (This includes “Prototyping”, the creation of such code for testing or modeling purposes.) It is also closely related to the more broader activity of tool development. Programming is separate from Encoding (enriching a document by making structural, layout-related, semantic, or other information about a specific part of a document explicit by adding markup to its transcription).
+Creation of code executable by a computer, that is creation of scripts or software. (This includes “Prototyping”, the creation of such code for testing or modeling purposes.) It is also closely related to the broader activity of tool development. Programming is separate from Encoding (enriching a document by making structural, layout-related, semantic, or other information about a specific part of a document explicit by adding markup to its transcription).
 
 Translation
 -----------
