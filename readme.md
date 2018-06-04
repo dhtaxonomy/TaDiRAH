@@ -44,6 +44,8 @@ Initiatives using TaDiRAH
 * Survey Forschungspraxis in den Geisteswissenschaften, 2015-2016: http://ww2.unipark.de/uc/practices4humanities/ and http://www.dhd2016.de/abstracts/vortr%C3%A4ge-015.html
 * Interdisziplinärer Forschungsverbund Digital Humanities in Berlin "DH-Forschungsprojekte in der Region": http://www.ifdhberlin.de/forschung/dh-forschungsprojekte-in-der-region
 * NeDiMAH Methods Ontology (NeMO): http://nemo.dcu.gr/index.php
+* DH Commons https://dhcommons.org/
+* Digital Humanities CAICYT http://www.caicyt-conicet.gov.ar/micrositios/mhedi/
 * … more in preparation
 
 Presentations and publications on TaDiRAH
@@ -52,7 +54,7 @@ Presentations and publications on TaDiRAH
 * Borek, Luise; Christof Schöch; Klaus Thoden: "Digitale Forschungsaktivitäten multilingual: TaDiRAH für die deutschsprachige DH-Community" ([Poster](https://www.linglit.tu-darmstadt.de/fileadmin/linglit/borek/tadirah_DHd2016_poster.pdf)), DHd-Tagung, University of Leipzig, March 7-11,2016. https://www.conftool.pro/dhd2016/sessions.php
 * Borek, Luise; Quinn Dombrowski; Matthew Munson; Jody Perkins; Christof Schöch: "Scholarly primitives revisited: towards a practical taxonomy of digital humanities research activities and objects", short paper, Digital Humanities Conference 2014, Lausanne, Switzerland, July 7-12, 2014, http://dh2014.org/paper-session-details/
 * Dombrowski, Quinn & Jody Perkins: "TaDiRAH: Building Capacity for Integrated Access", dh+lib, May 21, 2014, http://acrl.ala.org/dh/2014/05/21/tadirah-building-capacity-integrated-access/
-* Jody Perkins, Quinn Dombrowski, Luise Borek, Christof Schöch: "Building bridges to the future of a distributed network: From DiRT categories to TaDiRAH, a methods taxonomy for digital humanities", Proceedings of the International Conference on Dublin Core and Metadata Applications 2014, 2014, http://dcpapers.dublincore.org/pubs/article/view/3720
+* Jody Perkins, Quinn Dombrowski, Luise Borek, Christof Schöch: "Building bridges to the future of a distributed network: From DiRT categories to TaDiRAH, a methods taxonomy for digital humanities", Proceedings of the International Conference on Dublin Core and Metadata Applications 2014, http://dcpapers.dublincore.org/pubs/article/view/3720
 
 Good to know
 ------------
