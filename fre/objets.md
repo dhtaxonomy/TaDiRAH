@@ -1,4 +1,4 @@
-Objets de recherche en humanités humériques
+Objets de recherche en humanités numériques
 ===========================================
 
 * Artéfacts
