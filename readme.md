@@ -35,10 +35,17 @@ Contributors
 * Gimena del Rio Riande, SECRIT-IIBICRIT, CONICET, Buenos Aires, Argentina (Spanish translation)
 * Aurélien Berra, Thibault Clérice, Martin Grandjean and Vincent Razanajao, Humanistica, France, Switzerland and Belgium (French translation)
 
+Places where TaDiRAH is available
+---------------------------------
+
+* Reference: https://vocabs.dariah.eu/tadirah2/en/
+* Legacy: https://vocabularyserver.com/tadirah/en/index.php
+* Legacy: http://tadirah.dariah.eu/vocab/index.php
+
 Initiatives using TaDiRAH
 -------------------------
 * Doing Digital Humanities Bibliography, DARIAH-DE: http://https://www.zotero.org/groups/doing_digital_humanities_-_a_dariah_bibliography/items/order/creator/sort/asc
-* DiRT Digital Research Tools: http://dirtdirectory.org/
+* TAPoR3: Discover research tools for studying text: http://tapor.ca/home
 * Digital Humanities Course Registry, DARIAH & CLARIN: https://registries.clarin-dariah.eu/courses/
 * DHd 2016 conference abstract classification: http://www.dhd2016.de
 * Survey Forschungspraxis in den Geisteswissenschaften, 2015-2016: http://ww2.unipark.de/uc/practices4humanities/ and http://www.dhd2016.de/abstracts/vortr%C3%A4ge-015.html
@@ -46,6 +53,7 @@ Initiatives using TaDiRAH
 * NeDiMAH Methods Ontology (NeMO): http://nemo.dcu.gr/index.php
 * DH Commons https://dhcommons.org/
 * Digital Humanities CAICYT http://www.caicyt-conicet.gov.ar/micrositios/mhedi/
+* (previously:) DiRT Digital Research Tools: http://dirtdirectory.org/
 * … more in preparation
 
 Presentations and publications on TaDiRAH
