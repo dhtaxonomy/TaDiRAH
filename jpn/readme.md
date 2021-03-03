@@ -9,13 +9,13 @@ Editorial Team (Digital Humanities Initiative, Graduate School of Humanities and
 
 編集チーム（東京大学大学院人文社会系研究科人文情報学部門）：
 
-+ Shunpei Katakura | 片倉 峻平
-  + Department of Chinese Language and Literature, Graduate School of Humanities and Sociology | 中国語中国文学研究室
-+ Toshiki Koike | 小池 俊希
-+ Ryo Mochizuki | 望月 澪
-  + Department of Occidental History, Graduate School of Humanities and Sociology | 欧米系文化研究専攻西洋史学専門分野
-+ Kiyonori Nagasaki | 永崎 研宣
-+ Ikki Ohmukai | 大向 一輝
++ Shunpei Katakura / 片倉 峻平
+  + Department of Chinese Language and Literature, Graduate School of Humanities and Sociology / 中国語中国文学研究室
++ Toshiki Koike / 小池 俊希
++ Ryo Mochizuki / 望月 澪
+  + Department of Occidental History, Graduate School of Humanities and Sociology / 欧米系文化研究専攻西洋史学専門分野
++ Kiyonori Nagasaki / 永崎 研宣
++ Ikki Ohmukai / 大向 一輝
 
 Translators:
 
