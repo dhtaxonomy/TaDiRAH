@@ -24,7 +24,7 @@ Translators:
 
 + Mariko KASAHARA / 笠原真理子
   + The University of Tokyo, Graduate School of Humanities and Sociology, Department of Cultural Resources Studies　/ 東京大学人文社会系研究科文化資源学研究専攻
-+ Natsuko Nakagawa / 中川 奈津子
++ Natsuko Nakagawa / 中川奈津子
   + National Institute for Japanese Language and Linguistics / 国立国語研究所
-+ Shintaro SEKI / 関 慎太朗
++ Shintaro SEKI / 関慎太朗
   +The University of Tokyo, Graduate School of Humanities and Sociology, Department of Cultural Resources Studies / 東京大学人文社会系研究科文化資源学研究専攻
