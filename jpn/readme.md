@@ -28,3 +28,5 @@ Translators:
   + National Institute for Japanese Language and Linguistics / 国立国語研究所
 + Shintaro SEKI / 関慎太朗
   + The University of Tokyo, Graduate School of Humanities and Sociology, Department of Cultural Resources Studies / 東京大学人文社会系研究科文化資源学研究専攻
++ So Miyaghawa / 宮川　創
+  + Center for Cultural Heritage Studies and Inter Humanities, Graduate School of Letters, Kyoto Univeristy / 京都大学大学院文学研究科文化遺産学・人文知連携センター
