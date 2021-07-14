@@ -26,6 +26,7 @@ Editorial Team (Digital Humanities Initiative, Graduate School of Humanities and
   + 東京大学大学院人文社会系研究科, The University of Tokyo, Graduate School of Humanities and Sociology
   
 Translators:
+翻訳者:
 
 + Mariko KASAHARA / 笠原真理子
   + オペラ・音楽劇, Operas and Musical Dramas, 芸術と宗教, Art and Religion
