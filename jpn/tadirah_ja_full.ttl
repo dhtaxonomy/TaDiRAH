@@ -1,0 +1,2018 @@
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix tadirah: <https://vocabs.dariah.eu/tadirah/> .
+
+ns3:contributor a owl:AnnotationProperty .
+
+ns3:creator a owl:AnnotationProperty .
+
+ns2:license a owl:AnnotationProperty .
+
+ns2:rightsHolder a owl:AnnotationProperty .
+
+ns1:altLabel a owl:AnnotationProperty .
+
+ns1:broader a owl:AnnotationProperty .
+
+ns1:closeMatch a owl:AnnotationProperty .
+
+ns1:definition a owl:AnnotationProperty .
+
+ns1:hasTopConcept a owl:AnnotationProperty .
+
+ns1:inScheme a owl:AnnotationProperty .
+
+ns1:narrower a owl:AnnotationProperty .
+
+ns1:note a owl:AnnotationProperty .
+
+ns1:prefLabel a owl:AnnotationProperty .
+
+ns1:related a owl:AnnotationProperty .
+
+ns1:topConceptOf a owl:AnnotationProperty .
+
+ns1:ConceptScheme a owl:Class .
+
+tadirah:abstractThinking a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:theorizing ;
+    ns1:definition "Wikidata contributors, \"Q25501084,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q25501084&oldid=1231655399 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Abstract Thinking"@en .
+
+tadirah:academicPublishing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:publishing ;
+    ns1:definition "subfield of publishing which distributes academic research and scholarship (Wikidata contributors, \"Q5246046,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5246046&oldid=1266348457 (accessed September 4, 2020)."@en,
+        "学術的調査や研究を流通させる、出版の下位領域。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Academic Publishing"@en,
+        "学術出版"@ja .
+
+tadirah:adding a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:editing ;
+    ns1:definition "arithmetic operation (Wikidata contributors, \"Q32043,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q32043&oldid=1268649023 (accessed September 4, 2020)."@en,
+        "数学的演算。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Adding"@en,
+        "加法"@ja .
+
+tadirah:aggregating a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:gathering ;
+    ns1:definition "act of collecting together physical or conceptual objects (Wikidata contributors, \"Q23007394,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q23007394&oldid=1210318642 (accessed September 4, 2020)."@en,
+        "物理的あるいは概念的対象を共に収集する行為。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Aggregating"@en,
+        "集積"@ja .
+
+tadirah:associate a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:contextualizing ;
+    ns1:definition "Wikidata contributors, \"Q2868277,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2868277&oldid=1256900973 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Associate"@en .
+
+tadirah:associating a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:annotating ;
+    ns1:definition "Wikidata contributors, \"Q98847960,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847960&oldid=1270669574 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Associating"@en .
+
+tadirah:audioAnnotation a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:annotating ;
+    ns1:definition "Wikidata contributors, \"Q98847703,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847703&oldid=1270667708 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Audio Annotation"@en .
+
+tadirah:audioConferencing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:communicating ;
+    ns1:definition "Wikidata contributors, \"Q58199,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q58199&oldid=1228360894 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Audio Conferencing"@en .
+
+tadirah:audioRecording a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:recording ;
+    ns1:definition "mechanical or digital record of a series of audio events (Wikidata contributors, \"Q3302947,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q3302947&oldid=1254901544 (accessed September 4, 2020)."@en,
+        "一連の音声イベントについての機械的、またはデジタル的なレコーディング。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Audio Recording"@en,
+        "録音"@ja .
+
+tadirah:authorshipAttribution a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:stylisticAnalysis ;
+    ns1:inScheme tadirah: ;
+    ns1:note "authorship attribution means the theory and method of determining the author of a given piece of work, e.g. a text by appropriate characterization of stylistic and thematic features."@en,
+        "著者資格とは、文体や主題の特徴を適切に説明することによって、例えばテキストなどの作品の著者を決定する、理論と手法を意味する。"@ja ;
+    ns1:prefLabel "Authorship Attribution"@en,
+        "著者資格（の確定法）"@ja .
+
+tadirah:bitStreamPreservation a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:preserving ;
+    ns1:definition "Wikidata contributors, \"Q98847577,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847577&oldid=1270666738 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Bit Stream Preservation"@en .
+
+tadirah:blogging a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:publishing ;
+    ns1:definition "action of writing articles or maintaining a weblog (Wikidata contributors, \"Q21124681,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q21124681&oldid=1262333720 (accessed September 4, 2020)."@en,
+        "記事を書く、あるいはweb上の記録を整備する行為。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Blogging"@en,
+        "ブログ"@ja .
+
+tadirah:browsing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:discovering ;
+    ns1:definition "exploratory use of an information system (Wikidata contributors, \"Q516508,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q516508&oldid=1169408380 (accessed July 30, 2020)."@en,
+        "情報システムを用いた検索。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Browsing"@en,
+        "ブラウジング(拾い読み)"@ja .
+
+tadirah:coOccurrence a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:contextualizing ;
+    ns1:inScheme tadirah: ;
+    ns1:note "co-occurrence indicates the semantic proximity or an idiomatic expression of text corpora, based on the statistical-linguistic frequency of occurrence of at least two terms in a certain order."@en,
+        "共起とは、ある順序で二語以上が出現するという統計言語学的頻度に基づく、テキストコーパスにおける意味的な近接性や慣用表現のことを示す。"@ja ;
+    ns1:prefLabel "Co-Occurrence"@en,
+        "共起"@ja .
+
+tadirah:collocationAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:structuralAnalysis ;
+    ns1:inScheme tadirah: ;
+    ns1:note "analysis of recurrent co-occurrences of two or more words in language."@en,
+        "言語における二つ以上の単語の再帰する共起の分析。"@ja ;
+    ns1:prefLabel "Collocation Analysis"@en,
+        "共起分析"@ja .
+
+tadirah:comparing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:relationalAnalysis ;
+    ns1:definition "Wikidata contributors, \"Q98845331,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845331&oldid=1270639313 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Comparing"@en .
+
+tadirah:compiling a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:converting ;
+    ns1:definition "translation of code written in a higher-level programming language to a lower-level form (Wikidata contributors, \"Q56248166,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q56248166&oldid=1230644647 (accessed September 4, 2020)."@en,
+        "高水準なプログラミング言語で書かれたコードを低い水準の形式に変換すること。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Compiling"@en,
+        "コンパイル"@ja .
+
+tadirah:conceptualizing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:theorizing ;
+    ns1:inScheme tadirah: ;
+    ns1:note "conceptualizing means the simplification, specification and formalization of an abstract idea, principle or part of the world in mind, speech, text or even in images. This design activity initially focuses on developing a common understanding of projects, topics, objects and elements and their relationship to one another."@en,
+        "概念化とは、思考や言葉、テキスト、画像に含まれる抽象的な概念、原則や部分の単純化、明示化、形式化を意味する。この設計的な活動はプロジェクトやトピック、対象や要素、ならびにそれらの関係性に関する共通理解を構築することを主目的とする。"@ja ;
+    ns1:prefLabel "Conceptualizing"@en,
+        "概念化"@ja .
+
+tadirah:concordance a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:structuralAnalysis ;
+    ns1:definition "list of words or terms in a published book (Wikidata contributors, \"Q839018,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q839018&oldid=1228232199 (accessed July 30, 2020)."@en,
+        "出版された本における単語や術語のリスト。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Concordance"@en,
+        "コンコーダンス"@ja .
+
+tadirah:contrastiveAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:stylisticAnalysis ;
+    ns1:definition "Wikidata contributors, \"Q614959,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q614959&oldid=1118155497 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Contrastive Analysis"@en .
+
+tadirah:cropping a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:editing ;
+    ns1:definition "to remove unwanted outer parts of an image (Wikidata contributors, \"Q785116,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q785116&oldid=1110149634 (accessed September 4, 2020)."@en,
+        "画像の不要な外側部分を取り除く。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Cropping"@en,
+        "切り抜き"@ja .
+
+tadirah:dataIngestion a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:archiving ;
+    ns1:definition "Wikidata contributors, \"Q98847455,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847455&oldid=1270665713 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Data Ingestion"@en .
+
+tadirah:dataMapping a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:modeling ;
+    ns1:definition "process of linking data objects in distinct models (Wikidata contributors, \"Q2330408,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2330408&oldid=1185372641 (accessed September 4, 2020)."@en,
+        "異なるモデル間のデータオブジェクト同士をリンクする作業手順。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Data Mapping"@en,
+        "データマッピング"@ja .
+
+tadirah:dataMining a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:extracting ;
+    ns1:definition "process of discovering patterns in large data sets using computational methods at the intersection of statistics, database systems, or machine learning (Wikidata contributors, \"Q172491,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q172491&oldid=1268899513 (accessed September 4, 2020)."@en,
+        "大規模なデータセットの中から統計やデータベース、機械学習を組み合わせた計算的手法を用いてパターンを発見する作業手順。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Data Mining"@en,
+        "データマイニング"@ja .
+
+tadirah:dataVisualization a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:visualAnalysis ;
+    ns1:definition "creation and study of the visual representation of data (Wikidata contributors, \"Q6504956,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q6504956&oldid=1258700005 (accessed September 4, 2020)."@en,
+        "データの視覚的な表現の作成と研究。"@ja ;
+    ns1:prefLabel "Data Visualization"@en,
+        """データの視覚化
+（データビジュアライゼーション）"""@ja .
+
+tadirah:debugging a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:dataCleansing ;
+    ns1:definition "the process of finding and resolving defects or problems within a computer program that prevent correct operation of computer software or a system (Wikidata contributors, \"Q845566,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q845566&oldid=1240856516 (accessed July 30, 2020)."@en,
+        "コンピュータソフトウェアやシステムの正常な動作を阻む、コンピュータプログラム内部の欠陥や問題を、発見して解決する作業手順。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Debugging"@en,
+        "デバッグ"@ja .
+
+tadirah:defining a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:theorizing ;
+    ns1:definition "statement that attaches a meaning to a term (Wikidata contributors, \"Q101072,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q101072&oldid=1267587775 (accessed September 4, 2020)."@en,
+        "ある用語に意味を付ける文。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Defining"@en,
+        "定義"@ja .
+
+tadirah:description a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:preserving ;
+    ns1:definition "text for clarification; one of four rhetorical modes (Wikidata contributors, \"Q1200750,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1200750&oldid=1266102146 (accessed September 5, 2020)."@en,
+        "説明のためのテキスト。四つの修辞法のひとつ。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Description"@en,
+        "記述"@ja .
+
+tadirah:diagramming a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:designing ;
+    ns1:definition "Wikidata contributors, \"Q98845265,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845265&oldid=1270638355 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Diagramming"@en .
+
+tadirah:digitalObjectIdentifier a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:altLabel "DOI"@en ;
+    ns1:broader tadirah:identifying ;
+    ns1:definition "character string used as a permanent identifier for a digital object, in a format controlled by the International DOI Foundation (Wikidata contributors, \"Q25670,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q25670&oldid=1280060100 (accessed September 24, 2020)."@en,
+        "DOI(Digital Object Identifer, デジタルオブジェクト識別子)財団によって管理されている、デジタルオブジェクトに恒久的な識別子として用いられる文字列。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Digital Object Identifier"@en,
+        "DOI (デジタルオブジェクト識別子)"@ja .
+
+tadirah:digitalPublishing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:publishing ;
+    ns1:definition "Wikidata contributors, \"Q1224844,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1224844&oldid=573797951 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Digital Publishing"@en .
+
+tadirah:discourseAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:contentAnalysis ;
+    ns1:definition "generic term for the analysis of social, language policy or historiographical discourse phenomena (Wikidata contributors, \"Q1129466,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1129466&oldid=1269534863 (accessed September 4, 2020)."@en,
+        "社会、言語政策や歴史学上の言説現象に関わる分析の総称。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Discourse Analysis"@en,
+        "言説分析"@ja .
+
+tadirah:discussing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:collaborating ;
+    ns1:definition "Wikidata contributors, \"Q98847226,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847226&oldid=1270663604 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Discussing"@en .
+
+tadirah:distanceMeasures a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:stylisticAnalysis ;
+    ns1:definition "definitions for distance between two objects or events in the universe (Wikidata contributors, \"Q1344778,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1344778&oldid=1172224550 (accessed July 30, 2020)."@en,
+        "世界における二つの物体あるいはイベントの間の距離を示す定義。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Distance Measures"@en,
+        "距離尺度"@ja .
+
+tadirah:drawing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:designing ;
+    ns1:definition "visual artwork in two-dimensional medium (Wikidata contributors, \"Q93184,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q93184&oldid=1269736568 (accessed September 4, 2020)."@en,
+        "二次元メディアの視覚芸術作品。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Drawing"@en,
+        "図画"@ja .
+
+tadirah:eMailing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:communicating ;
+    ns1:definition "Wikidata contributors, \"Q386274,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q386274&oldid=855343099 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "E-mailing"@en .
+
+tadirah:emulation a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:preserving ;
+    ns1:definition "system that emulates a real system such that the behavior closely resembles the behavior of the real system (Wikidata contributors, \"Q202871,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q202871&oldid=1159572399 (accessed July 30, 2020)."@en,
+        "ある現実のシステムを模倣するシステム。それによりそのシステムの動作は模倣されたシステムの動作に極めて類似したものとなる。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Emulation"@en,
+        "エミュレーション"@ja .
+
+tadirah:explanation a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:theorizing ;
+    ns1:definition "set of statements constructed to describe a set of facts (Wikidata contributors, \"Q7958,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7958&oldid=1255429522 (accessed September 4, 2020)."@en,
+        "一連の事実を記述するために組み立てられた一連の表現。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Explanation"@en,
+        "説明"@ja .
+
+tadirah:exploration a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:discovering ;
+    ns1:definition "act of searching or traveling around a terrain for the purpose of discovery (Wikidata contributors, \"Q6502154,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q6502154&oldid=1238428839 (accessed September 4, 2020)."@en,
+        "発見のためにある地域の方々を調査もしくは旅行する行為。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Exploration"@en,
+        "探検"@ja .
+
+tadirah:expressingOpinion a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:commenting ;
+    ns1:inScheme tadirah: ;
+    ns1:note "expressing opinion refers to the activity of conveying one's feelings and/or thoughts about something to someone in writing or orally. Hereby existing opinions can be agreed or disagreed with, thus stimulating a discourse."@en,
+        "意見表明とは、誰かに対して何かについて、感情や考えを文書や口頭で伝える行為を指す。それに伴い、既存の意見は賛同されるか反対されるかすることになり、議論が喚起される。"@ja ;
+    ns1:prefLabel "Expressing Opinion"@en,
+        "意見表明"@ja .
+
+tadirah:finding a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:organizing ;
+    ns1:definition "Wikidata contributors, \"Q28195064,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q28195064&oldid=559043572 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Finding"@en .
+
+tadirah:formatting a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:editing ;
+    ns1:definition "Wikidata contributors, \"Q98848248,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848248&oldid=1270671201 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Formatting"@en .
+
+tadirah:gamification a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:crowdsourcing ;
+    ns1:definition "the use of game thinking and game mechanics in non-game contexts to engage users in solving problems (Wikidata contributors, \"Q1067402,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1067402&oldid=1233709490 (accessed July 30, 2020)."@en,
+        "ユーザを問題の解決に導くために非ゲーム的な文脈においてゲーム思考やゲーム手順を用いること。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Gamification"@en,
+        "ゲーム化"@ja .
+
+tadirah:genreRecognition a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:stylisticAnalysis ;
+    ns1:inScheme tadirah: ;
+    ns1:note "genre recognition refers to methods and technologies for analyzing pieces of art (e.g. literature, music, film), extracting and classifying features to associate them with different genres automatically or semi-automatically."@en,
+        "ジャンル認識は、芸術作品（例：文学、音楽、映画）を、種々のジャンルに自動的、半自動的に関連付けるために分析し、その特徴を抽出、分類するための手法と技術のことを指す。"@ja ;
+    ns1:prefLabel "Genre Recognition"@en,
+        "ジャンル認識"@ja .
+
+tadirah:graphicsProgramming a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:programming ;
+    ns1:definition "Wikidata contributors, \"Q98845304,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845304&oldid=1270638847 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Graphics Programming"@en .
+
+tadirah:highlighting a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:annotating ;
+    ns1:definition "Wikidata contributors, \"Q98847905,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847905&oldid=1270669260 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Highlighting"@en .
+
+tadirah:identifier a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:identifying ;
+    ns1:definition "name that identifies either a unique object or a unique class of objects (Wikidata contributors, \"Q853614,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q853614&oldid=1265951822 (accessed September 4, 2020)."@en,
+        "特定のオブジェクトもしくはクラスを識別する名前。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Identifier"@en,
+        "識別子"@ja .
+
+tadirah:improving a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:dataCleansing ;
+    ns1:definition "process of a thing moving from one state to another that is considered to be better, usually through some action intended to bring about that better state (Wikidata contributors, \"Q21255975,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q21255975&oldid=1264546813 (accessed September 4, 2020)."@en,
+        "ある状態から、より良いと考えられる他の状態へと移行する作業手順。一般的には、その移行はより良い状態にしようという意図を持った行為によってなされる。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Improving"@en,
+        "改善"@ja .
+
+tadirah:informationMining a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:extracting ;
+    ns1:definition "Wikidata contributors, \"Q98847165,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847165&oldid=1270662707 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Information Mining"@en .
+
+tadirah:instantMessaging a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:communicating ;
+    ns1:definition "form of communication over the Internet (Wikidata contributors, \"Q58199,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q58199&oldid=1228360894 (accessed September 4, 2020)."@en,
+        "インターネット上でのコミュニケーションの一形態。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Instant Messaging"@en,
+        "インスタントメッセージによるコミュニケーション"@ja .
+
+tadirah:integrating a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:contextualizing ;
+    ns1:definition "Wikidata contributors, \"Q98847635,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847635&oldid=1270667187 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Integrating"@en .
+
+tadirah:knowledgeDiscovery a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:extracting ;
+    ns1:definition "Wikidata contributors, \"Q98847144,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847144&oldid=1270662396 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Knowledge Discovery"@en .
+
+tadirah:knowledgeExtraction a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:extracting ;
+    ns1:definition "creation of knowledge from structured and unstructured sources (Wikidata contributors, \"Q1582085,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1582085&oldid=1235011290 (accessed September 4, 2020)."@en,
+        "構造化及び非構造化情報源に基づく知識構築。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Knowledge Extraction"@en,
+        "知識抽出"@ja .
+
+tadirah:lemmatizing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:converting ;
+    ns1:definition "Wikidata contributors, \"Q2554325,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2554325&oldid=1114054839 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Lemmatizing"@en .
+
+tadirah:lettering a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:writing ;
+    ns1:definition "creation of hand-drawn letters in graphic design and typography (Wikidata contributors, \"Q5538738,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5538738&oldid=1222349737 (accessed September 4, 2020)."@en,
+        "グラフィックデザインやタイポグラフィにおいて、手書き文字フォントを作成すること。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Lettering"@en,
+        "レタリング"@ja .
+
+tadirah:managing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:organizing ;
+    ns1:definition "influence or authority over something; process of directing the operation of a device, system, or process (Wikidata contributors, \"Q29017603,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q29017603&oldid=1238420285 (accessed September 4, 2020)."@en,
+        "何らかの事物に対する影響力あるいは権限。デバイスやシステム、情報処理の動作を管理する作業手順。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Managing"@en,
+        "レギュレーション"@ja .
+
+tadirah:merging a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:editing ;
+    ns1:definition "Wikidata contributors, \"Q98848337,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848337&oldid=1270671768 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Merging"@en .
+
+tadirah:microblogging a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:communicating ;
+    ns1:definition "broadcast medium (Wikidata contributors, \"Q92438,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q92438&oldid=1237465325 (accessed September 4, 2020)."@en,
+        "情報拡散媒体。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Microblogging"@en,
+        "ミニブログ"@ja .
+
+tadirah:migration a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:preserving ;
+    ns1:definition "process of selecting, preparing, extracting, and transforming data and permanently transferring it from one computer storage system to another (Wikidata contributors, \"Q1932543,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1932543&oldid=1212596075 (accessed July 30, 2020)."@en,
+        "データを選択、使える状態にして、抽出、変形し、一つのストレージから別のストレージに恒久的に移す作業手順。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Migration"@en,
+        "（データ）移行"@ja .
+
+tadirah:mindMapping a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:visualAnalysis ;
+    ns1:definition "Wikidata contributors, \"Q98846887,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846887&oldid=1270658470 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Mind Mapping"@en .
+
+tadirah:modifying a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:editing ;
+    ns1:definition "Wikidata contributors, \"Q98848358,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848358&oldid=1270671956 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Modifying"@en .
+
+tadirah:namingConvention a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:identifying ;
+    ns1:definition "set of rules for naming variables, types, functions, etc. in programming (Wikidata contributors, \"Q461984,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q461984&oldid=1221175218 (accessed September 4, 2020)."@en,
+        "プログラミングにおける変数、型、関数などの一連の命名規則。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Naming Convention"@en,
+        "命名規則"@ja .
+
+tadirah:naturalLanguageProcessing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:altLabel "NLP"@en ;
+    ns1:broader tadirah:converting ;
+    ns1:definition "field of computer science and linguistics (Wikidata contributors, \"Q30642,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q30642&oldid=1257963465 (accessed September 4, 2020)."@en,
+        "コンピュータサイエンスと言語学の領域。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Natural Language Processing"@en,
+        "自然言語処理"@ja .
+
+tadirah:opticalCharacterRecognition a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:altLabel "OCR"@en ;
+    ns1:broader tadirah:dataRecognition ;
+    ns1:definition "Wikidata contributors, \"Q167555,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q167555&oldid=1257963956 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Optical Character Recognition"@en .
+
+tadirah:opticalMusicRecognition a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:altLabel "OMR"@en ;
+    ns1:broader tadirah:dataRecognition ;
+    ns1:definition "Wikidata contributors, \"Q1243229,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1243229&oldid=1126910841 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Optical Music Recognition"@en .
+
+tadirah:parsing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:converting ;
+    ns1:definition "process of analyzing a string of symbols, either in natural language, computer languages or data structures, conforming to the rules of a formal grammar (Wikidata contributors, \"Q194152,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q194152&oldid=1264510115 (accessed September 4, 2020)."@en,
+        "自然言語、コンピュータ言語、データ構造のいずれかの記号の文字列を、形式文法規則に準拠して解析する作業手順。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Parsing"@en,
+        "構文解析"@ja .
+
+tadirah:patternRecognition a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:relationalAnalysis ;
+    ns1:definition "branch of machine learning (Wikidata contributors, \"Q378859,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q378859&oldid=1234461159 (accessed July 30, 2020)."@en,
+        "機械学習分野。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Pattern Recognition"@en,
+        "パターン認識"@ja .
+
+tadirah:persistentIdentifier a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:altLabel "PID"@en ;
+    ns1:broader tadirah:identifying ;
+    ns1:definition "long-lasting digital name (Wikidata contributors, \"Q420330,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q420330&oldid=1268700365 (accessed September 4, 2020)."@en,
+        "長期的に維持されるデジタルな名称。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Persistent Identifier"@en,
+        "永続的識別子"@ja .
+
+tadirah:photographing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:imaging ;
+    ns1:definition "art, science, and practice of creating durable images by recording light or other electromagnetic radiation (Wikidata contributors, \"Q11633,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q11633&oldid=1237597469 (accessed July 30, 2020)."@en,
+        "光その他の電磁気をレコーディングすることによって、耐久性のある画像を作成するための技術、科学、及び実践。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Photographing"@en,
+        "撮影"@ja .
+
+tadirah:plotting a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:visualAnalysis ;
+    ns1:definition "Wikidata contributors, \"Q98846923,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846923&oldid=1270658999 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Plotting"@en .
+
+tadirah:posting a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:sharing ;
+    ns1:definition "content on a social media platform, a forum or a blog (Wikidata contributors, \"Q1453674,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1453674&oldid=1178826153 (accessed September 4, 2020)."@en,
+        "ソーシャルメディアプラットフォーム、フォーラム、ブログ上のコンテンツ。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Posting"@en,
+        "投稿"@ja .
+
+tadirah:preprocessing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:dataRecognition ;
+    ns1:definition "Wikidata contributors, \"Q28838080,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q28838080&oldid=941780726 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Preprocessing"@en .
+
+tadirah:preservationMetadata a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:preserving ;
+    ns1:definition "information that supports and documents acts of preservation on digital materials (Wikidata contributors, \"Q7241044,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7241044&oldid=1202709309 (accessed July 30, 2020)."@en,
+        "電子資料を保存する行為を支援し、記録する情報。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Preservation Metadata"@en,
+        "保存用メタデータ"@ja .
+
+tadirah:pseudoCoding a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:programming ;
+    ns1:inScheme tadirah: ;
+    ns1:note "pseudo coding refers to the basic process of breaking complex problems into modular algorithms and logical procedures described in plain text. It primarily aims at human readability."@en,
+        "擬似コードとは、複雑な問題をプレーンテキストに記述される、部品的アルゴリズムと論理上の手続きに分割する基本的な作業手順のことを指す。それは第一義的には人間にとっての可読性を目的とする。"@ja ;
+    ns1:prefLabel "Pseudo Coding"@en,
+        "擬似コード"@ja .
+
+tadirah:querying a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:discovering ;
+    ns1:definition "Wikidata contributors, \"Q98847088,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847088&oldid=1270661541 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Querying"@en .
+
+tadirah:reasoning a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:theorizing ;
+    ns1:definition "type of thought (Wikidata contributors, \"Q1156402,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1156402&oldid=1265618386 (accessed September 4, 2020)."@en,
+        "思考の一種。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Reasoning"@en,
+        "論理的思考"@ja .
+
+tadirah:removing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:dataCleansing ;
+    ns1:definition "dissociation of the original object with its old part; moving an object on distance of disconnect; process of moving, or the fact of being removed (Wikidata contributors, \"Q23009442,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q23009442&oldid=1268618349 (accessed September 4, 2020)."@en,
+        "オリジナルの対象物とその古い部分を分離すること。対象物を切断という距離に移すこと。移動という作業手順、もしくは除去されているという事実。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Removing"@en,
+        "除去"@ja .
+
+tadirah:replication a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:preserving ;
+    ns1:definition "sharing information to ensure consistency in computing (Wikidata contributors, \"Q1332873,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1332873&oldid=1221552165 (accessed July 30, 2020)."@en,
+        "コンピュータ処理内で同質性を保証するために情報を共有しておくこと。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Replication"@en,
+        "レプリケーション"@ja .
+
+tadirah:rhetoricalAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:stylisticAnalysis ;
+    ns1:definition "Wikidata contributors, \"Q98845926,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845926&oldid=1270647161 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Rhetorical Analysis"@en .
+
+tadirah:screencast a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:recording ;
+    ns1:definition "digital recording of computer screen output (Wikidata contributors, \"Q1365447,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1365447&oldid=1234996090 (accessed September 4, 2020)."@en,
+        "コンピュータのスクリーン出力を電子的にレコーディングすること。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Screencast"@en,
+        "スクリーンキャスト"@ja .
+
+tadirah:searching a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:discovering ;
+    ns1:definition "search for target data from a set of data (Wikidata contributors, \"Q11540953,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q11540953&oldid=1207018344 (accessed July 30, 2020)."@en,
+        "データセットから目的のデータを探すこと。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Searching"@en,
+        "検索"@ja .
+
+tadirah:segmenting a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:annotating ;
+    ns1:inScheme tadirah: ;
+    ns1:note "segmenting refers to a management process or method of dividing something into smaller homogeneous parts/units to gain better understanding about an object or topic. Segmentation can range from demographic, geographical, ethical, behavioral, visual, linguistic, musical to other areas and can be multi-dimensional."@en,
+        "分節化は、対象となる物やトピックについてより良い理解を得るために、何かを、より小さな等質的部分、単位に分割していく作業の管理過程や手法を指す。分節化は、人口統計学、地理学、倫理学、行動学、視覚研究、言語学、音楽など、様々な領域で、また多次元に、行い得るものである。"@ja ;
+    ns1:prefLabel "Segmenting"@en,
+        "分節化"@ja .
+
+tadirah:semantification a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:contextualizing ;
+    ns1:inScheme tadirah: ;
+    ns1:note "semantification refers to the process of identifying and associating explicit information with each other by facing challenges such as ambiguity and formalization of implicit knowledge to improve access, automatically data analysis and reuse."@en,
+        "意味づけとは、アクセスの向上、データの自動分析や再利用などを目的として、暗黙知の曖昧性や形式化のような課題に対して、明示的な情報を互いに識別し、関連付ける作業手順を指す。"@ja ;
+    ns1:prefLabel "Semantification"@en,
+        "意味づけ"@ja .
+
+tadirah:sentimentAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:contentAnalysis ;
+    ns1:definition "use of natural language processing, text analysis and computational linguistics to identify and extract subjective information in source materials (Wikidata contributors, \"Q2271421,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2271421&oldid=1170108641 (accessed July 30, 2020)."@en,
+        "自然言語処理、テキスト解析、計算言語学を用いて、情報源の主観的な情報を識別、抽出すること。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Sentiment Analysis"@en,
+        "感情分析"@ja .
+
+tadirah:sequenceAlignment a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:relationalAnalysis ;
+    ns1:definition "process in bioinformatics that aligns (identifies equivalent sites within) molecular sequences (Wikidata contributors, \"Q827246,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q827246&oldid=1228152501 (accessed July 30, 2020)."@en,
+        "分子配列中の等価部位を同定するバイオインフォマティクスにおけるプロセス 。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Sequence Alignment"@en,
+        "配列調整？"@ja .
+
+tadirah:socialNetworking a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:collaborating ;
+    ns1:definition "The process of building one's group of personal or business contacts (Wikidata contributors, \"Q19368491,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q19368491&oldid=1132647061 (accessed September 4, 2020)."@en,
+        "個人的またはビジネス上の連絡先のグループを構築する作業手順。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Social Networking"@en,
+        "ソーシャルネットワーキング"@ja .
+
+tadirah:speechRecognizing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:transcribing ;
+    ns1:definition "Wikidata contributors, \"Q98846987,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846987&oldid=1270659968 (accessed September 4, 2020)."@en ;
+    ns1:prefLabel "Speech Recognizing"@en .
+
+tadirah:subtracting a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:editing ;
+    ns1:definition "Wikidata contributors, \"Q98848418,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848418&oldid=1270672456 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Subtracting"@en .
+
+tadirah:supplementing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:editing ;
+    ns1:definition "Wikidata contributors, \"Q98848097,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848097&oldid=1270670374 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Supplementing"@en .
+
+tadirah:teaching a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:disseminating ;
+    ns1:inScheme tadirah: ;
+    ns1:note "teaching refers to the activity of actively imparting knowledge, competences or skills."@en,
+        "指導とは、知識、能力、技術を能動的に伝える活動を指す。"@ja ;
+    ns1:prefLabel "Teaching"@en,
+        "指導"@ja .
+
+tadirah:textCategorization a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:stylisticAnalysis ;
+    ns1:definition "Wikidata contributors, \"Q57771142,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q57771142&oldid=1072020823 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Text Categorization"@en .
+
+tadirah:textMessaging a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:communicating ;
+    ns1:definition "act of typing and sending a brief, digital message (Wikidata contributors, \"Q17166101,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q17166101&oldid=1266645836 (accessed September 4, 2020)."@en,
+        "短いデジタルメッセージを打ち込み送る行為。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Text Messaging"@en,
+        "テキストメッセージ"@ja .
+
+tadirah:topicModeling a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:contentAnalysis ;
+    ns1:definition "set of techniques in computational linguistics and related fields (Wikidata contributors, \"Q96468792,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q96468792&oldid=1211601100 (accessed July 30, 2020)."@en,
+        "コンピュータ言語やそれに関する領域における一連の技術。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Topic Modeling"@en,
+        "トピックモデリング"@ja .
+
+tadirah:transcoding a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:converting ;
+    ns1:definition "direct digital-to-digital conversion of one encoding to another (Wikidata contributors, \"Q1888734,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1888734&oldid=1225865439 (accessed September 4, 2020)."@en,
+        "一つのエンコーディングから他のエンコーディングへの直接的なデジタル－デジタル変換。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Transcoding"@en,
+        "トランスコーディング"@ja .
+
+tadirah:transformation a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:modeling ;
+    ns1:definition "process involving change into a qualitatively different form (Wikidata contributors, \"Q65757353,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q65757353&oldid=1268189392 (accessed September 4, 2020)."@en,
+        "性質上異なる形式への変更を含む過程。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Transformation"@en,
+        "トランスフォーメーション"@ja .
+
+tadirah:translating a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:creating ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=18&/translation> ;
+    ns1:inScheme tadirah: ;
+    ns1:note "translating involves generating a new linguistic object based on a natural languages source document but written in a different language than the source."@en,
+        "翻訳とは、ある自然言語の元資料に基づいて（元の言語とは異なる）新しい言語的オブジェクトを生成することを意味する。"@ja ;
+    ns1:prefLabel "Übersetzen"@de,
+        "Translating"@en,
+        "Traducción"@es,
+        "Traduction"@fr,
+        "Traduzione"@it,
+        "翻訳"@ja,
+        "Tradução"@pt,
+        "Превођење"@sr .
+
+tadirah:treeTagging a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:structuralAnalysis ;
+    ns1:definition "Wikidata contributors, \"Q98845582,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845582&oldid=1270642307 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Tree-Tagging"@en .
+
+tadirah:tweet a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:publishing ;
+    ns1:definition "individual post on the Twitter microblogging service (Wikidata contributors, \"Q56119332,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q56119332&oldid=1249804975 (accessed September 4, 2020)."@en,
+        "マイクロサービスTwitter上の個々の投稿。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Tweet"@en,
+        "ツイート"@ja .
+
+tadirah:uniformResourceIdentifier a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:altLabel "URI"@en ;
+    ns1:broader tadirah:identifying ;
+    ns1:definition "string of characters used to identify a name of a resource on a network such as the internet (Wikidata contributors, \"Q61694,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q61694&oldid=1253478595 (accessed September 4, 2020)."@en,
+        "インターネットのようなネットワーク上で情報源の名前を識別するために使われる文字列。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Uniform Resource Identifier"@en,
+        "統一資源識別子"@ja .
+
+tadirah:upload a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:sharing ;
+    ns1:definition "sending of data from a local system to a remote system (Wikidata contributors, \"Q7126699,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7126699&oldid=1267188395 (accessed September 4, 2020)."@en,
+        "ローカル環境からリモート環境にデータを送信すること。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Upload"@en,
+        "アップロード"@ja .
+
+tadirah:userGeneratedContent a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:crowdsourcing ;
+    ns1:definition "online content created by users (Wikidata contributors, \"Q579716,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q579716&oldid=1244820573 (accessed September 4, 2020)."@en,
+        "ユーザによって作成されたオンラインのコンテンツ。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "User Generated Content"@en,
+        "ユーザ生成コンテンツ"@ja .
+
+tadirah:versioning a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:preserving ;
+    ns1:inScheme tadirah: ;
+    ns1:note "versioning comprises the management of different but improved and optimized models, releases or parts of a product or work (e.g. document, websites or software) by archiving, referencing and documenting of the changes in these different versions."@en,
+        "バージョン管理は、異なるが、改善され、最適化されたモデル、リリース、または製品や作品の一部（例：ドキュメント、ウェブサイト、ソフトウェア）を、異なるバージョンの変更点をアーカイブ、参照、文書化することで管理することから成り立っている。"@ja ;
+    ns1:prefLabel "Versioning"@en,
+        "バージョン管理"@ja .
+
+tadirah:videoCapture a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:recording ;
+    ns1:definition "Wikidata contributors, \"Q2778015,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2778015&oldid=1112440881 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Video Capture"@en .
+
+tadirah:videoConference a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:communicating ;
+    ns1:definition "type of conference (Wikidata contributors, \"Q238354,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q238354&oldid=1262194128 (accessed September 4, 2020)."@en,
+        "会議のタイプ。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Video Conference"@en,
+        "ビデオ会議"@ja .
+
+tadirah:videoEditing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:editing ;
+    ns1:definition "editing live television and video production (Wikidata contributors, \"Q1154312,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1154312&oldid=1149134104 (accessed September 4, 2020)."@en,
+        "生中継のテレビと動画製作の編集。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Video Editing"@en,
+        "ビデオ編集"@ja .
+
+tadirah:visualAnnotation a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:annotating ;
+    ns1:definition "Wikidata contributors, \"Q98847784,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847784&oldid=1270668347 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Visual Annotation"@en .
+
+tadirah:webCrawling a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:gathering ;
+    ns1:definition "systematic access of resources across the web (Wikidata contributors, \"Q61466324,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q61466324&oldid=1232626072 (accessed July 30, 2020)."@en,
+        "インターネット上でのリソースへの体系的なアクセス。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Web Crawling"@en,
+        "ウェブクローリング"@ja .
+
+tadirah:webDevelopment a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:creating ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=19&/web-development> ;
+    ns1:inScheme tadirah: ;
+    ns1:note "web development refers to the creation of websites by writing HTML/CSS, or other scripting languages, and building or configuring  a platform, content management system or framework such as Drupal, WordPress, Bootstrap, or Omeka, but also includes creating digital assets for browser-based applications."@en,
+        "ウェブ開発とは、HTML、CSSなどのスクリプト言語を記述し、DrupalやWordPress、Bootstrap、Omekaのようなプラットフォームやコンテンツ管理システムやフレームワークを構築、設定してWebサイトを作成することを指すが、ブラウザベースのアプリケーション用のデジタルアセットを作成することも含まれる。"@ja ;
+    ns1:prefLabel "Webentwicklung"@de,
+        "Web Development"@en,
+        "Desarrollo web"@es,
+        "Développement Web"@fr,
+        "Sviluppo Web"@it,
+        "ウェブ開発"@ja,
+        "Desenvolvimento web"@pt,
+        "Развој мреже-Веб програмирање"@sr .
+
+tadirah:wireframing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:designing ;
+    ns1:definition "Wikidata contributors, \"Q98845203,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845203&oldid=1270637566 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Wireframing"@en .
+
+tadirah:cataloging a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:archiving,
+        tadirah:gathering ;
+    ns1:definition "process of listing information resources for inclusion in a database (Wikidata contributors, \"Q3535655,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q3535655&oldid=1256785269 (accessed September 4, 2020)."@en,
+        "データベースに情報資源を入力するためにリストする作業手順。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Cataloging"@en,
+        "カタロギング（目録作成）"@ja .
+
+tadirah:clusterAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:relationalAnalysis,
+        tadirah:stylisticAnalysis ;
+    ns1:definition "task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters) (Wikidata contributors, \"Q622825,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q622825&oldid=1212288392 (accessed July 30, 2020)."@en,
+        "一連の対象をグループ化するタスク。その方法は、同じグループにある対象群（クラスタ）が、別のあるグループ（クラスタ）よりも（ある意味で、あるいはもう一つの）に相互により類似している、というものである。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Cluster Analysis"@en,
+        "クラスタ分析"@ja .
+
+tadirah:collating a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:gathering,
+        tadirah:relationalAnalysis ;
+    ns1:inScheme tadirah: ;
+    ns1:note "collating describes the activity of comparing two or more versions of written or spoken natural language data by aligning them into alphabetical or numerical order to identify similarities and differences. "@en,
+        "照合とは、二つ以上の自然言語で書かれたり話されたりしたバージョンを、類似や相違を識別するためにアルファベット順か番号順で並べることによって比較する活動を意味する。"@ja ;
+    ns1:prefLabel "Collating"@en,
+        "照合"@ja .
+
+tadirah:collecting a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:archiving,
+        tadirah:gathering ;
+    ns1:definition "purposefully gathering items (Wikidata contributors, \"Q208165,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q208165&oldid=1249560517 (accessed September 4, 2020)."@en,
+        "アイテムをなんらの目的に沿って集約すること。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Collecting"@en,
+        "収集"@ja .
+
+tadirah:correcting a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:dataCleansing,
+        tadirah:editing ;
+    ns1:definition "Wikidata contributors, \"Q98848041,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848041&oldid=1270670016 (accessed September 4, 2020)."@en ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Correcting"@en .
+
+tadirah:georeferencing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:annotating,
+        tadirah:spatialAnalysis ;
+    ns1:definition "identification of something to locations in physical space (Wikidata contributors, \"Q772007,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q772007&oldid=1240907550 (accessed September 4, 2020)."@en,
+        "何かを物理的な空間の位置に合わせて識別すること。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Georeferencing"@en,
+        "ジオリファレンス"@ja .
+
+tadirah:informationRetrieval a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:contentAnalysis,
+        tadirah:discovering ;
+    ns1:definition "activity of obtaining information resources relevant to an information need from a collection of information resources (Wikidata contributors, \"Q816826,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q816826&oldid=1228359828 (accessed July 30, 2020)."@en,
+        "情報資源群の中から、必要とされるある情報に関連した情報コレクションを得る行為。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Information Retrieval"@en,
+        "情報検索"@ja .
+
+tadirah:linkedOpenData a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:altLabel "LOD"@en ;
+    ns1:broader tadirah:annotating,
+        tadirah:publishing ;
+    ns1:definition "linked data available under an open license (Wikidata contributors, \"Q18692990,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q18692990&oldid=1229182996 (accessed July 30, 2020)."@en,
+        "オープンライセンスで入手可能なリンクドデータ。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Linked Open Data"@en,
+        "LOD (Linked Open Data, リンクドオープンデータ)"@ja .
+
+tadirah:mapping a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:contextualizing,
+        tadirah:visualAnalysis ;
+    ns1:definition "binary relation which is left-total (defined on all its input set) (Wikidata contributors, \"Q370502,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q370502&oldid=1183603611 (accessed September 4, 2020)."@en,
+        "左全域的（入力の集合によって定義される）な二項関係。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Mapping"@en,
+        "マッピング（写像）"@ja .
+
+tadirah:posTagging a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:altLabel "Part-of-Speech-Tagging"@en ;
+    ns1:broader tadirah:annotating,
+        tadirah:structuralAnalysis ;
+    ns1:definition "the process of identifying the grammatical type of words in a text (Wikidata contributors, \"Q1271424,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1271424&oldid=1167811400 (accessed July 30, 2020)."@en,
+        "あるテキストにおける単語の文法的タイプを同定する作業手順。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "POS-Tagging"@en,
+        "品詞タグ付け"@ja .
+
+tadirah:principalComponentAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:relationalAnalysis,
+        tadirah:stylisticAnalysis ;
+    ns1:definition "conversion of a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components (Wikidata contributors, \"Q2873,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2873&oldid=1237203694 (accessed July 30, 2020)."@en,
+        "相関する可能性のある変数を観測した集合を、主成分と呼ばれる線形には相関しない変数の値の集合に変換すること。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Principal Component Analysis"@en,
+        "主成分分析"@ja .
+
+tadirah:scanning a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:archiving,
+        tadirah:imaging ;
+    ns1:definition "process of creating digital images with a scanner (Wikidata contributors, \"Q59155052,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q59155052&oldid=1184040702 (accessed July 30, 2020)."@en,
+        "スキャナを用いてデジタル画像を生成する作業手順。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Scanning"@en,
+        "スキャニング"@ja .
+
+tadirah:stylometry a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:relationalAnalysis,
+        tadirah:stylisticAnalysis ;
+    ns1:inScheme tadirah: ;
+    ns1:note "stylometry refers to research methods and techniques for analyzing, characterizing and comparing writing styles to determine authorship via statistical probability. A typical stylometric approach is based on the observation the frequency of occurrence of individual words, length of sentences, complexity of sentences, frequent words, spelling errors, etc."@en,
+        "計量文献学とは、主として統計量を通して著者を特定することを目的として、文体を分析、描写、対照する研究手法及び技術を指す。典型的な計量文献学的手法として、特定の単語の出現頻度、文の長さや複雑さ、頻出語、綴りの誤りなどの観察に基づくものが挙げられる。"@ja ;
+    ns1:prefLabel "Stylometry"@en,
+        "文体統計学"@ja .
+
+tadirah:tagging a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:annotating,
+        tadirah:contentAnalysis ;
+    ns1:definition "the act of labelling a piece of data or content wth a short string to express some metadata (Wikidata contributors, \"Q43401994,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q43401994&oldid=1198888121 (accessed September 4, 2020)"@en,
+        "メタデータを表現するために短い文字列を伴うデータやコンテンツの一つをラベリングする行為。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Tagging"@en,
+        "タグ付け"@ja .
+
+tadirah:transcribing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:capturing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=14&/transcription> ;
+    ns1:definition "transcribing describes  the activity of creating a representation of a manuscript or of audio or video recordings. The representation is generally textual for the verbal aspects of recordings and structured for example by speech turns. It can also contain multimodal information like gestures or events and multimedia information like time synchronization and relation to media files."@en,
+        "書き起こし（翻刻）とは、手稿や録音、録画などの再現物を作成する行為を意味する。再現物は一般的に記録に関する言語的観点のテキストであり、例えば発言の順序によって構造化されている。また、ジェスチャやイベント等のマルチモーダルな情報、時刻同期やメディアファイル関連などのマルチメディア的情報も含み得る。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:speechRecognizing ;
+    ns1:prefLabel "Transkription"@de,
+        "Transcribing"@en,
+        "Transcripción"@es,
+        "Transcription"@fr,
+        "Trascrizione"@it,
+        "書き起こし（翻刻）"@ja,
+        "Transcrição"@pt,
+        "Транскрипција"@sr .
+
+tadirah:webScraping a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:archiving,
+        tadirah:gathering ;
+    ns1:definition "data scraping used for extracting data from websites (Wikidata contributors, \"Q665452,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q665452&oldid=1203621822 (accessed September 4, 2020)."@en,
+        "ウェブサイトからデータを抽出するために使われるデータスクレーピング。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Web Scraping"@en,
+        "ウェブスクレーピング"@ja .
+
+tadirah:writing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:creating ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=20&/writing> ;
+    ns1:definition "writing designates the activity of creating new texts (instead of capturing existing text). Here, it primarily concerns research papers and reports, but may include other textually-oriented objects."@en,
+        "ライティングは、（既存のテキストをキャプチャするのではなく）新しいテキストを作成する活動を意味する。ここでは、主に研究論文や報告書に関係するが、その他のテキスト指向のオブジェクトを含むこともある。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:lettering ;
+    ns1:prefLabel "Schreiben"@de,
+        "Writing"@en,
+        "Escritura"@es,
+        "Écriture"@fr,
+        "Scrittura"@it,
+        "ライティング"@ja,
+        "Escrita"@pt,
+        "Писање"@sr .
+
+tadirah:commenting a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:disseminating ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=44&/commenting> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:contextualizing,
+        tadirah:expressingOpinion ;
+    ns1:note "commenting is the activity of adding information to a piece of data, usually in a way that separates the data to which the comment is attached and the comment. It usually serves to express some opinion, to add contextual information, or to engage in communication or collaboration with others about the object commented on."@en,
+        "コメントとは、データの一部に情報を付記する活動である。通常は、コメントが付与されるデータとコメントを分離する方法が採られる。通常は、何らかの意見を表明したり、文脈情報を追加したり、コメントの対象についての他者とのコミュニケーションや協働作業に従事するのに用いられる。"@ja ;
+    ns1:prefLabel "Kommentieren"@de,
+        "Commenting"@en,
+        "Comentario"@es,
+        "Commentaire"@fr,
+        "Commento"@it,
+        "コメント"@ja,
+        "Comentário"@pt,
+        "Стављање коментара"@sr .
+
+tadirah:crowdsourcing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:disseminating ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=46&/crowdsourcing> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:gamification,
+        tadirah:userGeneratedContent ;
+    ns1:note "crowdsourcing refers to the paradigm of user-generated content by an open, large and constantly growing group of contributors in a collaborative and collective web context, applied here to the domain of digital humanities research."@en,
+        "クラウドソーシングとは、協働的で集合的なウェブの文脈で、オープンで大規模であり絶えず成長している貢献者グループによる、ユーザ生成型コンテンツの枠組みを指し、ここではデジタルヒューマニティーズ（人文情報学）研究の領域に適用される。"@ja ;
+    ns1:prefLabel "Crowdsourcing"@de,
+        "Crowdsourcing"@en,
+        "Crowdsourcing"@fr,
+        "Cooperazione Collettiva"@it,
+        "クラウドソーシング"@ja,
+        "Прибављање малих новчаних прилога од великог броја људи"@sr .
+
+tadirah:encoding a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:annotating,
+        tadirah:dataRecognition,
+        tadirah:programming ;
+    ns1:definition "process of creating a message for transmission (Wikidata contributors, \"Q5375490,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5375490&oldid=1224419731 (accessed July 30, 2020)."@en,
+        "伝達のためにあるメッセージを作り出す作業手順。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Encoding"@en,
+        "エンコーディング"@ja .
+
+tadirah:imaging a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:capturing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=12&/imaging> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:photographing,
+        tadirah:scanning ;
+    ns1:note "imaging refers to capturing texts, images, artifacts or spatial formations in 2D or 3D using optical or acoustic means (light, laser, infrared, ultrasound). Imaging usually does not lead to the identification of discrete semantic or structural units in the data, such as words or musical notes."@en,
+        "イメージングとは、テキスト、画像、人工物、空間的構成体を、光学あるいは音響的手段（光、レーザー、赤外線、超音波）を用いて二次元的あるいは三次元的にキャプチャすることを指す。イメージングは通常、単語や音符のような離散的な意味的、構造的単位の識別には至らない。"@ja ;
+    ns1:prefLabel "Bilderfassung"@de,
+        "Imaging"@en,
+        "Captura en formato imagen"@es,
+        "Imagerie"@fr,
+        "Gestione delle Immagini"@it,
+        "イメージング（視覚化？）"@ja,
+        "Captura em formato de imagem"@pt,
+        "Усликавање"@sr .
+
+tadirah:modeling a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:interpreting ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=35&/modeling> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:dataMapping,
+        tadirah:transformation ;
+    ns1:note "modeling refers to creating an abstract representation of a complex phenomenon, usually in a machine-readable way, possibly in an interactive way (i.e. it includes “simulation”). Models become machine-readable when modeling produces a schema that describes the elements and the structure of an object of inquiry in an explicit way. Further it refers to the activity of transforming or manipulating a digital object in such a way as to make it compatible with a previously constructed model or schema."@en,
+        "モデル化とは、複雑な現象の抽象的な表現を作成することを指す。通常それは機械可読で、もしかしたら相互作用的に（すなわち、「シミュレーション」などで）表現される。モデルは、調査対象の構成要素と構造を明示的に記述するスキーマをモデル化によって作り出したときに機械可読となる。さらに、デジタル化された研究対象がそれ以前のモデルやスキーマと互換性があるように、その対象を変形させたり操作したりする行いのことも指す。"@ja ;
+    ns1:prefLabel "Modellieren"@de,
+        "Modeling"@en,
+        "Modelización"@es,
+        "Modélisation"@fr,
+        "Modelizzazione"@it,
+        "モデル化"@ja,
+        "Modelagem"@pt,
+        "Моделовање"@sr .
+
+tadirah:networkAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:analyzing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=27&/network-analysis> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:identifying,
+        tadirah:namedEntityRecognition ;
+    ns1:note "network analysis is a method to study the relations of (real or fictional) actors or other entities in a mediated network, which can take the form of a social or academic online network, a set of correspondence, or a work of literature. The resulting network is made up of nodes (entities) and edges (relations)."@en,
+        "ネットワーク分析とは、社会的または学術的なオンラインネットワーク、通信、文学作品の形などを取り得る仲介されたネットワークにおける（実在する、もしくは仮想的な）活動主体とその他の存在物の関係性を研究する手法である。結果として得られるネットワークはノード（実体）とエッジ（関係性）によって構成される。"@ja ;
+    ns1:prefLabel "Netzwerkanalyse"@de,
+        "Network Analysis"@en,
+        "Análisis de redes"@es,
+        "Analyse de réseaux"@fr,
+        "Analisi delle Reti"@it,
+        "ネットワーク分析"@ja,
+        "Análise de redes"@pt,
+        "Анализа мреже"@sr .
+
+tadirah:spatialAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:analyzing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=29&/spatial-analysis> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:georeferencing,
+        tadirah:namedEntityRecognition ;
+    ns1:note "spatial analysis refers to the discovery of trends or patterns in data pertaining to spatial or geographical aspects of the data. Spatial analysis may lead to Visualization or Modeling in the form of maps."@en,
+        "空間分析とは、データの空間的または地理的側面に関連するデータの傾向またはパターンを発見することを指す。空間分析は、地図の形での視覚化またはモデル化につながる可能性がある。"@ja ;
+    ns1:prefLabel "Räumliche Analyse"@de,
+        "Spatial Analysis"@en,
+        "Análisis espacial"@es,
+        "Analyse spatiale"@fr,
+        "Analisi dello Spazio"@it,
+        "空間分析"@ja,
+        "Análise espacial"@pt,
+        "Просторна анализа"@sr .
+
+tadirah:collaborating a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:disseminating ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=43&/collaboration> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:discussing,
+        tadirah:organizing,
+        tadirah:socialNetworking ;
+    ns1:note "collaborating  is involved in any research activity being done jointly by several researchers, possibly in different places and at different times. Research-oriented collaboration is enabled, particularly, through comprehensive digital research environments, but can also happen around more specific activities, such as communication or sharing of resources."@en,
+        "協働とは、複数の研究者が、異なる場所と時間で、共に行うあらゆる研究活動のことを意味する。研究志向の協働は、とりわけ包括的なデジタルの研究環境で行われるが、それだけでなく、コミュニケーションや資料の共有のような、より具体的な活動においても起こり得る。"@ja ;
+    ns1:prefLabel "Kollaboration"@de,
+        "Collaborating"@en,
+        "Colaboración"@es,
+        "Collaboration"@fr,
+        "Collaborazione"@it,
+        "協働"@ja,
+        "Colaboração"@pt,
+        "Колаборација/Сарадња"@sr .
+
+tadirah:designing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:creating ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=16&/designing> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:diagramming,
+        tadirah:drawing,
+        tadirah:wireframing ;
+    ns1:note "designing refers to the development of a user or a graphical interface, with which the user is able to interact to perform various tasks and conduct activities. Also included here is the development of the user experience, user interaction, participation and usability aspects where a person’s perceptions and needs of the practical dimensions such as utility, ease of use, and efficiency of the system are taken into consideration."@en,
+        "設計とは、ユーザまたはグラフィカルインターフェイスの開発に関わるもので、その向上により様々なタスクを遂行し活動するよう、ユーザがインタラクトできるようにする開発のことを指す。またここには、ユーザ経験、ユーザインタラクション、参与や使いやすさといった（つまり有用性、使用の簡易さ、システムの効率性のような実践的次元での人の知覚やニーズにも配慮がなされている）側面の開発も含まれている。"@ja ;
+    ns1:prefLabel "Design"@de,
+        "Designing"@en,
+        "Diseño"@es,
+        "Design"@fr,
+        "Progettazione"@it,
+        "設計"@ja,
+        "Design"@pt,
+        "Дизајнирање"@sr .
+
+tadirah:enriching a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=21> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:annotating,
+        tadirah:dataCleansing,
+        tadirah:editing ;
+    ns1:note "enriching refers to the activity of annotating, editing, or cleaning information to an object of enquiry, by making its origin, nature, structure, meaning, or elements explicit."@en,
+        "拡充化とは、情報の起源、性質、構造、意味、要素を明示的に記述するという形で、調査対象についての情報を注釈付けしたり、編集したり、整理したりする活動を指す。"@ja ;
+    ns1:prefLabel "Anreichern"@de,
+        "Enriching"@en,
+        "Enriquecimiento"@es,
+        "Enrichissement"@fr,
+        "Arricchimento"@it,
+        "拡充化"@ja,
+        "Enriquecimento"@pt,
+        "Обогаћивање"@sr ;
+    ns1:topConceptOf tadirah: .
+
+tadirah:interpreting a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=33&/5_interpretation> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:contextualizing,
+        tadirah:modeling,
+        tadirah:theorizing ;
+    ns1:note "interpreting is the activity of explaining and ascribing the intended meaning to phenomena observed in analysis. Therefore, interpretation usually follows analysis, although it could also be considered that interpretation defines the hermeneutic perspective of any method of analysis. It refers to processes opening up the discussed phenomenon to a wider debate (contextualisation), of deductive and inductive reasoning (theorizing), or  formalizing specific aspects (modeling)."@en,
+        "解釈とは、分析において観察された現象を説明し、原因を特定する行いのことである。したがって通常、解釈は分析の後に行われるが、解釈があらゆる分析手法の観点を決めていることも考えたほうが良いかも知れない。解釈とは、問題の現象をより広い議論へと拡大すること（文脈化）、演繹的、帰納的推論（理論化）、具体的な様相の形式化（モデル化）を行うプロセスも指す。"@ja ;
+    ns1:prefLabel "Interpretation"@de,
+        "Interpreting"@en,
+        "Interpretación"@es,
+        "Interprétation"@fr,
+        "Interpretazione"@it,
+        "解釈"@ja,
+        "Interpretação"@pt,
+        "Тумачење"@sr ;
+    ns1:topConceptOf tadirah: .
+
+tadirah:machineLearning a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:altLabel "ML"@en ;
+    ns1:broader tadirah:contentAnalysis,
+        tadirah:relationalAnalysis,
+        tadirah:structuralAnalysis,
+        tadirah:stylisticAnalysis ;
+    ns1:definition "branch of statistics and computer science, which studies algorithms and architectures that learn from observed facts (Wikidata contributors, \"Q2539,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2539&oldid=1228523395 (accessed July 30, 2020)."@en,
+        "統計学及びコンピュータサイエンスの派生分野で、観察可能な事実から学習を行うアルゴリズムやアーキテクチャについて研究する。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Machine Learning"@en,
+        "機械学習"@ja .
+
+tadirah:namedEntityRecognition a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:altLabel "NER"@en ;
+    ns1:broader tadirah:annotating,
+        tadirah:contentAnalysis,
+        tadirah:networkAnalysis,
+        tadirah:spatialAnalysis ;
+    ns1:definition "extraction of named entity mentions in unstructured text into pre-defined categories (Wikidata contributors, \"Q403574,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q403574&oldid=1232404694 (accessed July 30, 2020)."@en,
+        "あらかじめ定義されたカテゴリにおける固有表現を、非構造化テキストから抽出すること。"@ja ;
+    ns1:inScheme tadirah: ;
+    ns1:prefLabel "Named Entity Recognition"@en,
+        "固有表現認識"@ja .
+
+tadirah:programming a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:creating ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=17&/programming> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:encoding,
+        tadirah:graphicsProgramming,
+        tadirah:pseudoCoding ;
+    ns1:note "programming describes the process of creating executable code for a computer including scripts or application software. Often programming comprises pseudo coding and editing ac source code or algorithm and is varying for different programming languages."@en,
+        "プログラミングは、スクリプトやアプリケーションソフトウェアを含む、コンピュータのための実行可能なコードを作成する作業手順のことを意味する。多くの場合、プログラミングは擬似コードとソースコードやアルゴリズムの編集からなっており、プログラミング言語によって違いがある。"@ja ;
+    ns1:prefLabel "Programmieren"@de,
+        "Programming"@en,
+        "Programación"@es,
+        "Programmation"@fr,
+        "Programmazione"@it,
+        "プログラミング"@ja,
+        "Programação"@pt,
+        "Програмирање"@sr .
+
+tadirah:recording a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:capturing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=13&/recording> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:audioRecording,
+        tadirah:screencast,
+        tadirah:videoCapture ;
+    ns1:note "recording refers to capturing audio and/or video. The  result is a digital audio (e.g. WAV, MP3, etc.) or video (e.g. MP4, Quicktime, etc.) file that can be manipulated, analyzed and/or stored."@en,
+        "レコーディングは、音声や動画をキャプチャすることを指す。その結果、複製、分析、保存が可能な音声データ（例：WAV、MP3など）ないし動画データ（例：MP4、Quicktimeなど）が生成される。"@ja ;
+    ns1:prefLabel "Aufzeichnen"@de,
+        "Recording"@en,
+        "Grabación"@es,
+        "Enregistrement"@fr,
+        "Registrazione"@it,
+        "記録"@ja,
+        "Gravação"@pt,
+        "Снимање"@sr .
+
+tadirah:sharing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:disseminating,
+        tadirah:organizing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=48&/sharing> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:posting,
+        tadirah:upload ;
+    ns1:note "sharing refers to the activity of making objects such as digital information, documents, files, software and other publically findable, accessible, interoperable and reusable according to the fair principles and in the sense of open science through communication channels such as blogs, code sharing sites such as GitHUB, social media sites or other web-based services, collaborative and network applications."@en,
+        "共有とは、デジタル情報、文書、ファイル、ソフトウェアのようなオブジェクトを、ブログ、GitHubのようなコード共有サイト、ソーシャルメディアサイトやその他のウェブベースのサービス、協働的でネットワークのあるアプリケーションのようなコミュニケーションチャネルを通じて、公正の原則とオープンサイエンスの意味において、一般の場で見つけやすく、アクセス可能で、相互運用可能で、再利用可能なものにする活動を指す。"@ja ;
+    ns1:prefLabel "Teilen"@de,
+        "Sharing"@en,
+        "Intercambio"@es,
+        "Partage"@fr,
+        "Condivisione"@it,
+        "共有"@ja,
+        "Troca"@pt,
+        "Дељење"@sr .
+
+tadirah:dataCleansing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:enriching ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=23&/cleanup> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:correcting,
+        tadirah:debugging,
+        tadirah:improving,
+        tadirah:removing ;
+    ns1:note "data cleansing involves improving the quality of an existing digital object. This could include correcting errors in a written text, errors in OCR results or  debugging code."@en,
+        "データクレンジングとは、既存のデジタルオブジェクトの品質を向上させることを意味する。これには、手打ちのテキスト、OCRの読込結果、デバッグコードの誤りの修正が含まれる。"@ja ;
+    ns1:prefLabel "Bereinigen"@de,
+        "Data Cleansing"@en,
+        "Limpieza de datos"@es,
+        "Nettoyage"@fr,
+        "Pulizia"@it,
+        "データクレンジング"@ja,
+        "Limpeza de dados"@pt,
+        "Чишћење"@sr .
+
+tadirah:dataRecognition a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:capturing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=9&/data-recognition> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:encoding,
+        tadirah:opticalCharacterRecognition,
+        tadirah:opticalMusicRecognition,
+        tadirah:preprocessing ;
+    ns1:note "data recognition, e.g. optical character recognition (OCR), refers to the process of treating the immediate products of digital data capturing (recording or imaging), such as digital facsimiles of texts or of music score, in a way to extract discrete, machine-readable units from them, such as plain text words, musical notes, still or moving image elements."@en,
+        "データ認識（例：光学文字認識（OCR））とは、文章や楽譜のデジタルファクシミリのようなデジタルデータキャプチャ（レコーディングや画像保存）の直接製品に関する技術であり、とくにそこから、プレーンテキストの単語、音符、静止画像あるいは動画といった要素のような、離散的かつ機械可読なユニットを抽出する作業手順のことを指す。"@ja ;
+    ns1:prefLabel "Datenerkennung"@de,
+        "Data Recognition"@en,
+        "Reconocimiento de datos"@es,
+        "Reconnaissance de données"@fr,
+        "Riconoscimento dei Dati"@it,
+        "データ認識"@ja,
+        "Reconhecimento de dados"@pt,
+        "Препознавање података"@sr .
+
+tadirah:extracting a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:capturing ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:dataMining,
+        tadirah:informationMining,
+        tadirah:knowledgeDiscovery,
+        tadirah:knowledgeExtraction ;
+    ns1:note "extracting refers to the process to distill structured information from texts, images or other machine-readable digital documents of a certain domain not necessarily in a human understandable form. Information extraction, knowledge extraction, knowledge discovery, information mining and data mining are methodologically similar. The activity of extracting also concerns processing human language texts by means of natural language processing (NLP)."@en,
+        "抽出とは、ある領域のテキスト、画像、またはその他の機械読み取り可能なデジタル文書から構造化された情報を抽出するプロセスを指し、その結果は必ずしも人間が理解できる形ではない。情報抽出、知識抽出、知識発見、情報マイニング、データマイニングは、方法論の面で類似している。また、抽出は、NLP（Natural Language Processing, 自然言語処理）を用いて自然言語のテキストを処理することにも関連している。"@ja ;
+    ns1:prefLabel "Extracting"@en,
+        "抽出"@ja .
+
+tadirah:organizing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:collaborating,
+        tadirah:storing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=40&/organizing> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:finding,
+        tadirah:managing,
+        tadirah:sharing ;
+    ns1:note "organizing refers to the arrangement of objects (research materials, data sets, images, etc.) in a way that facilitates other research activities. May also include activities that support discovery such as metadata creation and enhancement."@en,
+        "組織化とは他の研究を促進するような方法で対象物（研究資料、データセット、画像など）を整理することを指す。また、メタデータの作成や充実のような発見を支援する活動を含み得る。"@ja ;
+    ns1:prefLabel "Organisieren"@de,
+        "Organizing"@en,
+        "Organisation"@fr,
+        "Organizzazione"@it,
+        "組織化"@ja,
+        "Организовање"@sr .
+
+tadirah:storing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=37&/6_storage> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:archiving,
+        tadirah:identifying,
+        tadirah:organizing,
+        tadirah:preserving ;
+    ns1:note "storing refers to the activity of making digital copies of objects of inquiry, results of research, software and services, or any media keeping (preserving) them long-term accessible (archiving), without necessarily making them available to the public. This includes management activities (organizing) and processes of identifying the resource."@en,
+        "保存とは、調査対象、調査結果、ソフトウェアやサービスまたはあらゆるメディアのデジタルコピーを長期間アクセス可能にする（アーカイブ化）行動を指す。しかし、これは必ずしも一般においてそれを使用可能にするものではない。これは、管理動作（管理オーガナイジング）と、資料を識別する過程を含む。"@ja ;
+    ns1:prefLabel "Speicherung"@de,
+        "Storing"@en,
+        "Almacenamiento"@es,
+        "Stockage"@fr,
+        "Conservazione"@it,
+        "保存"@ja,
+        "Armazenamento"@pt,
+        "Похрањивање"@sr ;
+    ns1:topConceptOf tadirah: .
+
+tadirah:visualAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:analyzing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=32&/visualization> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:dataVisualization,
+        tadirah:mapping,
+        tadirah:mindMapping,
+        tadirah:plotting ;
+    ns1:note "visual analysis refers to activities to aggregate and graphically represent patterns, structures, trends or points of interest in large and complex data sets using them analytically and making them visually explorable with methods of automatic data analysis in order to gain new insights. Virtually any type of data, information or knowledge can be visualized in static, dynamic or interactive visual formats such as images, maps, timelines, charts or tables, 2D, 3D and the like."@en,
+        "ビジュアル分析とは、大規模で複雑なデータセットのパターン、構造、傾向、または関心のある点を集積してグラフィカルに表現し、分析的に使用し、自動データ分析の手法で視覚的に探索可能にして新たな洞察を得るための活動を指す。事実上、あらゆる種のデータ、情報、知識は、画像、地図、タイムライン、チャート、表、二次元、三次元などのような静的、動的、インタラクティブなビジュアルフォーマットで視覚化することができる。"@ja ;
+    ns1:prefLabel "Visualisierung"@de,
+        "Visual Analysis"@en,
+        "Visualización"@es,
+        "Visualisation"@fr,
+        "Visualizzazione"@it,
+        "ビジュアル分析"@ja,
+        "Visualização"@pt,
+        "Визуализација"@sr .
+
+tadirah:converting a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:capturing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=8&/conversion> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:compiling,
+        tadirah:lemmatizing,
+        tadirah:naturalLanguageProcessing,
+        tadirah:parsing,
+        tadirah:transcoding ;
+    ns1:note "converting refers to changing the file format of an object, e.g. converting a .wmv video to a .mov file or converting VHS into a digital format. A conversion is not lossless and generates a different data format, digital representation, or a different digital object. When converting concerns metadata, it may involve mapping one metadata schema to another."@en,
+        "変換とは、オブジェクトのファイル形式を変更することを指し、例えば、.wmv形式のビデオを.movファイルに変換することや、VHSをデジタル形式に変換することが挙げられる。変換は無損失（ロスレス）ではなく、異なるデータ形式、デジタル表現、あるいは異なるデジタルオブジェクトを生成する。変換がメタデータに関係する場合には、あるメタデータスキーマを他のスキーマにマッピングすることを意味する可能性がある。"@ja ;
+    ns1:prefLabel "Konvertieren"@de,
+        "Converting"@en,
+        "Conversión"@es,
+        "Conversion"@fr,
+        "Conversione"@it,
+        "変換"@ja,
+        "Conversão"@pt,
+        "Конвертовање"@sr .
+
+tadirah:creating a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=15&/2_creation> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:designing,
+        tadirah:programming,
+        tadirah:translating,
+        tadirah:webDevelopment,
+        tadirah:writing ;
+    ns1:note "creating generally refers to an achievement of producing born-digital objects as an own contribution, rather than creating an output by capturing and digitizing existing analog objects or enrichment of information. Creating can involve writing or translating natural language texts or could also concern other forms of expressions, such as creating an executable code (programming), composing a musical score, creating an image, or developing any design (designing) for any media or implementing these design concepts (web development)."@en,
+        "作成とは、一般に、既存のアナログオブジェクトをキャプチャしデジタル化することや情報を拡充させることによって産物を作るのではなく、自身の貢献としてボーンデジタルなオブジェクトを作り出すことの成果を指す。作成は、自然言語のテキストを書くあるいは翻訳することを含む場合や、実行可能なコードを作り出す（プログラミング）、楽譜を書く、画像を作る、あるいはメディア用のデザインの開発（設計）やこのようなデザイン概念の実装（ウェブ開発）のような、他の形態の表現にも関係することがある。"@ja ;
+    ns1:prefLabel "Erzeugen"@de,
+        "Creating"@en,
+        "Creación"@es,
+        "Création"@fr,
+        "Creazione"@it,
+        "作成"@ja,
+        "Criação"@pt,
+        "Стварање"@sr ;
+    ns1:topConceptOf tadirah: .
+
+tadirah:discovering a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:capturing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=10&/discovering> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:browsing,
+        tadirah:exploration,
+        tadirah:informationRetrieval,
+        tadirah:querying,
+        tadirah:searching ;
+    ns1:note "discovering describes the activity of advanced querying, simple searching and more serendipitous browsing in archives, library catalogs, indexes and abstracts of scholarly journals, web directories, databases and seeking out objects of research, research results, or other information which is useful for a given search interest."@en,
+        "発見が意味するのは、文書館、図書館目録、学術雑誌の索引と概要、ウェブディレクトリ、データベースにおける高度な検索、簡易な調査やより新発見を伴いやすい調査をすること、また研究対象や研究結果であったり、あるいは特定の研究関心に有益なその他の情報を探求するといった活動である。"@ja ;
+    ns1:prefLabel "Entdecken"@de,
+        "Discovering"@en,
+        "Localización"@es,
+        "Découverte"@fr,
+        "Scoperta"@it,
+        "発見"@ja,
+        "Localização"@pt,
+        "Проналажење"@sr .
+
+tadirah:publishing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:disseminating ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=47&/publishing> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:academicPublishing,
+        tadirah:blogging,
+        tadirah:digitalPublishing,
+        tadirah:linkedOpenData,
+        tadirah:tweet ;
+    ns1:note "publishing refers to the activity of making any kind of object formally available to the wider public. This can involve objects of research, research data, research results, or tools and services. Publishing can be closed or open access / open source, and research results can be published in print or digital formats."@en,
+        "出版とは、あらゆる種類の対象を正式に広く一般に利用可能にする活動を指す。これには、研究対象、研究データ、研究成果、または研究ツールやサービスが含まれる。出版には、クローズドアクセス、オープンアクセス、オープンソースがあり、研究成果は印刷またはデジタル形式で出版される。"@ja ;
+    ns1:prefLabel "Veröffentlichen"@de,
+        "Publishing"@en,
+        "Publicación"@es,
+        "Publication"@fr,
+        "Pubblicazione"@it,
+        "出版"@ja,
+        "Publicação"@pt,
+        "Објављивање"@sr .
+
+tadirah:structuralAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:analyzing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=30&/structural-analysis> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:collocationAnalysis,
+        tadirah:concordance,
+        tadirah:machineLearning,
+        tadirah:posTagging,
+        tadirah:treeTagging ;
+    ns1:note "structural analysis involves analysis of dimensions of the language system on the level of the relations between these structural elements such as morphology or syntax."@en,
+        "構造分析は、形態論あるいは統語論のような構造要素の間における関係の水準で言語システムの次元を分析することを意味する。"@ja ;
+    ns1:prefLabel "Strukturanalyse"@de,
+        "Structural Analysis"@en,
+        "Análisis estructural"@es,
+        "Analyse structurelle"@fr,
+        "Analisi Strutturale"@it,
+        "構造分析"@ja,
+        "Análise estrutural"@pt,
+        "Структурална анализа"@sr .
+
+tadirah:theorizing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:interpreting ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=36&/theorizing> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:abstractThinking,
+        tadirah:conceptualizing,
+        tadirah:defining,
+        tadirah:explanation,
+        tadirah:reasoning ;
+    ns1:note "theorizing is a method which aims to relate a number of elements or ideas into a coherent system based on some general principles and capable of explaining relevant phenomena or observations that can be tested. Theorizing can take different forms while a theory may be implemented in the form of a model, or a model may give rise to formulating a theory."@en,
+        "理論化とは、複数の要素や考えを、一般原則に基づきかつ関連現象や観察を説明できるような、検証可能な一貫した体系の中に関係づけることを目的とする手法である。理論はモデルの形態で実装される（すなわちモデルから理論の形成がなされる）のに対して、理論化は異なる形態をとり得る。"@ja ;
+    ns1:prefLabel "Theoriebildung"@de,
+        "Theorizing"@en,
+        "Teorización"@es,
+        "Théorisation"@fr,
+        "Teorizzazione"@it,
+        "理論化"@ja,
+        "Teorização"@pt,
+        "Теоретизовање"@sr .
+
+tadirah:archiving a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:gathering,
+        tadirah:storing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=38&/archiving> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:cataloging,
+        tadirah:collecting,
+        tadirah:dataIngestion,
+        tadirah:scanning,
+        tadirah:webScraping ;
+    ns1:note "archiving includes the process of moving data and other resources to a separate space for retention. If long-term archiving is involved, activities related to data preservation may also be involved."@en,
+        "アーカイビングは、データやその他のリソースを保存のための区別された空間へ移す作業手順を含む。長期間のアーカイブの場合には、データの保存に関連する活動も含まれ得る。"@ja ;
+    ns1:prefLabel "Archivieren"@de,
+        "Archiving"@en,
+        "Archivage"@fr,
+        "Archiviazione"@it,
+        "アーカイビング"@ja,
+        "Архивирање"@sr .
+
+tadirah:communicating a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:disseminating ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=45&/communicating> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:audioConferencing,
+        tadirah:eMailing,
+        tadirah:instantMessaging,
+        tadirah:microblogging,
+        tadirah:textMessaging,
+        tadirah:videoConference ;
+    ns1:note "communicating refers to the activity of exchanging ideas with other people, primarily, but not exclusively, using linguistic means."@en,
+        "コミュニケーションとは、第一義的には（しかし必ずしもそうではないが）言語的手段を以て、しかし必ずしもそうではないが、他の人々と考えを交換する活動を指す。"@ja ;
+    ns1:prefLabel "Kommunizieren"@de,
+        "Communicating"@en,
+        "Comunicación"@es,
+        "Communication"@fr,
+        "Comunicazione"@it,
+        "コミュニケーション"@ja,
+        "Comunicação"@pt,
+        "Комуницирање"@sr .
+
+tadirah:analyzing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=25> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:contentAnalysis,
+        tadirah:networkAnalysis,
+        tadirah:relationalAnalysis,
+        tadirah:spatialAnalysis,
+        tadirah:structuralAnalysis,
+        tadirah:stylisticAnalysis,
+        tadirah:visualAnalysis ;
+    ns1:note "analyzing  refers to the activity of examining any kind of information from collections of data, of discovering recurring phenomena, units, elements, patterns, groupings, and the like. This can refer to structural, formal or semantic aspects of data."@en,
+        "分析とは、データのコレクションからあらゆる種類の情報を調べ、反復する現象、単位、要素、パターン、グループ化などを発見する活動を指す。これは、データの構造的、形式的、または意味論的な側面を指すことができる。"@ja ;
+    ns1:prefLabel "Analyse"@de,
+        "Analyzing"@en,
+        "Análisis"@es,
+        "Analyse"@fr,
+        "Analisi"@it,
+        "分析"@ja,
+        "Análise"@pt,
+        "Анализа"@sr ;
+    ns1:topConceptOf tadirah: .
+
+tadirah:contextualizing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:annotating,
+        tadirah:commenting,
+        tadirah:interpreting ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=34&/contextualizing> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:associate,
+        tadirah:coOccurrence,
+        tadirah:integrating,
+        tadirah:mapping,
+        tadirah:semantification ;
+    ns1:note "contextualizing  refers to  creating associations between an object of investigation and other, more established or better-understood objects in a relation of geographical, temporal, or thematic proximity to the object of investigation, with the aim of ascribing meaning to that object."@en,
+        "文脈化とは、対象に意味を付与することを目的として、対象と、調査対象物に地理的、時間的、またはテーマ的に近接した関係にある他の、より確立された、あるいはより良く理解された対象との間に関連付けを行うことを指す。"@ja ;
+    ns1:prefLabel "Kontextualisieren"@de,
+        "Contextualizing"@en,
+        "Contextualización"@es,
+        "Contextualisation"@fr,
+        "Contestualizzazione"@it,
+        "文脈化"@ja,
+        "Contextualização"@pt,
+        "Контекстуализовање"@sr .
+
+tadirah:disseminating a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=42&/7_dissemination> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:collaborating,
+        tadirah:commenting,
+        tadirah:communicating,
+        tadirah:crowdsourcing,
+        tadirah:publishing,
+        tadirah:sharing,
+        tadirah:teaching ;
+    ns1:note "disseminating refers to the activity of making objects of inquiry, results of research, or software and services available to fellow researchers or the wider public in a variety of more or less formal ways. It builds on or requires storing and can include releasing (publishing and commenting) and sharing (collaborating, crowdsourcing, and communicating) of data using a variety of methods and techniques including the application of linked open data."@en,
+        "普及とは、調査対象、調査結果、ソフトウェアやサービスを同業研究者もしくはより広く一般に、おおよそ正式な方法で利用可能とする活動を指す。これは保存に基づき、もしくは保存を必要とし、またリンクされたオープンデータのアプリケーションを含む様々な手法と技術を用いたデータの公表（公開、コメント）と共有（協働、クラウドソーシング、コミュニケーション）を含み得る。"@ja ;
+    ns1:prefLabel "Dissemination"@de,
+        "Disseminating"@en,
+        "Difusión"@es,
+        "Dissémination"@fr,
+        "Divulgazione"@it,
+        "普及"@ja,
+        "Difusão"@pt,
+        "Дисеминација"@sr ;
+    ns1:topConceptOf tadirah: .
+
+tadirah:capturing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=7> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:converting,
+        tadirah:dataRecognition,
+        tadirah:discovering,
+        tadirah:extracting,
+        tadirah:gathering,
+        tadirah:imaging,
+        tadirah:recording,
+        tadirah:transcribing ;
+    ns1:note "capturing generally refers to the activity of creating digital surrogates of real world objects, or expressing existing artifacts in a digital representation. This refers basically to learning and noticing something (as in discovering) and could be enhanced by a manual process (as in transcribing) or an automated procedure (as in imaging, data recognition or recording). This also includes aggregating resources, information and data (as in gathering)."@en,
+        "キャプチャとは、一般的に、現実世界の物体についてデジタル的な代用物を作成したり、既存の人工物をデジタル的な手法で表現したりすることを指す。これは基本的に、何かを学習し気付くこと（発見のように）を指し、手動の方法（書き起こし(翻刻)のように）や、自動化された手続き（画像化、データ認識、記録のように）を含むこともある。また、これには資料や情報、データの集積（集約のように）も含まれる。"@ja ;
+    ns1:prefLabel "Erfassen"@de,
+        "Capturing"@en,
+        "Captura"@es,
+        "Acquisition"@fr,
+        "Acquisizione"@it,
+        "キャプチャ"@ja,
+        "Captura"@pt,
+        "Захватање"@sr ;
+    ns1:topConceptOf tadirah: .
+
+tadirah:contentAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:analyzing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=26&/content-analysis> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:discourseAnalysis,
+        tadirah:identifying,
+        tadirah:informationRetrieval,
+        tadirah:machineLearning,
+        tadirah:namedEntityRecognition,
+        tadirah:sentimentAnalysis,
+        tadirah:tagging,
+        tadirah:topicModeling ;
+    ns1:note "content analysis includes researching/studying aspects of objects relating to their meaning, such as identifying concepts or meaningful units."@en,
+        "内容分析には、概念や意味を持つ単位の識別のような、対象の意味に関連する側面の調査、研究が含まれる。"@ja ;
+    ns1:prefLabel "Inhaltsanalyse"@de,
+        "Content Analysis"@en,
+        "Análisis de contenido"@es,
+        "Analyse de contenu"@fr,
+        "Analisi Contenutistica"@it,
+        "コンテンツ分析（内容分析？）"@ja,
+        "Análise de conteúdo"@pt,
+        "Анализа садржаја"@sr .
+
+tadirah:gathering a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:capturing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=11&/gathering> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:aggregating,
+        tadirah:archiving,
+        tadirah:cataloging,
+        tadirah:collating,
+        tadirah:collecting,
+        tadirah:preserving,
+        tadirah:webCrawling,
+        tadirah:webScraping ;
+    ns1:note "gathering refers to aggregating discovered resources, usually in some structured way (e.g. bringing together all papers that address a certain topic, as part of a literature review, or pulling all works by a particular author out of a digital collection for further analysis)."@en,
+        "集約とは、発見された資料の集積を指し、多くの場合、何らかの構造に基づく仕方でなされる（例：レビュー論文の一環として特定のトピックを扱うすべての論文を収集する、あるいはさらなる分析のために特定の著者によるすべての著作をデジタルコレクションから抽出する）。"@ja ;
+    ns1:prefLabel "Sammeln"@de,
+        "Gathering"@en,
+        "Recolección"@es,
+        "Collecte"@fr,
+        "Raccolta"@it,
+        "集約"@ja,
+        "Recolección"@pt,
+        "Прикупљање"@sr .
+
+tadirah:identifying a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:contentAnalysis,
+        tadirah:networkAnalysis,
+        tadirah:relationalAnalysis,
+        tadirah:storing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=39&/identifying> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:digitalObjectIdentifier,
+        tadirah:identifier,
+        tadirah:namingConvention,
+        tadirah:persistentIdentifier,
+        tadirah:uniformResourceIdentifier ;
+    ns1:note "identifying refers to the activity of naming and/or assigning (possibly unique and/or persistent) identifiers such as a word, number, letter, symbol, or any combination to objects of enquiry or to any kind of digital object."@en,
+        "識別とは、調査対象となるオブジェクト、あるいはあらゆる種類のデジタルオブジェクトに対して名称を与える行為、ならびに、あるいは、単語、数字、文字、記号、あるいはそれらのあらゆる組み合わせのような、（できれば一意の、また、あるいは永続的な）識別子を付与する行為を指す。"@ja ;
+    ns1:prefLabel "Identifizieren"@de,
+        "Identifying"@en,
+        "Identification"@fr,
+        "Identificazione"@it,
+        "識別[識別子付与]"@ja,
+        "Идентификовање"@sr .
+
+tadirah:preserving a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:gathering,
+        tadirah:storing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=41&/preservation> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:bitStreamPreservation,
+        tadirah:description,
+        tadirah:emulation,
+        tadirah:migration,
+        tadirah:preservationMetadata,
+        tadirah:replication,
+        tadirah:versioning ;
+    ns1:note "preserving refers to the application of specific strategies, activities and technologies for the purpose of ensuring an accurate rendering of digital content over time. It facilitates the reuse of research data, objects, and related resources and may include activities related to sustainability and interoperability."@en,
+        "保存とは、将来に渡ってデジタルコンテンツの正確な表示を確保するために、特定の戦略、活動、技術を適用することを指す。研究データ、オブジェクト及び関連リソースの再利用を促進するとともに、持続可能性や共同利用性に関する活動を含み得る。"@ja ;
+    ns1:prefLabel "Konservierung"@de,
+        "Preserving"@en,
+        "Preservación"@es,
+        "Conservation"@fr,
+        "Preservazione"@it,
+        "保存"@ja,
+        "Preservação"@pt,
+        "Очување"@sr .
+
+tadirah:editing a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:enriching ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=24&/editing> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:adding,
+        tadirah:correcting,
+        tadirah:cropping,
+        tadirah:formatting,
+        tadirah:merging,
+        tadirah:modifying,
+        tadirah:subtracting,
+        tadirah:supplementing,
+        tadirah:videoEditing ;
+    ns1:note "editing refers to adding, correcting, condensating, organizing or in other form modifying information of a specific object with the intention to complete and finalize it by making structural, layout-related, semantic, or other scholarly explicit inline or stand-off markup."@en,
+        "編集とは、構成上の、レイアウト関連の、意味上の、そして他の学術的に明確なインラインもしくはスタンドオフのマークアップを作成することで、完成させ仕上げるという目的から、特定の対象の情報を付記、修正、要約、組織化、もしくは他の形式で変更することを指す。"@ja ;
+    ns1:prefLabel "Bearbeiten"@de,
+        "Editing"@en,
+        "Edición"@es,
+        "Édition"@fr,
+        "Editare"@it,
+        "編集"@ja,
+        "Edição"@pt,
+        "Уређивање"@sr .
+
+tadirah:relationalAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:analyzing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=28&/relational-analysis> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:clusterAnalysis,
+        tadirah:collating,
+        tadirah:comparing,
+        tadirah:identifying,
+        tadirah:machineLearning,
+        tadirah:patternRecognition,
+        tadirah:principalComponentAnalysis,
+        tadirah:sequenceAlignment,
+        tadirah:stylometry ;
+    ns1:note "relational analysis refers to computational techniques serving to discover specific relations between several objects of study. In textual studies, this could mean discovering overlap between different texts (e.g. text reuse or  plagiarism), or comparison of texts variations regarding completeness and correctness (e.g. collation), or assessing the similarity of texts in terms of stylistic features (e.g. stylometry). By analogy, such methods can also be applied to other cultural artefacts, such as music, film or painting."@en,
+        "関係分析は、複数の研究対象に共通する特定の関係性を発見するのに役立つコンピュータ上のスキルを指す。テキスト研究においては、異なるテキスト間の重複部分（例：テキストの使い回し、剽窃）を発見したり、いかに完全で正確かという観点から比較したり（例：照合）、文体的特徴という観点で類似性を評価したりすること（例：文体統計学）を意味し得る。比喩的にいえば、このような手法は、音楽や映画、絵画のような文化的な作品類にも適用可能であろう。"@ja ;
+    ns1:prefLabel "Analyse von Relationen"@de,
+        "Relational Analysis"@en,
+        "Análisis relacional"@es,
+        "Analyse relationnelle"@fr,
+        "Analisi delle Relazioni"@it,
+        "関係分析"@ja,
+        "Análise relacional"@pt,
+        "Релациона анализа"@sr .
+
+tadirah:stylisticAnalysis a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:analyzing ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=31&/stylistic-analysis> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:authorshipAttribution,
+        tadirah:clusterAnalysis,
+        tadirah:contrastiveAnalysis,
+        tadirah:distanceMeasures,
+        tadirah:genreRecognition,
+        tadirah:machineLearning,
+        tadirah:principalComponentAnalysis,
+        tadirah:rhetoricalAnalysis,
+        tadirah:stylometry,
+        tadirah:textCategorization ;
+    ns1:note "stylistic analysis consists of identifying stylistic or formal features as a particular variety of digital objects such as language, physical artifacts, painting, music or movies. Computational stylistics analysis is in many cases applied to texts and based on linguistic features."@en,
+        "文体分析は、文体的あるいは形式的特徴を、言語、物理的な人工物、絵画、音楽そして映画のような様々なデジタルオブジェクトとして識別することを指す。多くの場合におけるコンピュータの文体分析はテキストに適用され、言語学的特徴に基づく。"@ja ;
+    ns1:prefLabel "Stilistische Analyse"@de,
+        "Stylistic Analysis"@en,
+        "Análisis estilístico"@es,
+        "Analyse stylistique"@fr,
+        "Analisi Stilistica"@it,
+        "文体分析"@ja,
+        "Análise estilística"@pt,
+        "Стилистичка анализа"@sr .
+
+tadirah:annotating a owl:NamedIndividual,
+        ns1:Concept ;
+    ns1:broader tadirah:enriching ;
+    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=22&/annotating> ;
+    ns1:inScheme tadirah: ;
+    ns1:narrower tadirah:associating,
+        tadirah:audioAnnotation,
+        tadirah:contextualizing,
+        tadirah:encoding,
+        tadirah:georeferencing,
+        tadirah:highlighting,
+        tadirah:linkedOpenData,
+        tadirah:namedEntityRecognition,
+        tadirah:posTagging,
+        tadirah:segmenting,
+        tadirah:tagging,
+        tadirah:visualAnnotation ;
+    ns1:note "annotating  refers to the activity of making information about a digital object explicit by adding notes, metadata, keywords, tags or links to a digitized representation or to an annotation file associated with it. This can be in the form of explanatory annotations that comments or contextualize a passage, annotations that make structural or linguistic information explicit, as linked open data making the relationships between objects machine-readable, or in the case of general metadata, adding information about the object as a whole."@en,
+        "注釈付けとは、デジタル化された表現やそれに関連する注釈ファイルに注記、メタデータ、キーワード、タグ、リンクを付記することで、デジタルオブジェクトに関する情報を明示的にする活動を指す。これは、一部分にコメントや文脈をつける説明的注釈、構造的または言語的情報を明示的にする注釈、オブジェクト間の関係を機械が読取り得るようにする、リンクされたオープンデータとしての注釈の形式であり得、あるいは一般的なメタデータの場合はオブジェクト全体に関する情報を追加する。"@ja ;
+    ns1:prefLabel "Annotieren"@de,
+        "Annotating"@en,
+        "Anotación"@es,
+        "Annotation"@fr,
+        "Annotazione"@it,
+        "注釈付け"@ja,
+        "Anotação"@pt,
+        "Анотирање"@sr .
+
+ns1:Concept a owl:Class .
+
+tadirah: a owl:NamedIndividual,
+        owl:Ontology,
+        ns1:ConceptScheme ;
+    ns3:contributor "Elisabeth Burr, Francesca Tomasi, Tiziana Mancinelli, Monica Berti, Klaus Thoden, Luise Borek, Christof Schöch, Claudia Müller-Birn, Melanie Siemund, Saskia Lindner, Tamara Butigan, Vanja Savic, Toma Tasovac, Aurélien Berra, Thibault Clérice, Martin Grandjean, Vincent Razanajao, Gimena del Rio Riande" ;
+    ns3:creator "Luise Borek, Canan Hastik, Vera Khramova, Jonathan Geiger" ;
+    ns3:language "English"@en ;
+    ns2:created "2020" ;
+    ns2:description "Taxonomy of Digital Research Activities in the Humanities"@en ;
+    ns2:issued "2020-09-28" ;
+    ns2:license "https://creativecommons.org/publicdomain/zero/1.0" ;
+    ns2:modified "2020-10-29" ;
+    ns2:rightsHolder "Luise Borek, Quinn Dombrowski, Christoph Schöch, Jody Perkins, Matthew Munson" ;
+    ns2:title "TaDiRAH"@en ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> ;
+    owl:versionInfo "2.0.0" ;
+    ns1:hasTopConcept tadirah:analyzing,
+        tadirah:capturing,
+        tadirah:creating,
+        tadirah:disseminating,
+        tadirah:enriching,
+        tadirah:interpreting,
+        tadirah:storing .
+
+
