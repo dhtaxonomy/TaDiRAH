@@ -3,6 +3,8 @@ TaDiRAH - 日本語版
 
 TaDiRAH（Taxonomy of Digital Research Activities in the Humanities）は、コミュニティによって開発されたアプリケーション指向の語彙体系であり、デジタル・ヒューマニティーズの文脈から研究プロセスのカテゴリーに沿ってリソースを分類する役割を果たします。そして、デジタル・ヒューマニティーズ関連のリソースを構造化し、参照可能にし、発見しやすい形で可視化するのに役立ちます。
 
+The Japanese translation files were created from vocabraris on https://vocabs.dariah.eu/tadirah2/en/ . 
+
 ## Translation / 翻訳
 
 Editorial Team (Digital Humanities Initiative, Graduate School of Humanities and Sociology, The University of Tokyo):
