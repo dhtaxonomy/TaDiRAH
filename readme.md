@@ -47,7 +47,7 @@ Initiatives using TaDiRAH
 * Doing Digital Humanities Bibliography, DARIAH-DE: http://https://www.zotero.org/groups/doing_digital_humanities_-_a_dariah_bibliography/items/order/creator/sort/asc
 * TAPoR3: Discover research tools for studying text: http://tapor.ca/home
 * Digital Humanities Course Registry, DARIAH & CLARIN: https://registries.clarin-dariah.eu/courses/
-* DHd 2016 conference abstract classification: http://www.dhd2016.de
+* DHd 2016 conference abstract classification (since 2016): http://www.dhd2016.de
 * Survey Forschungspraxis in den Geisteswissenschaften, 2015-2016: http://ww2.unipark.de/uc/practices4humanities/ and http://www.dhd2016.de/abstracts/vortr%C3%A4ge-015.html
 * Interdisziplinärer Forschungsverbund Digital Humanities in Berlin "DH-Forschungsprojekte in der Region": http://www.ifdhberlin.de/forschung/dh-forschungsprojekte-in-der-region
 * NeDiMAH Methods Ontology (NeMO): http://nemo.dcu.gr/index.php
@@ -58,6 +58,7 @@ Initiatives using TaDiRAH
 
 Presentations and publications on TaDiRAH
 -----------------------------------------
+* Borek, Luise ; Hastik, Canan ; Khramova, Vera ; Illmayer, Klaus ; Geiger, Jonathan D. (2021): Information Organization and Access in Digital Humanities: TaDiRAH Revised, Formalized and FAIR. In: T. Schmidt, C. Wolff (Eds.): Information between Data and Knowledge. Information Science and its Neighbors from Data Science to Digital Humanities. Proceedings of the 16th International Symposium of Information Science (ISI 2021), Regensburg, Germany, 8th—10th March 2021. Glückstadt: Verlag Werner Hülsbusch, pp. 321—332. DOI: doi.org/10.5283/epub.44951
 * Borek, Luise; Quinn Dombrowski; Jody Perkins; Christof Schöch: "TaDiRAH: a Case Study in Pragmatic Classification", Digital Humanities Quarterly 10.1, 2016. http://digitalhumanities.org/dhq/vol/10/1/000235/000235.html
 * Borek, Luise; Christof Schöch; Klaus Thoden: "Digitale Forschungsaktivitäten multilingual: TaDiRAH für die deutschsprachige DH-Community" (Poster), DHd-Tagung, University of Leipzig, March 7-11,2016. http://dhd2016.de/abstracts/posters-007.html
 * Borek, Luise; Quinn Dombrowski; Matthew Munson; Jody Perkins; Christof Schöch: "Scholarly primitives revisited: towards a practical taxonomy of digital humanities research activities and objects", short paper, Digital Humanities Conference 2014, Lausanne, Switzerland, July 7-12, 2014, http://dharchive.org/paper/DH2014/Paper-504.xml
