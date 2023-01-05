@@ -26,7 +26,7 @@ Coordinators
 * Luise Borek, Darmstadt, Germany
 * Quinn Dombrowski, Berkeley, CA, USA
 * Jody Perkins, Oxford OH, USA
-* Christof Schöch, Würzburg, Germany
+* Christof Schöch, Trier, Germany
 * (formerly) Matthew Munson, Leipzig, Germany
 
 Contributors
@@ -54,7 +54,12 @@ Initiatives using TaDiRAH
 * DH Commons https://dhcommons.org/
 * Digital Humanities CAICYT http://www.caicyt-conicet.gov.ar/micrositios/mhedi/
 * (previously:) DiRT Digital Research Tools: http://dirtdirectory.org/
+* Zhao, Fudie. 2022. “A Systematic Review of Wikidata in Digital Humanities Projects.” _Digital Scholarship in the Humanities_, https://doi.org/10.1093/llc/fqac083.
 * … more in preparation
+
+Reference publication (please cite when using TaDiRAH!)
+-----------------------------------------
+* Borek, Luise; Quinn Dombrowski; Jody Perkins; Christof Schöch: "TaDiRAH: a Case Study in Pragmatic Classification", Digital Humanities Quarterly 10.1, 2016. http://digitalhumanities.org/dhq/vol/10/1/000235/000235.html
 
 Presentations and publications on TaDiRAH
 -----------------------------------------
