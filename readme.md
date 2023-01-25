@@ -13,7 +13,7 @@ Repository content
 * `deu`: German translation
 * `esp`: Spanish translation
 * `fre`: French translation
-* See also the machine-readable version in SKOS at http://tadirah.dariah.eu/vocab/
+* See also the machine-readable version in SKOS at https://vocabs.dariah.eu/tadirah/en/
 
 Aspects of the taxonomy
 -----------------------
@@ -77,4 +77,4 @@ If you have comments on the taxonomy, please use the issue tracker here on GitHu
 
 TaDiRAH is usually pronounced "ta-DEE-ra" and is not an animal. However, DiRT and DARIAH are both partial anagrams of it.
 
-In addition to the current human-readable version of the taxonomy, we are planning to publish machine-readable formats of it.
+Also, cf. https://tadirah.info/.
