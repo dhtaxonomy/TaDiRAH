@@ -13,7 +13,7 @@ Repository content
 * `deu`: German translation
 * `esp`: Spanish translation
 * `fre`: French translation
-* See also the machine-readable version in SKOS at http://tadirah.dariah.eu/vocab/
+* See also the machine-readable version in SKOS at [https://vocabs.dariah.eu/tadirah/en/](https://vocabs.dariah.eu/tadirah/en/)
 
 Aspects of the taxonomy
 -----------------------
