@@ -46,7 +46,7 @@ Initiatives using TaDiRAH
 -------------------------
 * Doing Digital Humanities Bibliography, DARIAH-DE: http://https://www.zotero.org/groups/doing_digital_humanities_-_a_dariah_bibliography/items/order/creator/sort/asc
 * TAPoR3: Discover research tools for studying text: http://tapor.ca/home
-* Digital Humanities Course Registry, DARIAH & CLARIN: https://registries.clarin-dariah.eu/courses/
+* Digital Humanities Course Registry, DARIAH & CLARIN: https://dhcr.clarin-dariah.eu/
 * DHd 2016 conference abstract classification (since 2016): http://www.dhd2016.de
 * Survey Forschungspraxis in den Geisteswissenschaften, 2015-2016: http://ww2.unipark.de/uc/practices4humanities/ and http://www.dhd2016.de/abstracts/vortr%C3%A4ge-015.html
 * Interdisziplinärer Forschungsverbund Digital Humanities in Berlin "DH-Forschungsprojekte in der Region": http://www.ifdhberlin.de/forschung/dh-forschungsprojekte-in-der-region
