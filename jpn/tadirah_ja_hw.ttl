@@ -1,778 +1,778 @@
-@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix tadirah: <https://vocabs.dariah.eu/tadirah/> .
 
-ns3:contributor a owl:AnnotationProperty .
+dc:contributor a owl:AnnotationProperty .
 
-ns3:creator a owl:AnnotationProperty .
+dc:creator a owl:AnnotationProperty .
 
-ns2:license a owl:AnnotationProperty .
+dcterms:license a owl:AnnotationProperty .
 
-ns2:rightsHolder a owl:AnnotationProperty .
+dcterms:rightsHolder a owl:AnnotationProperty .
 
-ns1:altLabel a owl:AnnotationProperty .
+skos:altLabel a owl:AnnotationProperty .
 
-ns1:broader a owl:AnnotationProperty .
+skos:broader a owl:AnnotationProperty .
 
-ns1:closeMatch a owl:AnnotationProperty .
+skos:closeMatch a owl:AnnotationProperty .
 
-ns1:definition a owl:AnnotationProperty .
+skos:definition a owl:AnnotationProperty .
 
-ns1:hasTopConcept a owl:AnnotationProperty .
+skos:hasTopConcept a owl:AnnotationProperty .
 
-ns1:inScheme a owl:AnnotationProperty .
+skos:inScheme a owl:AnnotationProperty .
 
-ns1:narrower a owl:AnnotationProperty .
+skos:narrower a owl:AnnotationProperty .
 
-ns1:note a owl:AnnotationProperty .
+skos:note a owl:AnnotationProperty .
 
-ns1:prefLabel a owl:AnnotationProperty .
+skos:prefLabel a owl:AnnotationProperty .
 
-ns1:related a owl:AnnotationProperty .
+skos:related a owl:AnnotationProperty .
 
-ns1:topConceptOf a owl:AnnotationProperty .
+skos:topConceptOf a owl:AnnotationProperty .
 
-ns1:ConceptScheme a owl:Class .
+skos:ConceptScheme a owl:Class .
 
 tadirah:abstractThinking a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:theorizing ;
-    ns1:definition "Wikidata contributors, \"Q25501084,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q25501084&oldid=1231655399 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Abstract Thinking"@en .
+        skos:Concept ;
+    skos:broader tadirah:theorizing ;
+    skos:definition "Wikidata contributors, \"Q25501084,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q25501084&oldid=1231655399 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Abstract Thinking"@en .
 
 tadirah:academicPublishing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:publishing ;
-    ns1:definition "subfield of publishing which distributes academic research and scholarship (Wikidata contributors, \"Q5246046,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5246046&oldid=1266348457 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Academic Publishing"@en,
+        skos:Concept ;
+    skos:broader tadirah:publishing ;
+    skos:definition "subfield of publishing which distributes academic research and scholarship (Wikidata contributors, \"Q5246046,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5246046&oldid=1266348457 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Academic Publishing"@en,
         "学術出版"@ja .
 
 tadirah:adding a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:editing ;
-    ns1:definition "arithmetic operation (Wikidata contributors, \"Q32043,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q32043&oldid=1268649023 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Adding"@en,
+        skos:Concept ;
+    skos:broader tadirah:editing ;
+    skos:definition "arithmetic operation (Wikidata contributors, \"Q32043,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q32043&oldid=1268649023 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Adding"@en,
         "加法"@ja .
 
 tadirah:aggregating a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:gathering ;
-    ns1:definition "act of collecting together physical or conceptual objects (Wikidata contributors, \"Q23007394,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q23007394&oldid=1210318642 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Aggregating"@en,
+        skos:Concept ;
+    skos:broader tadirah:gathering ;
+    skos:definition "act of collecting together physical or conceptual objects (Wikidata contributors, \"Q23007394,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q23007394&oldid=1210318642 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Aggregating"@en,
         "集積"@ja .
 
 tadirah:associate a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:contextualizing ;
-    ns1:definition "Wikidata contributors, \"Q2868277,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2868277&oldid=1256900973 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Associate"@en .
+        skos:Concept ;
+    skos:broader tadirah:contextualizing ;
+    skos:definition "Wikidata contributors, \"Q2868277,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2868277&oldid=1256900973 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Associate"@en .
 
 tadirah:associating a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:annotating ;
-    ns1:definition "Wikidata contributors, \"Q98847960,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847960&oldid=1270669574 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Associating"@en .
+        skos:Concept ;
+    skos:broader tadirah:annotating ;
+    skos:definition "Wikidata contributors, \"Q98847960,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847960&oldid=1270669574 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Associating"@en .
 
 tadirah:audioAnnotation a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:annotating ;
-    ns1:definition "Wikidata contributors, \"Q98847703,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847703&oldid=1270667708 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Audio Annotation"@en .
+        skos:Concept ;
+    skos:broader tadirah:annotating ;
+    skos:definition "Wikidata contributors, \"Q98847703,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847703&oldid=1270667708 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Audio Annotation"@en .
 
 tadirah:audioConferencing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:communicating ;
-    ns1:definition "Wikidata contributors, \"Q58199,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q58199&oldid=1228360894 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Audio Conferencing"@en .
+        skos:Concept ;
+    skos:broader tadirah:communicating ;
+    skos:definition "Wikidata contributors, \"Q58199,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q58199&oldid=1228360894 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Audio Conferencing"@en .
 
 tadirah:audioRecording a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:recording ;
-    ns1:definition "mechanical or digital record of a series of audio events (Wikidata contributors, \"Q3302947,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q3302947&oldid=1254901544 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Audio Recording"@en,
+        skos:Concept ;
+    skos:broader tadirah:recording ;
+    skos:definition "mechanical or digital record of a series of audio events (Wikidata contributors, \"Q3302947,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q3302947&oldid=1254901544 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Audio Recording"@en,
         "録音"@ja .
 
 tadirah:authorshipAttribution a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:stylisticAnalysis ;
-    ns1:inScheme tadirah: ;
-    ns1:note "authorship attribution means the theory and method of determining the author of a given piece of work, e.g. a text by appropriate characterization of stylistic and thematic features."@en ;
-    ns1:prefLabel "Authorship Attribution"@en,
+        skos:Concept ;
+    skos:broader tadirah:stylisticAnalysis ;
+    skos:inScheme tadirah: ;
+    skos:note "authorship attribution means the theory and method of determining the author of a given piece of work, e.g. a text by appropriate characterization of stylistic and thematic features."@en ;
+    skos:prefLabel "Authorship Attribution"@en,
         "著者資格（の確定法）"@ja .
 
 tadirah:bitStreamPreservation a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:preserving ;
-    ns1:definition "Wikidata contributors, \"Q98847577,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847577&oldid=1270666738 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Bit Stream Preservation"@en .
+        skos:Concept ;
+    skos:broader tadirah:preserving ;
+    skos:definition "Wikidata contributors, \"Q98847577,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847577&oldid=1270666738 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Bit Stream Preservation"@en .
 
 tadirah:blogging a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:publishing ;
-    ns1:definition "action of writing articles or maintaining a weblog (Wikidata contributors, \"Q21124681,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q21124681&oldid=1262333720 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Blogging"@en,
+        skos:Concept ;
+    skos:broader tadirah:publishing ;
+    skos:definition "action of writing articles or maintaining a weblog (Wikidata contributors, \"Q21124681,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q21124681&oldid=1262333720 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Blogging"@en,
         "ブログ"@ja .
 
 tadirah:browsing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:discovering ;
-    ns1:definition "exploratory use of an information system (Wikidata contributors, \"Q516508,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q516508&oldid=1169408380 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Browsing"@en,
+        skos:Concept ;
+    skos:broader tadirah:discovering ;
+    skos:definition "exploratory use of an information system (Wikidata contributors, \"Q516508,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q516508&oldid=1169408380 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Browsing"@en,
         "ブラウジング(拾い読み)"@ja .
 
 tadirah:coOccurrence a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:contextualizing ;
-    ns1:inScheme tadirah: ;
-    ns1:note "co-occurrence indicates the semantic proximity or an idiomatic expression of text corpora, based on the statistical-linguistic frequency of occurrence of at least two terms in a certain order."@en ;
-    ns1:prefLabel "Co-Occurrence"@en,
+        skos:Concept ;
+    skos:broader tadirah:contextualizing ;
+    skos:inScheme tadirah: ;
+    skos:note "co-occurrence indicates the semantic proximity or an idiomatic expression of text corpora, based on the statistical-linguistic frequency of occurrence of at least two terms in a certain order."@en ;
+    skos:prefLabel "Co-Occurrence"@en,
         "共起"@ja .
 
 tadirah:collocationAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:structuralAnalysis ;
-    ns1:inScheme tadirah: ;
-    ns1:note "analysis of recurrent co-occurrences of two or more words in language."@en ;
-    ns1:prefLabel "Collocation Analysis"@en,
+        skos:Concept ;
+    skos:broader tadirah:structuralAnalysis ;
+    skos:inScheme tadirah: ;
+    skos:note "analysis of recurrent co-occurrences of two or more words in language."@en ;
+    skos:prefLabel "Collocation Analysis"@en,
         "共起分析"@ja .
 
 tadirah:comparing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:relationalAnalysis ;
-    ns1:definition "Wikidata contributors, \"Q98845331,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845331&oldid=1270639313 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Comparing"@en .
+        skos:Concept ;
+    skos:broader tadirah:relationalAnalysis ;
+    skos:definition "Wikidata contributors, \"Q98845331,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845331&oldid=1270639313 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Comparing"@en .
 
 tadirah:compiling a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:converting ;
-    ns1:definition "translation of code written in a higher-level programming language to a lower-level form (Wikidata contributors, \"Q56248166,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q56248166&oldid=1230644647 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Compiling"@en,
+        skos:Concept ;
+    skos:broader tadirah:converting ;
+    skos:definition "translation of code written in a higher-level programming language to a lower-level form (Wikidata contributors, \"Q56248166,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q56248166&oldid=1230644647 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Compiling"@en,
         "コンパイル"@ja .
 
 tadirah:conceptualizing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:theorizing ;
-    ns1:inScheme tadirah: ;
-    ns1:note "conceptualizing means the simplification, specification and formalization of an abstract idea, principle or part of the world in mind, speech, text or even in images. This design activity initially focuses on developing a common understanding of projects, topics, objects and elements and their relationship to one another."@en ;
-    ns1:prefLabel "Conceptualizing"@en,
+        skos:Concept ;
+    skos:broader tadirah:theorizing ;
+    skos:inScheme tadirah: ;
+    skos:note "conceptualizing means the simplification, specification and formalization of an abstract idea, principle or part of the world in mind, speech, text or even in images. This design activity initially focuses on developing a common understanding of projects, topics, objects and elements and their relationship to one another."@en ;
+    skos:prefLabel "Conceptualizing"@en,
         "概念化"@ja .
 
 tadirah:concordance a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:structuralAnalysis ;
-    ns1:definition "list of words or terms in a published book (Wikidata contributors, \"Q839018,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q839018&oldid=1228232199 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Concordance"@en,
+        skos:Concept ;
+    skos:broader tadirah:structuralAnalysis ;
+    skos:definition "list of words or terms in a published book (Wikidata contributors, \"Q839018,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q839018&oldid=1228232199 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Concordance"@en,
         "コンコーダンス"@ja .
 
 tadirah:contrastiveAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:stylisticAnalysis ;
-    ns1:definition "Wikidata contributors, \"Q614959,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q614959&oldid=1118155497 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Contrastive Analysis"@en .
+        skos:Concept ;
+    skos:broader tadirah:stylisticAnalysis ;
+    skos:definition "Wikidata contributors, \"Q614959,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q614959&oldid=1118155497 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Contrastive Analysis"@en .
 
 tadirah:cropping a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:editing ;
-    ns1:definition "to remove unwanted outer parts of an image (Wikidata contributors, \"Q785116,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q785116&oldid=1110149634 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Cropping"@en,
+        skos:Concept ;
+    skos:broader tadirah:editing ;
+    skos:definition "to remove unwanted outer parts of an image (Wikidata contributors, \"Q785116,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q785116&oldid=1110149634 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Cropping"@en,
         "切り抜き"@ja .
 
 tadirah:dataIngestion a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:archiving ;
-    ns1:definition "Wikidata contributors, \"Q98847455,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847455&oldid=1270665713 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Data Ingestion"@en .
+        skos:Concept ;
+    skos:broader tadirah:archiving ;
+    skos:definition "Wikidata contributors, \"Q98847455,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847455&oldid=1270665713 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Data Ingestion"@en .
 
 tadirah:dataMapping a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:modeling ;
-    ns1:definition "process of linking data objects in distinct models (Wikidata contributors, \"Q2330408,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2330408&oldid=1185372641 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Data Mapping"@en,
+        skos:Concept ;
+    skos:broader tadirah:modeling ;
+    skos:definition "process of linking data objects in distinct models (Wikidata contributors, \"Q2330408,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2330408&oldid=1185372641 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Data Mapping"@en,
         "データマッピング"@ja .
 
 tadirah:dataMining a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:extracting ;
-    ns1:definition "process of discovering patterns in large data sets using computational methods at the intersection of statistics, database systems, or machine learning (Wikidata contributors, \"Q172491,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q172491&oldid=1268899513 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Data Mining"@en,
+        skos:Concept ;
+    skos:broader tadirah:extracting ;
+    skos:definition "process of discovering patterns in large data sets using computational methods at the intersection of statistics, database systems, or machine learning (Wikidata contributors, \"Q172491,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q172491&oldid=1268899513 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Data Mining"@en,
         "データマイニング"@ja .
 
 tadirah:dataVisualization a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:visualAnalysis ;
-    ns1:definition "creation and study of the visual representation of data (Wikidata contributors, \"Q6504956,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q6504956&oldid=1258700005 (accessed September 4, 2020)."@en ;
-    ns1:prefLabel "Data Visualization"@en,
+        skos:Concept ;
+    skos:broader tadirah:visualAnalysis ;
+    skos:definition "creation and study of the visual representation of data (Wikidata contributors, \"Q6504956,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q6504956&oldid=1258700005 (accessed September 4, 2020)."@en ;
+    skos:prefLabel "Data Visualization"@en,
         """データの視覚化
 （データビジュアライゼーション）"""@ja .
 
 tadirah:debugging a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:dataCleansing ;
-    ns1:definition "the process of finding and resolving defects or problems within a computer program that prevent correct operation of computer software or a system (Wikidata contributors, \"Q845566,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q845566&oldid=1240856516 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Debugging"@en,
+        skos:Concept ;
+    skos:broader tadirah:dataCleansing ;
+    skos:definition "the process of finding and resolving defects or problems within a computer program that prevent correct operation of computer software or a system (Wikidata contributors, \"Q845566,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q845566&oldid=1240856516 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Debugging"@en,
         "デバッグ"@ja .
 
 tadirah:defining a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:theorizing ;
-    ns1:definition "statement that attaches a meaning to a term (Wikidata contributors, \"Q101072,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q101072&oldid=1267587775 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Defining"@en,
+        skos:Concept ;
+    skos:broader tadirah:theorizing ;
+    skos:definition "statement that attaches a meaning to a term (Wikidata contributors, \"Q101072,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q101072&oldid=1267587775 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Defining"@en,
         "定義"@ja .
 
 tadirah:description a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:preserving ;
-    ns1:definition "text for clarification; one of four rhetorical modes (Wikidata contributors, \"Q1200750,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1200750&oldid=1266102146 (accessed September 5, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Description"@en,
+        skos:Concept ;
+    skos:broader tadirah:preserving ;
+    skos:definition "text for clarification; one of four rhetorical modes (Wikidata contributors, \"Q1200750,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1200750&oldid=1266102146 (accessed September 5, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Description"@en,
         "記述"@ja .
 
 tadirah:diagramming a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:designing ;
-    ns1:definition "Wikidata contributors, \"Q98845265,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845265&oldid=1270638355 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Diagramming"@en .
+        skos:Concept ;
+    skos:broader tadirah:designing ;
+    skos:definition "Wikidata contributors, \"Q98845265,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845265&oldid=1270638355 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Diagramming"@en .
 
 tadirah:digitalObjectIdentifier a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:altLabel "DOI"@en ;
-    ns1:broader tadirah:identifying ;
-    ns1:definition "character string used as a permanent identifier for a digital object, in a format controlled by the International DOI Foundation (Wikidata contributors, \"Q25670,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q25670&oldid=1280060100 (accessed September 24, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Digital Object Identifier"@en,
+        skos:Concept ;
+    skos:altLabel "DOI"@en ;
+    skos:broader tadirah:identifying ;
+    skos:definition "character string used as a permanent identifier for a digital object, in a format controlled by the International DOI Foundation (Wikidata contributors, \"Q25670,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q25670&oldid=1280060100 (accessed September 24, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Digital Object Identifier"@en,
         "DOI (デジタルオブジェクト識別子)"@ja .
 
 tadirah:digitalPublishing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:publishing ;
-    ns1:definition "Wikidata contributors, \"Q1224844,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1224844&oldid=573797951 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Digital Publishing"@en .
+        skos:Concept ;
+    skos:broader tadirah:publishing ;
+    skos:definition "Wikidata contributors, \"Q1224844,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1224844&oldid=573797951 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Digital Publishing"@en .
 
 tadirah:discourseAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:contentAnalysis ;
-    ns1:definition "generic term for the analysis of social, language policy or historiographical discourse phenomena (Wikidata contributors, \"Q1129466,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1129466&oldid=1269534863 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Discourse Analysis"@en,
+        skos:Concept ;
+    skos:broader tadirah:contentAnalysis ;
+    skos:definition "generic term for the analysis of social, language policy or historiographical discourse phenomena (Wikidata contributors, \"Q1129466,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1129466&oldid=1269534863 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Discourse Analysis"@en,
         "言説分析"@ja .
 
 tadirah:discussing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:collaborating ;
-    ns1:definition "Wikidata contributors, \"Q98847226,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847226&oldid=1270663604 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Discussing"@en .
+        skos:Concept ;
+    skos:broader tadirah:collaborating ;
+    skos:definition "Wikidata contributors, \"Q98847226,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847226&oldid=1270663604 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Discussing"@en .
 
 tadirah:distanceMeasures a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:stylisticAnalysis ;
-    ns1:definition "definitions for distance between two objects or events in the universe (Wikidata contributors, \"Q1344778,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1344778&oldid=1172224550 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Distance Measures"@en,
+        skos:Concept ;
+    skos:broader tadirah:stylisticAnalysis ;
+    skos:definition "definitions for distance between two objects or events in the universe (Wikidata contributors, \"Q1344778,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1344778&oldid=1172224550 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Distance Measures"@en,
         "距離尺度"@ja .
 
 tadirah:drawing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:designing ;
-    ns1:definition "visual artwork in two-dimensional medium (Wikidata contributors, \"Q93184,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q93184&oldid=1269736568 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Drawing"@en,
+        skos:Concept ;
+    skos:broader tadirah:designing ;
+    skos:definition "visual artwork in two-dimensional medium (Wikidata contributors, \"Q93184,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q93184&oldid=1269736568 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Drawing"@en,
         "図画"@ja .
 
 tadirah:eMailing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:communicating ;
-    ns1:definition "Wikidata contributors, \"Q386274,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q386274&oldid=855343099 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "E-mailing"@en .
+        skos:Concept ;
+    skos:broader tadirah:communicating ;
+    skos:definition "Wikidata contributors, \"Q386274,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q386274&oldid=855343099 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "E-mailing"@en .
 
 tadirah:emulation a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:preserving ;
-    ns1:definition "system that emulates a real system such that the behavior closely resembles the behavior of the real system (Wikidata contributors, \"Q202871,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q202871&oldid=1159572399 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Emulation"@en,
+        skos:Concept ;
+    skos:broader tadirah:preserving ;
+    skos:definition "system that emulates a real system such that the behavior closely resembles the behavior of the real system (Wikidata contributors, \"Q202871,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q202871&oldid=1159572399 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Emulation"@en,
         "エミュレーション"@ja .
 
 tadirah:explanation a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:theorizing ;
-    ns1:definition "set of statements constructed to describe a set of facts (Wikidata contributors, \"Q7958,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7958&oldid=1255429522 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Explanation"@en,
+        skos:Concept ;
+    skos:broader tadirah:theorizing ;
+    skos:definition "set of statements constructed to describe a set of facts (Wikidata contributors, \"Q7958,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7958&oldid=1255429522 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Explanation"@en,
         "説明"@ja .
 
 tadirah:exploration a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:discovering ;
-    ns1:definition "act of searching or traveling around a terrain for the purpose of discovery (Wikidata contributors, \"Q6502154,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q6502154&oldid=1238428839 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Exploration"@en,
+        skos:Concept ;
+    skos:broader tadirah:discovering ;
+    skos:definition "act of searching or traveling around a terrain for the purpose of discovery (Wikidata contributors, \"Q6502154,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q6502154&oldid=1238428839 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Exploration"@en,
         "探検"@ja .
 
 tadirah:expressingOpinion a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:commenting ;
-    ns1:inScheme tadirah: ;
-    ns1:note "expressing opinion refers to the activity of conveying one's feelings and/or thoughts about something to someone in writing or orally. Hereby existing opinions can be agreed or disagreed with, thus stimulating a discourse."@en ;
-    ns1:prefLabel "Expressing Opinion"@en,
+        skos:Concept ;
+    skos:broader tadirah:commenting ;
+    skos:inScheme tadirah: ;
+    skos:note "expressing opinion refers to the activity of conveying one's feelings and/or thoughts about something to someone in writing or orally. Hereby existing opinions can be agreed or disagreed with, thus stimulating a discourse."@en ;
+    skos:prefLabel "Expressing Opinion"@en,
         "意見表明"@ja .
 
 tadirah:finding a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:organizing ;
-    ns1:definition "Wikidata contributors, \"Q28195064,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q28195064&oldid=559043572 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Finding"@en .
+        skos:Concept ;
+    skos:broader tadirah:organizing ;
+    skos:definition "Wikidata contributors, \"Q28195064,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q28195064&oldid=559043572 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Finding"@en .
 
 tadirah:formatting a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:editing ;
-    ns1:definition "Wikidata contributors, \"Q98848248,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848248&oldid=1270671201 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Formatting"@en .
+        skos:Concept ;
+    skos:broader tadirah:editing ;
+    skos:definition "Wikidata contributors, \"Q98848248,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848248&oldid=1270671201 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Formatting"@en .
 
 tadirah:gamification a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:crowdsourcing ;
-    ns1:definition "the use of game thinking and game mechanics in non-game contexts to engage users in solving problems (Wikidata contributors, \"Q1067402,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1067402&oldid=1233709490 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Gamification"@en,
+        skos:Concept ;
+    skos:broader tadirah:crowdsourcing ;
+    skos:definition "the use of game thinking and game mechanics in non-game contexts to engage users in solving problems (Wikidata contributors, \"Q1067402,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1067402&oldid=1233709490 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Gamification"@en,
         "ゲーム化"@ja .
 
 tadirah:genreRecognition a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:stylisticAnalysis ;
-    ns1:inScheme tadirah: ;
-    ns1:note "genre recognition refers to methods and technologies for analyzing pieces of art (e.g. literature, music, film), extracting and classifying features to associate them with different genres automatically or semi-automatically."@en ;
-    ns1:prefLabel "Genre Recognition"@en,
+        skos:Concept ;
+    skos:broader tadirah:stylisticAnalysis ;
+    skos:inScheme tadirah: ;
+    skos:note "genre recognition refers to methods and technologies for analyzing pieces of art (e.g. literature, music, film), extracting and classifying features to associate them with different genres automatically or semi-automatically."@en ;
+    skos:prefLabel "Genre Recognition"@en,
         "ジャンル認識"@ja .
 
 tadirah:graphicsProgramming a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:programming ;
-    ns1:definition "Wikidata contributors, \"Q98845304,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845304&oldid=1270638847 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Graphics Programming"@en .
+        skos:Concept ;
+    skos:broader tadirah:programming ;
+    skos:definition "Wikidata contributors, \"Q98845304,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845304&oldid=1270638847 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Graphics Programming"@en .
 
 tadirah:highlighting a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:annotating ;
-    ns1:definition "Wikidata contributors, \"Q98847905,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847905&oldid=1270669260 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Highlighting"@en .
+        skos:Concept ;
+    skos:broader tadirah:annotating ;
+    skos:definition "Wikidata contributors, \"Q98847905,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847905&oldid=1270669260 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Highlighting"@en .
 
 tadirah:identifier a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:identifying ;
-    ns1:definition "name that identifies either a unique object or a unique class of objects (Wikidata contributors, \"Q853614,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q853614&oldid=1265951822 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Identifier"@en,
+        skos:Concept ;
+    skos:broader tadirah:identifying ;
+    skos:definition "name that identifies either a unique object or a unique class of objects (Wikidata contributors, \"Q853614,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q853614&oldid=1265951822 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Identifier"@en,
         "識別子"@ja .
 
 tadirah:improving a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:dataCleansing ;
-    ns1:definition "process of a thing moving from one state to another that is considered to be better, usually through some action intended to bring about that better state (Wikidata contributors, \"Q21255975,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q21255975&oldid=1264546813 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Improving"@en,
+        skos:Concept ;
+    skos:broader tadirah:dataCleansing ;
+    skos:definition "process of a thing moving from one state to another that is considered to be better, usually through some action intended to bring about that better state (Wikidata contributors, \"Q21255975,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q21255975&oldid=1264546813 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Improving"@en,
         "改善"@ja .
 
 tadirah:informationMining a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:extracting ;
-    ns1:definition "Wikidata contributors, \"Q98847165,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847165&oldid=1270662707 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Information Mining"@en .
+        skos:Concept ;
+    skos:broader tadirah:extracting ;
+    skos:definition "Wikidata contributors, \"Q98847165,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847165&oldid=1270662707 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Information Mining"@en .
 
 tadirah:instantMessaging a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:communicating ;
-    ns1:definition "form of communication over the Internet (Wikidata contributors, \"Q58199,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q58199&oldid=1228360894 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Instant Messaging"@en,
+        skos:Concept ;
+    skos:broader tadirah:communicating ;
+    skos:definition "form of communication over the Internet (Wikidata contributors, \"Q58199,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q58199&oldid=1228360894 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Instant Messaging"@en,
         "インスタントメッセージによるコミュニケーション"@ja .
 
 tadirah:integrating a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:contextualizing ;
-    ns1:definition "Wikidata contributors, \"Q98847635,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847635&oldid=1270667187 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Integrating"@en .
+        skos:Concept ;
+    skos:broader tadirah:contextualizing ;
+    skos:definition "Wikidata contributors, \"Q98847635,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847635&oldid=1270667187 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Integrating"@en .
 
 tadirah:knowledgeDiscovery a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:extracting ;
-    ns1:definition "Wikidata contributors, \"Q98847144,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847144&oldid=1270662396 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Knowledge Discovery"@en .
+        skos:Concept ;
+    skos:broader tadirah:extracting ;
+    skos:definition "Wikidata contributors, \"Q98847144,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847144&oldid=1270662396 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Knowledge Discovery"@en .
 
 tadirah:knowledgeExtraction a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:extracting ;
-    ns1:definition "creation of knowledge from structured and unstructured sources (Wikidata contributors, \"Q1582085,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1582085&oldid=1235011290 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Knowledge Extraction"@en,
+        skos:Concept ;
+    skos:broader tadirah:extracting ;
+    skos:definition "creation of knowledge from structured and unstructured sources (Wikidata contributors, \"Q1582085,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1582085&oldid=1235011290 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Knowledge Extraction"@en,
         "知識抽出"@ja .
 
 tadirah:lemmatizing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:converting ;
-    ns1:definition "Wikidata contributors, \"Q2554325,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2554325&oldid=1114054839 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Lemmatizing"@en .
+        skos:Concept ;
+    skos:broader tadirah:converting ;
+    skos:definition "Wikidata contributors, \"Q2554325,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2554325&oldid=1114054839 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Lemmatizing"@en .
 
 tadirah:lettering a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:writing ;
-    ns1:definition "creation of hand-drawn letters in graphic design and typography (Wikidata contributors, \"Q5538738,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5538738&oldid=1222349737 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Lettering"@en,
+        skos:Concept ;
+    skos:broader tadirah:writing ;
+    skos:definition "creation of hand-drawn letters in graphic design and typography (Wikidata contributors, \"Q5538738,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5538738&oldid=1222349737 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Lettering"@en,
         "レタリング"@ja .
 
 tadirah:managing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:organizing ;
-    ns1:definition "influence or authority over something; process of directing the operation of a device, system, or process (Wikidata contributors, \"Q29017603,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q29017603&oldid=1238420285 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Managing"@en,
+        skos:Concept ;
+    skos:broader tadirah:organizing ;
+    skos:definition "influence or authority over something; process of directing the operation of a device, system, or process (Wikidata contributors, \"Q29017603,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q29017603&oldid=1238420285 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Managing"@en,
         "レギュレーション"@ja .
 
 tadirah:merging a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:editing ;
-    ns1:definition "Wikidata contributors, \"Q98848337,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848337&oldid=1270671768 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Merging"@en .
+        skos:Concept ;
+    skos:broader tadirah:editing ;
+    skos:definition "Wikidata contributors, \"Q98848337,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848337&oldid=1270671768 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Merging"@en .
 
 tadirah:microblogging a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:communicating ;
-    ns1:definition "broadcast medium (Wikidata contributors, \"Q92438,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q92438&oldid=1237465325 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Microblogging"@en,
+        skos:Concept ;
+    skos:broader tadirah:communicating ;
+    skos:definition "broadcast medium (Wikidata contributors, \"Q92438,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q92438&oldid=1237465325 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Microblogging"@en,
         "ミニブログ"@ja .
 
 tadirah:migration a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:preserving ;
-    ns1:definition "process of selecting, preparing, extracting, and transforming data and permanently transferring it from one computer storage system to another (Wikidata contributors, \"Q1932543,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1932543&oldid=1212596075 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Migration"@en,
+        skos:Concept ;
+    skos:broader tadirah:preserving ;
+    skos:definition "process of selecting, preparing, extracting, and transforming data and permanently transferring it from one computer storage system to another (Wikidata contributors, \"Q1932543,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1932543&oldid=1212596075 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Migration"@en,
         "（データ）移行"@ja .
 
 tadirah:mindMapping a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:visualAnalysis ;
-    ns1:definition "Wikidata contributors, \"Q98846887,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846887&oldid=1270658470 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Mind Mapping"@en .
+        skos:Concept ;
+    skos:broader tadirah:visualAnalysis ;
+    skos:definition "Wikidata contributors, \"Q98846887,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846887&oldid=1270658470 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Mind Mapping"@en .
 
 tadirah:modifying a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:editing ;
-    ns1:definition "Wikidata contributors, \"Q98848358,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848358&oldid=1270671956 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Modifying"@en .
+        skos:Concept ;
+    skos:broader tadirah:editing ;
+    skos:definition "Wikidata contributors, \"Q98848358,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848358&oldid=1270671956 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Modifying"@en .
 
 tadirah:namingConvention a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:identifying ;
-    ns1:definition "set of rules for naming variables, types, functions, etc. in programming (Wikidata contributors, \"Q461984,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q461984&oldid=1221175218 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Naming Convention"@en,
+        skos:Concept ;
+    skos:broader tadirah:identifying ;
+    skos:definition "set of rules for naming variables, types, functions, etc. in programming (Wikidata contributors, \"Q461984,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q461984&oldid=1221175218 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Naming Convention"@en,
         "命名規則"@ja .
 
 tadirah:naturalLanguageProcessing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:altLabel "NLP"@en ;
-    ns1:broader tadirah:converting ;
-    ns1:definition "field of computer science and linguistics (Wikidata contributors, \"Q30642,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q30642&oldid=1257963465 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Natural Language Processing"@en,
+        skos:Concept ;
+    skos:altLabel "NLP"@en ;
+    skos:broader tadirah:converting ;
+    skos:definition "field of computer science and linguistics (Wikidata contributors, \"Q30642,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q30642&oldid=1257963465 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Natural Language Processing"@en,
         "自然言語処理"@ja .
 
 tadirah:opticalCharacterRecognition a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:altLabel "OCR"@en ;
-    ns1:broader tadirah:dataRecognition ;
-    ns1:definition "Wikidata contributors, \"Q167555,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q167555&oldid=1257963956 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Optical Character Recognition"@en .
+        skos:Concept ;
+    skos:altLabel "OCR"@en ;
+    skos:broader tadirah:dataRecognition ;
+    skos:definition "Wikidata contributors, \"Q167555,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q167555&oldid=1257963956 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Optical Character Recognition"@en .
 
 tadirah:opticalMusicRecognition a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:altLabel "OMR"@en ;
-    ns1:broader tadirah:dataRecognition ;
-    ns1:definition "Wikidata contributors, \"Q1243229,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1243229&oldid=1126910841 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Optical Music Recognition"@en .
+        skos:Concept ;
+    skos:altLabel "OMR"@en ;
+    skos:broader tadirah:dataRecognition ;
+    skos:definition "Wikidata contributors, \"Q1243229,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1243229&oldid=1126910841 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Optical Music Recognition"@en .
 
 tadirah:parsing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:converting ;
-    ns1:definition "process of analyzing a string of symbols, either in natural language, computer languages or data structures, conforming to the rules of a formal grammar (Wikidata contributors, \"Q194152,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q194152&oldid=1264510115 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Parsing"@en,
+        skos:Concept ;
+    skos:broader tadirah:converting ;
+    skos:definition "process of analyzing a string of symbols, either in natural language, computer languages or data structures, conforming to the rules of a formal grammar (Wikidata contributors, \"Q194152,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q194152&oldid=1264510115 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Parsing"@en,
         "構文解析"@ja .
 
 tadirah:patternRecognition a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:relationalAnalysis ;
-    ns1:definition "branch of machine learning (Wikidata contributors, \"Q378859,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q378859&oldid=1234461159 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Pattern Recognition"@en,
+        skos:Concept ;
+    skos:broader tadirah:relationalAnalysis ;
+    skos:definition "branch of machine learning (Wikidata contributors, \"Q378859,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q378859&oldid=1234461159 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Pattern Recognition"@en,
         "パターン認識"@ja .
 
 tadirah:persistentIdentifier a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:altLabel "PID"@en ;
-    ns1:broader tadirah:identifying ;
-    ns1:definition "long-lasting digital name (Wikidata contributors, \"Q420330,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q420330&oldid=1268700365 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Persistent Identifier"@en,
+        skos:Concept ;
+    skos:altLabel "PID"@en ;
+    skos:broader tadirah:identifying ;
+    skos:definition "long-lasting digital name (Wikidata contributors, \"Q420330,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q420330&oldid=1268700365 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Persistent Identifier"@en,
         "永続的識別子"@ja .
 
 tadirah:photographing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:imaging ;
-    ns1:definition "art, science, and practice of creating durable images by recording light or other electromagnetic radiation (Wikidata contributors, \"Q11633,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q11633&oldid=1237597469 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Photographing"@en,
+        skos:Concept ;
+    skos:broader tadirah:imaging ;
+    skos:definition "art, science, and practice of creating durable images by recording light or other electromagnetic radiation (Wikidata contributors, \"Q11633,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q11633&oldid=1237597469 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Photographing"@en,
         "撮影"@ja .
 
 tadirah:plotting a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:visualAnalysis ;
-    ns1:definition "Wikidata contributors, \"Q98846923,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846923&oldid=1270658999 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Plotting"@en .
+        skos:Concept ;
+    skos:broader tadirah:visualAnalysis ;
+    skos:definition "Wikidata contributors, \"Q98846923,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846923&oldid=1270658999 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Plotting"@en .
 
 tadirah:posting a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:sharing ;
-    ns1:definition "content on a social media platform, a forum or a blog (Wikidata contributors, \"Q1453674,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1453674&oldid=1178826153 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Posting"@en,
+        skos:Concept ;
+    skos:broader tadirah:sharing ;
+    skos:definition "content on a social media platform, a forum or a blog (Wikidata contributors, \"Q1453674,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1453674&oldid=1178826153 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Posting"@en,
         "投稿"@ja .
 
 tadirah:preprocessing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:dataRecognition ;
-    ns1:definition "Wikidata contributors, \"Q28838080,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q28838080&oldid=941780726 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Preprocessing"@en .
+        skos:Concept ;
+    skos:broader tadirah:dataRecognition ;
+    skos:definition "Wikidata contributors, \"Q28838080,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q28838080&oldid=941780726 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Preprocessing"@en .
 
 tadirah:preservationMetadata a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:preserving ;
-    ns1:definition "information that supports and documents acts of preservation on digital materials (Wikidata contributors, \"Q7241044,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7241044&oldid=1202709309 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Preservation Metadata"@en,
+        skos:Concept ;
+    skos:broader tadirah:preserving ;
+    skos:definition "information that supports and documents acts of preservation on digital materials (Wikidata contributors, \"Q7241044,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7241044&oldid=1202709309 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Preservation Metadata"@en,
         "保存用メタデータ"@ja .
 
 tadirah:pseudoCoding a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:programming ;
-    ns1:inScheme tadirah: ;
-    ns1:note "pseudo coding refers to the basic process of breaking complex problems into modular algorithms and logical procedures described in plain text. It primarily aims at human readability."@en ;
-    ns1:prefLabel "Pseudo Coding"@en,
+        skos:Concept ;
+    skos:broader tadirah:programming ;
+    skos:inScheme tadirah: ;
+    skos:note "pseudo coding refers to the basic process of breaking complex problems into modular algorithms and logical procedures described in plain text. It primarily aims at human readability."@en ;
+    skos:prefLabel "Pseudo Coding"@en,
         "擬似コード"@ja .
 
 tadirah:querying a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:discovering ;
-    ns1:definition "Wikidata contributors, \"Q98847088,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847088&oldid=1270661541 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Querying"@en .
+        skos:Concept ;
+    skos:broader tadirah:discovering ;
+    skos:definition "Wikidata contributors, \"Q98847088,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847088&oldid=1270661541 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Querying"@en .
 
 tadirah:reasoning a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:theorizing ;
-    ns1:definition "type of thought (Wikidata contributors, \"Q1156402,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1156402&oldid=1265618386 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Reasoning"@en,
+        skos:Concept ;
+    skos:broader tadirah:theorizing ;
+    skos:definition "type of thought (Wikidata contributors, \"Q1156402,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1156402&oldid=1265618386 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Reasoning"@en,
         "論理的思考"@ja .
 
 tadirah:removing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:dataCleansing ;
-    ns1:definition "dissociation of the original object with its old part; moving an object on distance of disconnect; process of moving, or the fact of being removed (Wikidata contributors, \"Q23009442,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q23009442&oldid=1268618349 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Removing"@en,
+        skos:Concept ;
+    skos:broader tadirah:dataCleansing ;
+    skos:definition "dissociation of the original object with its old part; moving an object on distance of disconnect; process of moving, or the fact of being removed (Wikidata contributors, \"Q23009442,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q23009442&oldid=1268618349 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Removing"@en,
         "除去"@ja .
 
 tadirah:replication a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:preserving ;
-    ns1:definition "sharing information to ensure consistency in computing (Wikidata contributors, \"Q1332873,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1332873&oldid=1221552165 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Replication"@en,
+        skos:Concept ;
+    skos:broader tadirah:preserving ;
+    skos:definition "sharing information to ensure consistency in computing (Wikidata contributors, \"Q1332873,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1332873&oldid=1221552165 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Replication"@en,
         "レプリケーション"@ja .
 
 tadirah:rhetoricalAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:stylisticAnalysis ;
-    ns1:definition "Wikidata contributors, \"Q98845926,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845926&oldid=1270647161 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Rhetorical Analysis"@en .
+        skos:Concept ;
+    skos:broader tadirah:stylisticAnalysis ;
+    skos:definition "Wikidata contributors, \"Q98845926,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845926&oldid=1270647161 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Rhetorical Analysis"@en .
 
 tadirah:screencast a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:recording ;
-    ns1:definition "digital recording of computer screen output (Wikidata contributors, \"Q1365447,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1365447&oldid=1234996090 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Screencast"@en,
+        skos:Concept ;
+    skos:broader tadirah:recording ;
+    skos:definition "digital recording of computer screen output (Wikidata contributors, \"Q1365447,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1365447&oldid=1234996090 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Screencast"@en,
         "スクリーンキャスト"@ja .
 
 tadirah:searching a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:discovering ;
-    ns1:definition "search for target data from a set of data (Wikidata contributors, \"Q11540953,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q11540953&oldid=1207018344 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Searching"@en,
+        skos:Concept ;
+    skos:broader tadirah:discovering ;
+    skos:definition "search for target data from a set of data (Wikidata contributors, \"Q11540953,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q11540953&oldid=1207018344 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Searching"@en,
         "検索"@ja .
 
 tadirah:segmenting a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:annotating ;
-    ns1:inScheme tadirah: ;
-    ns1:note "segmenting refers to a management process or method of dividing something into smaller homogeneous parts/units to gain better understanding about an object or topic. Segmentation can range from demographic, geographical, ethical, behavioral, visual, linguistic, musical to other areas and can be multi-dimensional."@en ;
-    ns1:prefLabel "Segmenting"@en,
+        skos:Concept ;
+    skos:broader tadirah:annotating ;
+    skos:inScheme tadirah: ;
+    skos:note "segmenting refers to a management process or method of dividing something into smaller homogeneous parts/units to gain better understanding about an object or topic. Segmentation can range from demographic, geographical, ethical, behavioral, visual, linguistic, musical to other areas and can be multi-dimensional."@en ;
+    skos:prefLabel "Segmenting"@en,
         "分節化"@ja .
 
 tadirah:semantification a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:contextualizing ;
-    ns1:inScheme tadirah: ;
-    ns1:note "semantification refers to the process of identifying and associating explicit information with each other by facing challenges such as ambiguity and formalization of implicit knowledge to improve access, automatically data analysis and reuse."@en ;
-    ns1:prefLabel "Semantification"@en,
+        skos:Concept ;
+    skos:broader tadirah:contextualizing ;
+    skos:inScheme tadirah: ;
+    skos:note "semantification refers to the process of identifying and associating explicit information with each other by facing challenges such as ambiguity and formalization of implicit knowledge to improve access, automatically data analysis and reuse."@en ;
+    skos:prefLabel "Semantification"@en,
         "意味づけ"@ja .
 
 tadirah:sentimentAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:contentAnalysis ;
-    ns1:definition "use of natural language processing, text analysis and computational linguistics to identify and extract subjective information in source materials (Wikidata contributors, \"Q2271421,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2271421&oldid=1170108641 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Sentiment Analysis"@en,
+        skos:Concept ;
+    skos:broader tadirah:contentAnalysis ;
+    skos:definition "use of natural language processing, text analysis and computational linguistics to identify and extract subjective information in source materials (Wikidata contributors, \"Q2271421,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2271421&oldid=1170108641 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Sentiment Analysis"@en,
         "感情分析"@ja .
 
 tadirah:sequenceAlignment a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:relationalAnalysis ;
-    ns1:definition "process in bioinformatics that aligns (identifies equivalent sites within) molecular sequences (Wikidata contributors, \"Q827246,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q827246&oldid=1228152501 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Sequence Alignment"@en,
+        skos:Concept ;
+    skos:broader tadirah:relationalAnalysis ;
+    skos:definition "process in bioinformatics that aligns (identifies equivalent sites within) molecular sequences (Wikidata contributors, \"Q827246,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q827246&oldid=1228152501 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Sequence Alignment"@en,
         "配列調整？"@ja .
 
 tadirah:socialNetworking a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:collaborating ;
-    ns1:definition "The process of building one's group of personal or business contacts (Wikidata contributors, \"Q19368491,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q19368491&oldid=1132647061 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Social Networking"@en,
+        skos:Concept ;
+    skos:broader tadirah:collaborating ;
+    skos:definition "The process of building one's group of personal or business contacts (Wikidata contributors, \"Q19368491,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q19368491&oldid=1132647061 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Social Networking"@en,
         "ソーシャルネットワーキング"@ja .
 
 tadirah:speechRecognizing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:transcribing ;
-    ns1:definition "Wikidata contributors, \"Q98846987,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846987&oldid=1270659968 (accessed September 4, 2020)."@en ;
-    ns1:prefLabel "Speech Recognizing"@en .
+        skos:Concept ;
+    skos:broader tadirah:transcribing ;
+    skos:definition "Wikidata contributors, \"Q98846987,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98846987&oldid=1270659968 (accessed September 4, 2020)."@en ;
+    skos:prefLabel "Speech Recognizing"@en .
 
 tadirah:subtracting a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:editing ;
-    ns1:definition "Wikidata contributors, \"Q98848418,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848418&oldid=1270672456 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Subtracting"@en .
+        skos:Concept ;
+    skos:broader tadirah:editing ;
+    skos:definition "Wikidata contributors, \"Q98848418,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848418&oldid=1270672456 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Subtracting"@en .
 
 tadirah:supplementing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:editing ;
-    ns1:definition "Wikidata contributors, \"Q98848097,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848097&oldid=1270670374 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Supplementing"@en .
+        skos:Concept ;
+    skos:broader tadirah:editing ;
+    skos:definition "Wikidata contributors, \"Q98848097,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848097&oldid=1270670374 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Supplementing"@en .
 
 tadirah:teaching a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:disseminating ;
-    ns1:inScheme tadirah: ;
-    ns1:note "teaching refers to the activity of actively imparting knowledge, competences or skills."@en ;
-    ns1:prefLabel "Teaching"@en,
+        skos:Concept ;
+    skos:broader tadirah:disseminating ;
+    skos:inScheme tadirah: ;
+    skos:note "teaching refers to the activity of actively imparting knowledge, competences or skills."@en ;
+    skos:prefLabel "Teaching"@en,
         "指導"@ja .
 
 tadirah:textCategorization a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:stylisticAnalysis ;
-    ns1:definition "Wikidata contributors, \"Q57771142,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q57771142&oldid=1072020823 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Text Categorization"@en .
+        skos:Concept ;
+    skos:broader tadirah:stylisticAnalysis ;
+    skos:definition "Wikidata contributors, \"Q57771142,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q57771142&oldid=1072020823 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Text Categorization"@en .
 
 tadirah:textMessaging a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:communicating ;
-    ns1:definition "act of typing and sending a brief, digital message (Wikidata contributors, \"Q17166101,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q17166101&oldid=1266645836 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Text Messaging"@en,
+        skos:Concept ;
+    skos:broader tadirah:communicating ;
+    skos:definition "act of typing and sending a brief, digital message (Wikidata contributors, \"Q17166101,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q17166101&oldid=1266645836 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Text Messaging"@en,
         "テキストメッセージ"@ja .
 
 tadirah:topicModeling a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:contentAnalysis ;
-    ns1:definition "set of techniques in computational linguistics and related fields (Wikidata contributors, \"Q96468792,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q96468792&oldid=1211601100 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Topic Modeling"@en,
+        skos:Concept ;
+    skos:broader tadirah:contentAnalysis ;
+    skos:definition "set of techniques in computational linguistics and related fields (Wikidata contributors, \"Q96468792,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q96468792&oldid=1211601100 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Topic Modeling"@en,
         "トピックモデリング"@ja .
 
 tadirah:transcoding a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:converting ;
-    ns1:definition "direct digital-to-digital conversion of one encoding to another (Wikidata contributors, \"Q1888734,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1888734&oldid=1225865439 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Transcoding"@en,
+        skos:Concept ;
+    skos:broader tadirah:converting ;
+    skos:definition "direct digital-to-digital conversion of one encoding to another (Wikidata contributors, \"Q1888734,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1888734&oldid=1225865439 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Transcoding"@en,
         "トランスコーディング"@ja .
 
 tadirah:transformation a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:modeling ;
-    ns1:definition "process involving change into a qualitatively different form (Wikidata contributors, \"Q65757353,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q65757353&oldid=1268189392 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Transformation"@en,
+        skos:Concept ;
+    skos:broader tadirah:modeling ;
+    skos:definition "process involving change into a qualitatively different form (Wikidata contributors, \"Q65757353,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q65757353&oldid=1268189392 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Transformation"@en,
         "トランスフォーメーション"@ja .
 
 tadirah:translating a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:creating ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=18&/translation> ;
-    ns1:inScheme tadirah: ;
-    ns1:note "translating involves generating a new linguistic object based on a natural languages source document but written in a different language than the source."@en ;
-    ns1:prefLabel "Übersetzen"@de,
+        skos:Concept ;
+    skos:broader tadirah:creating ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=18&/translation> ;
+    skos:inScheme tadirah: ;
+    skos:note "translating involves generating a new linguistic object based on a natural languages source document but written in a different language than the source."@en ;
+    skos:prefLabel "Übersetzen"@de,
         "Translating"@en,
         "Traducción"@es,
         "Traduction"@fr,
@@ -782,98 +782,98 @@ tadirah:translating a owl:NamedIndividual,
         "Превођење"@sr .
 
 tadirah:treeTagging a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:structuralAnalysis ;
-    ns1:definition "Wikidata contributors, \"Q98845582,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845582&oldid=1270642307 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Tree-Tagging"@en .
+        skos:Concept ;
+    skos:broader tadirah:structuralAnalysis ;
+    skos:definition "Wikidata contributors, \"Q98845582,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845582&oldid=1270642307 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Tree-Tagging"@en .
 
 tadirah:tweet a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:publishing ;
-    ns1:definition "individual post on the Twitter microblogging service (Wikidata contributors, \"Q56119332,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q56119332&oldid=1249804975 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Tweet"@en,
+        skos:Concept ;
+    skos:broader tadirah:publishing ;
+    skos:definition "individual post on the Twitter microblogging service (Wikidata contributors, \"Q56119332,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q56119332&oldid=1249804975 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Tweet"@en,
         "ツイート"@ja .
 
 tadirah:uniformResourceIdentifier a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:altLabel "URI"@en ;
-    ns1:broader tadirah:identifying ;
-    ns1:definition "string of characters used to identify a name of a resource on a network such as the internet (Wikidata contributors, \"Q61694,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q61694&oldid=1253478595 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Uniform Resource Identifier"@en,
+        skos:Concept ;
+    skos:altLabel "URI"@en ;
+    skos:broader tadirah:identifying ;
+    skos:definition "string of characters used to identify a name of a resource on a network such as the internet (Wikidata contributors, \"Q61694,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q61694&oldid=1253478595 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Uniform Resource Identifier"@en,
         "統一資源識別子"@ja .
 
 tadirah:upload a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:sharing ;
-    ns1:definition "sending of data from a local system to a remote system (Wikidata contributors, \"Q7126699,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7126699&oldid=1267188395 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Upload"@en,
+        skos:Concept ;
+    skos:broader tadirah:sharing ;
+    skos:definition "sending of data from a local system to a remote system (Wikidata contributors, \"Q7126699,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q7126699&oldid=1267188395 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Upload"@en,
         "アップロード"@ja .
 
 tadirah:userGeneratedContent a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:crowdsourcing ;
-    ns1:definition "online content created by users (Wikidata contributors, \"Q579716,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q579716&oldid=1244820573 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "User Generated Content"@en,
+        skos:Concept ;
+    skos:broader tadirah:crowdsourcing ;
+    skos:definition "online content created by users (Wikidata contributors, \"Q579716,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q579716&oldid=1244820573 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "User Generated Content"@en,
         "ユーザ生成コンテンツ"@ja .
 
 tadirah:versioning a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:preserving ;
-    ns1:inScheme tadirah: ;
-    ns1:note "versioning comprises the management of different but improved and optimized models, releases or parts of a product or work (e.g. document, websites or software) by archiving, referencing and documenting of the changes in these different versions."@en ;
-    ns1:prefLabel "Versioning"@en,
+        skos:Concept ;
+    skos:broader tadirah:preserving ;
+    skos:inScheme tadirah: ;
+    skos:note "versioning comprises the management of different but improved and optimized models, releases or parts of a product or work (e.g. document, websites or software) by archiving, referencing and documenting of the changes in these different versions."@en ;
+    skos:prefLabel "Versioning"@en,
         "バージョン管理"@ja .
 
 tadirah:videoCapture a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:recording ;
-    ns1:definition "Wikidata contributors, \"Q2778015,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2778015&oldid=1112440881 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Video Capture"@en .
+        skos:Concept ;
+    skos:broader tadirah:recording ;
+    skos:definition "Wikidata contributors, \"Q2778015,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2778015&oldid=1112440881 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Video Capture"@en .
 
 tadirah:videoConference a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:communicating ;
-    ns1:definition "type of conference (Wikidata contributors, \"Q238354,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q238354&oldid=1262194128 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Video Conference"@en,
+        skos:Concept ;
+    skos:broader tadirah:communicating ;
+    skos:definition "type of conference (Wikidata contributors, \"Q238354,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q238354&oldid=1262194128 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Video Conference"@en,
         "ビデオ会議"@ja .
 
 tadirah:videoEditing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:editing ;
-    ns1:definition "editing live television and video production (Wikidata contributors, \"Q1154312,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1154312&oldid=1149134104 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Video Editing"@en,
+        skos:Concept ;
+    skos:broader tadirah:editing ;
+    skos:definition "editing live television and video production (Wikidata contributors, \"Q1154312,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1154312&oldid=1149134104 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Video Editing"@en,
         "ビデオ編集"@ja .
 
 tadirah:visualAnnotation a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:annotating ;
-    ns1:definition "Wikidata contributors, \"Q98847784,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847784&oldid=1270668347 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Visual Annotation"@en .
+        skos:Concept ;
+    skos:broader tadirah:annotating ;
+    skos:definition "Wikidata contributors, \"Q98847784,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98847784&oldid=1270668347 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Visual Annotation"@en .
 
 tadirah:webCrawling a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:gathering ;
-    ns1:definition "systematic access of resources across the web (Wikidata contributors, \"Q61466324,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q61466324&oldid=1232626072 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Web Crawling"@en,
+        skos:Concept ;
+    skos:broader tadirah:gathering ;
+    skos:definition "systematic access of resources across the web (Wikidata contributors, \"Q61466324,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q61466324&oldid=1232626072 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Web Crawling"@en,
         "ウェブクローリング"@ja .
 
 tadirah:webDevelopment a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:creating ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=19&/web-development> ;
-    ns1:inScheme tadirah: ;
-    ns1:note "web development refers to the creation of websites by writing HTML/CSS, or other scripting languages, and building or configuring  a platform, content management system or framework such as Drupal, WordPress, Bootstrap, or Omeka, but also includes creating digital assets for browser-based applications."@en ;
-    ns1:prefLabel "Webentwicklung"@de,
+        skos:Concept ;
+    skos:broader tadirah:creating ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=19&/web-development> ;
+    skos:inScheme tadirah: ;
+    skos:note "web development refers to the creation of websites by writing HTML/CSS, or other scripting languages, and building or configuring  a platform, content management system or framework such as Drupal, WordPress, Bootstrap, or Omeka, but also includes creating digital assets for browser-based applications."@en ;
+    skos:prefLabel "Webentwicklung"@de,
         "Web Development"@en,
         "Desarrollo web"@es,
         "Développement Web"@fr,
@@ -883,147 +883,147 @@ tadirah:webDevelopment a owl:NamedIndividual,
         "Развој мреже-Веб програмирање"@sr .
 
 tadirah:wireframing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:designing ;
-    ns1:definition "Wikidata contributors, \"Q98845203,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845203&oldid=1270637566 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Wireframing"@en .
+        skos:Concept ;
+    skos:broader tadirah:designing ;
+    skos:definition "Wikidata contributors, \"Q98845203,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98845203&oldid=1270637566 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Wireframing"@en .
 
 tadirah:cataloging a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:archiving,
+        skos:Concept ;
+    skos:broader tadirah:archiving,
         tadirah:gathering ;
-    ns1:definition "process of listing information resources for inclusion in a database (Wikidata contributors, \"Q3535655,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q3535655&oldid=1256785269 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Cataloging"@en,
+    skos:definition "process of listing information resources for inclusion in a database (Wikidata contributors, \"Q3535655,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q3535655&oldid=1256785269 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Cataloging"@en,
         "カタロギング（目録作成）"@ja .
 
 tadirah:clusterAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:relationalAnalysis,
+        skos:Concept ;
+    skos:broader tadirah:relationalAnalysis,
         tadirah:stylisticAnalysis ;
-    ns1:definition "task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters) (Wikidata contributors, \"Q622825,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q622825&oldid=1212288392 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Cluster Analysis"@en,
+    skos:definition "task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters) (Wikidata contributors, \"Q622825,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q622825&oldid=1212288392 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Cluster Analysis"@en,
         "クラスタ分析"@ja .
 
 tadirah:collating a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:gathering,
+        skos:Concept ;
+    skos:broader tadirah:gathering,
         tadirah:relationalAnalysis ;
-    ns1:inScheme tadirah: ;
-    ns1:note "collating describes the activity of comparing two or more versions of written or spoken natural language data by aligning them into alphabetical or numerical order to identify similarities and differences. "@en ;
-    ns1:prefLabel "Collating"@en,
+    skos:inScheme tadirah: ;
+    skos:note "collating describes the activity of comparing two or more versions of written or spoken natural language data by aligning them into alphabetical or numerical order to identify similarities and differences. "@en ;
+    skos:prefLabel "Collating"@en,
         "照合"@ja .
 
 tadirah:collecting a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:archiving,
+        skos:Concept ;
+    skos:broader tadirah:archiving,
         tadirah:gathering ;
-    ns1:definition "purposefully gathering items (Wikidata contributors, \"Q208165,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q208165&oldid=1249560517 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Collecting"@en,
+    skos:definition "purposefully gathering items (Wikidata contributors, \"Q208165,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q208165&oldid=1249560517 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Collecting"@en,
         "収集"@ja .
 
 tadirah:correcting a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:dataCleansing,
+        skos:Concept ;
+    skos:broader tadirah:dataCleansing,
         tadirah:editing ;
-    ns1:definition "Wikidata contributors, \"Q98848041,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848041&oldid=1270670016 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Correcting"@en .
+    skos:definition "Wikidata contributors, \"Q98848041,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q98848041&oldid=1270670016 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Correcting"@en .
 
 tadirah:georeferencing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:annotating,
+        skos:Concept ;
+    skos:broader tadirah:annotating,
         tadirah:spatialAnalysis ;
-    ns1:definition "identification of something to locations in physical space (Wikidata contributors, \"Q772007,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q772007&oldid=1240907550 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Georeferencing"@en,
+    skos:definition "identification of something to locations in physical space (Wikidata contributors, \"Q772007,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q772007&oldid=1240907550 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Georeferencing"@en,
         "ジオリファレンス"@ja .
 
 tadirah:informationRetrieval a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:contentAnalysis,
+        skos:Concept ;
+    skos:broader tadirah:contentAnalysis,
         tadirah:discovering ;
-    ns1:definition "activity of obtaining information resources relevant to an information need from a collection of information resources (Wikidata contributors, \"Q816826,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q816826&oldid=1228359828 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Information Retrieval"@en,
+    skos:definition "activity of obtaining information resources relevant to an information need from a collection of information resources (Wikidata contributors, \"Q816826,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q816826&oldid=1228359828 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Information Retrieval"@en,
         "情報検索"@ja .
 
 tadirah:linkedOpenData a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:altLabel "LOD"@en ;
-    ns1:broader tadirah:annotating,
+        skos:Concept ;
+    skos:altLabel "LOD"@en ;
+    skos:broader tadirah:annotating,
         tadirah:publishing ;
-    ns1:definition "linked data available under an open license (Wikidata contributors, \"Q18692990,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q18692990&oldid=1229182996 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Linked Open Data"@en,
+    skos:definition "linked data available under an open license (Wikidata contributors, \"Q18692990,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q18692990&oldid=1229182996 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Linked Open Data"@en,
         "LOD (Linked Open Data, リンクドオープンデータ)"@ja .
 
 tadirah:mapping a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:contextualizing,
+        skos:Concept ;
+    skos:broader tadirah:contextualizing,
         tadirah:visualAnalysis ;
-    ns1:definition "binary relation which is left-total (defined on all its input set) (Wikidata contributors, \"Q370502,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q370502&oldid=1183603611 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Mapping"@en,
+    skos:definition "binary relation which is left-total (defined on all its input set) (Wikidata contributors, \"Q370502,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q370502&oldid=1183603611 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Mapping"@en,
         "マッピング（写像）"@ja .
 
 tadirah:posTagging a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:altLabel "Part-of-Speech-Tagging"@en ;
-    ns1:broader tadirah:annotating,
+        skos:Concept ;
+    skos:altLabel "Part-of-Speech-Tagging"@en ;
+    skos:broader tadirah:annotating,
         tadirah:structuralAnalysis ;
-    ns1:definition "the process of identifying the grammatical type of words in a text (Wikidata contributors, \"Q1271424,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1271424&oldid=1167811400 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "POS-Tagging"@en,
+    skos:definition "the process of identifying the grammatical type of words in a text (Wikidata contributors, \"Q1271424,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q1271424&oldid=1167811400 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "POS-Tagging"@en,
         "品詞タグ付け"@ja .
 
 tadirah:principalComponentAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:relationalAnalysis,
+        skos:Concept ;
+    skos:broader tadirah:relationalAnalysis,
         tadirah:stylisticAnalysis ;
-    ns1:definition "conversion of a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components (Wikidata contributors, \"Q2873,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2873&oldid=1237203694 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Principal Component Analysis"@en,
+    skos:definition "conversion of a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components (Wikidata contributors, \"Q2873,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2873&oldid=1237203694 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Principal Component Analysis"@en,
         "主成分分析"@ja .
 
 tadirah:scanning a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:archiving,
+        skos:Concept ;
+    skos:broader tadirah:archiving,
         tadirah:imaging ;
-    ns1:definition "process of creating digital images with a scanner (Wikidata contributors, \"Q59155052,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q59155052&oldid=1184040702 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Scanning"@en,
+    skos:definition "process of creating digital images with a scanner (Wikidata contributors, \"Q59155052,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q59155052&oldid=1184040702 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Scanning"@en,
         "スキャニング"@ja .
 
 tadirah:stylometry a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:relationalAnalysis,
+        skos:Concept ;
+    skos:broader tadirah:relationalAnalysis,
         tadirah:stylisticAnalysis ;
-    ns1:inScheme tadirah: ;
-    ns1:note "stylometry refers to research methods and techniques for analyzing, characterizing and comparing writing styles to determine authorship via statistical probability. A typical stylometric approach is based on the observation the frequency of occurrence of individual words, length of sentences, complexity of sentences, frequent words, spelling errors, etc."@en ;
-    ns1:prefLabel "Stylometry"@en,
+    skos:inScheme tadirah: ;
+    skos:note "stylometry refers to research methods and techniques for analyzing, characterizing and comparing writing styles to determine authorship via statistical probability. A typical stylometric approach is based on the observation the frequency of occurrence of individual words, length of sentences, complexity of sentences, frequent words, spelling errors, etc."@en ;
+    skos:prefLabel "Stylometry"@en,
         "文体統計学"@ja .
 
 tadirah:tagging a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:annotating,
+        skos:Concept ;
+    skos:broader tadirah:annotating,
         tadirah:contentAnalysis ;
-    ns1:definition "the act of labelling a piece of data or content wth a short string to express some metadata (Wikidata contributors, \"Q43401994,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q43401994&oldid=1198888121 (accessed September 4, 2020)"@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Tagging"@en,
+    skos:definition "the act of labelling a piece of data or content wth a short string to express some metadata (Wikidata contributors, \"Q43401994,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q43401994&oldid=1198888121 (accessed September 4, 2020)"@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Tagging"@en,
         "タグ付け"@ja .
 
 tadirah:transcribing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:capturing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=14&/transcription> ;
-    ns1:definition "transcribing describes  the activity of creating a representation of a manuscript or of audio or video recordings. The representation is generally textual for the verbal aspects of recordings and structured for example by speech turns. It can also contain multimodal information like gestures or events and multimedia information like time synchronization and relation to media files."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:speechRecognizing ;
-    ns1:prefLabel "Transkription"@de,
+        skos:Concept ;
+    skos:broader tadirah:capturing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=14&/transcription> ;
+    skos:definition "transcribing describes  the activity of creating a representation of a manuscript or of audio or video recordings. The representation is generally textual for the verbal aspects of recordings and structured for example by speech turns. It can also contain multimodal information like gestures or events and multimedia information like time synchronization and relation to media files."@en ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:speechRecognizing ;
+    skos:prefLabel "Transkription"@de,
         "Transcribing"@en,
         "Transcripción"@es,
         "Transcription"@fr,
@@ -1033,22 +1033,22 @@ tadirah:transcribing a owl:NamedIndividual,
         "Транскрипција"@sr .
 
 tadirah:webScraping a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:archiving,
+        skos:Concept ;
+    skos:broader tadirah:archiving,
         tadirah:gathering ;
-    ns1:definition "data scraping used for extracting data from websites (Wikidata contributors, \"Q665452,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q665452&oldid=1203621822 (accessed September 4, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Web Scraping"@en,
+    skos:definition "data scraping used for extracting data from websites (Wikidata contributors, \"Q665452,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q665452&oldid=1203621822 (accessed September 4, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Web Scraping"@en,
         "ウェブスクレーピング"@ja .
 
 tadirah:writing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:creating ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=20&/writing> ;
-    ns1:definition "writing designates the activity of creating new texts (instead of capturing existing text). Here, it primarily concerns research papers and reports, but may include other textually-oriented objects."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:lettering ;
-    ns1:prefLabel "Schreiben"@de,
+        skos:Concept ;
+    skos:broader tadirah:creating ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=20&/writing> ;
+    skos:definition "writing designates the activity of creating new texts (instead of capturing existing text). Here, it primarily concerns research papers and reports, but may include other textually-oriented objects."@en ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:lettering ;
+    skos:prefLabel "Schreiben"@de,
         "Writing"@en,
         "Escritura"@es,
         "Écriture"@fr,
@@ -1058,14 +1058,14 @@ tadirah:writing a owl:NamedIndividual,
         "Писање"@sr .
 
 tadirah:commenting a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:disseminating ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=44&/commenting> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:contextualizing,
+        skos:Concept ;
+    skos:broader tadirah:disseminating ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=44&/commenting> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:contextualizing,
         tadirah:expressingOpinion ;
-    ns1:note "commenting is the activity of adding information to a piece of data, usually in a way that separates the data to which the comment is attached and the comment. It usually serves to express some opinion, to add contextual information, or to engage in communication or collaboration with others about the object commented on."@en ;
-    ns1:prefLabel "Kommentieren"@de,
+    skos:note "commenting is the activity of adding information to a piece of data, usually in a way that separates the data to which the comment is attached and the comment. It usually serves to express some opinion, to add contextual information, or to engage in communication or collaboration with others about the object commented on."@en ;
+    skos:prefLabel "Kommentieren"@de,
         "Commenting"@en,
         "Comentario"@es,
         "Commentaire"@fr,
@@ -1075,14 +1075,14 @@ tadirah:commenting a owl:NamedIndividual,
         "Стављање коментара"@sr .
 
 tadirah:crowdsourcing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:disseminating ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=46&/crowdsourcing> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:gamification,
+        skos:Concept ;
+    skos:broader tadirah:disseminating ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=46&/crowdsourcing> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:gamification,
         tadirah:userGeneratedContent ;
-    ns1:note "crowdsourcing refers to the paradigm of user-generated content by an open, large and constantly growing group of contributors in a collaborative and collective web context, applied here to the domain of digital humanities research."@en ;
-    ns1:prefLabel "Crowdsourcing"@de,
+    skos:note "crowdsourcing refers to the paradigm of user-generated content by an open, large and constantly growing group of contributors in a collaborative and collective web context, applied here to the domain of digital humanities research."@en ;
+    skos:prefLabel "Crowdsourcing"@de,
         "Crowdsourcing"@en,
         "Crowdsourcing"@fr,
         "Cooperazione Collettiva"@it,
@@ -1090,24 +1090,24 @@ tadirah:crowdsourcing a owl:NamedIndividual,
         "Прибављање малих новчаних прилога од великог броја људи"@sr .
 
 tadirah:encoding a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:annotating,
+        skos:Concept ;
+    skos:broader tadirah:annotating,
         tadirah:dataRecognition,
         tadirah:programming ;
-    ns1:definition "process of creating a message for transmission (Wikidata contributors, \"Q5375490,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5375490&oldid=1224419731 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Encoding"@en,
+    skos:definition "process of creating a message for transmission (Wikidata contributors, \"Q5375490,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q5375490&oldid=1224419731 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Encoding"@en,
         "エンコーディング"@ja .
 
 tadirah:imaging a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:capturing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=12&/imaging> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:photographing,
+        skos:Concept ;
+    skos:broader tadirah:capturing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=12&/imaging> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:photographing,
         tadirah:scanning ;
-    ns1:note "imaging refers to capturing texts, images, artifacts or spatial formations in 2D or 3D using optical or acoustic means (light, laser, infrared, ultrasound). Imaging usually does not lead to the identification of discrete semantic or structural units in the data, such as words or musical notes."@en ;
-    ns1:prefLabel "Bilderfassung"@de,
+    skos:note "imaging refers to capturing texts, images, artifacts or spatial formations in 2D or 3D using optical or acoustic means (light, laser, infrared, ultrasound). Imaging usually does not lead to the identification of discrete semantic or structural units in the data, such as words or musical notes."@en ;
+    skos:prefLabel "Bilderfassung"@de,
         "Imaging"@en,
         "Captura en formato imagen"@es,
         "Imagerie"@fr,
@@ -1117,14 +1117,14 @@ tadirah:imaging a owl:NamedIndividual,
         "Усликавање"@sr .
 
 tadirah:modeling a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:interpreting ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=35&/modeling> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:dataMapping,
+        skos:Concept ;
+    skos:broader tadirah:interpreting ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=35&/modeling> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:dataMapping,
         tadirah:transformation ;
-    ns1:note "modeling refers to creating an abstract representation of a complex phenomenon, usually in a machine-readable way, possibly in an interactive way (i.e. it includes “simulation”). Models become machine-readable when modeling produces a schema that describes the elements and the structure of an object of inquiry in an explicit way. Further it refers to the activity of transforming or manipulating a digital object in such a way as to make it compatible with a previously constructed model or schema."@en ;
-    ns1:prefLabel "Modellieren"@de,
+    skos:note "modeling refers to creating an abstract representation of a complex phenomenon, usually in a machine-readable way, possibly in an interactive way (i.e. it includes “simulation”). Models become machine-readable when modeling produces a schema that describes the elements and the structure of an object of inquiry in an explicit way. Further it refers to the activity of transforming or manipulating a digital object in such a way as to make it compatible with a previously constructed model or schema."@en ;
+    skos:prefLabel "Modellieren"@de,
         "Modeling"@en,
         "Modelización"@es,
         "Modélisation"@fr,
@@ -1134,14 +1134,14 @@ tadirah:modeling a owl:NamedIndividual,
         "Моделовање"@sr .
 
 tadirah:networkAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:analyzing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=27&/network-analysis> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:identifying,
+        skos:Concept ;
+    skos:broader tadirah:analyzing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=27&/network-analysis> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:identifying,
         tadirah:namedEntityRecognition ;
-    ns1:note "network analysis is a method to study the relations of (real or fictional) actors or other entities in a mediated network, which can take the form of a social or academic online network, a set of correspondence, or a work of literature. The resulting network is made up of nodes (entities) and edges (relations)."@en ;
-    ns1:prefLabel "Netzwerkanalyse"@de,
+    skos:note "network analysis is a method to study the relations of (real or fictional) actors or other entities in a mediated network, which can take the form of a social or academic online network, a set of correspondence, or a work of literature. The resulting network is made up of nodes (entities) and edges (relations)."@en ;
+    skos:prefLabel "Netzwerkanalyse"@de,
         "Network Analysis"@en,
         "Análisis de redes"@es,
         "Analyse de réseaux"@fr,
@@ -1151,14 +1151,14 @@ tadirah:networkAnalysis a owl:NamedIndividual,
         "Анализа мреже"@sr .
 
 tadirah:spatialAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:analyzing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=29&/spatial-analysis> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:georeferencing,
+        skos:Concept ;
+    skos:broader tadirah:analyzing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=29&/spatial-analysis> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:georeferencing,
         tadirah:namedEntityRecognition ;
-    ns1:note "spatial analysis refers to the discovery of trends or patterns in data pertaining to spatial or geographical aspects of the data. Spatial analysis may lead to Visualization or Modeling in the form of maps."@en ;
-    ns1:prefLabel "Räumliche Analyse"@de,
+    skos:note "spatial analysis refers to the discovery of trends or patterns in data pertaining to spatial or geographical aspects of the data. Spatial analysis may lead to Visualization or Modeling in the form of maps."@en ;
+    skos:prefLabel "Räumliche Analyse"@de,
         "Spatial Analysis"@en,
         "Análisis espacial"@es,
         "Analyse spatiale"@fr,
@@ -1168,15 +1168,15 @@ tadirah:spatialAnalysis a owl:NamedIndividual,
         "Просторна анализа"@sr .
 
 tadirah:collaborating a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:disseminating ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=43&/collaboration> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:discussing,
+        skos:Concept ;
+    skos:broader tadirah:disseminating ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=43&/collaboration> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:discussing,
         tadirah:organizing,
         tadirah:socialNetworking ;
-    ns1:note "collaborating  is involved in any research activity being done jointly by several researchers, possibly in different places and at different times. Research-oriented collaboration is enabled, particularly, through comprehensive digital research environments, but can also happen around more specific activities, such as communication or sharing of resources."@en ;
-    ns1:prefLabel "Kollaboration"@de,
+    skos:note "collaborating  is involved in any research activity being done jointly by several researchers, possibly in different places and at different times. Research-oriented collaboration is enabled, particularly, through comprehensive digital research environments, but can also happen around more specific activities, such as communication or sharing of resources."@en ;
+    skos:prefLabel "Kollaboration"@de,
         "Collaborating"@en,
         "Colaboración"@es,
         "Collaboration"@fr,
@@ -1186,15 +1186,15 @@ tadirah:collaborating a owl:NamedIndividual,
         "Колаборација/Сарадња"@sr .
 
 tadirah:designing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:creating ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=16&/designing> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:diagramming,
+        skos:Concept ;
+    skos:broader tadirah:creating ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=16&/designing> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:diagramming,
         tadirah:drawing,
         tadirah:wireframing ;
-    ns1:note "designing refers to the development of a user or a graphical interface, with which the user is able to interact to perform various tasks and conduct activities. Also included here is the development of the user experience, user interaction, participation and usability aspects where a person’s perceptions and needs of the practical dimensions such as utility, ease of use, and efficiency of the system are taken into consideration."@en ;
-    ns1:prefLabel "Design"@de,
+    skos:note "designing refers to the development of a user or a graphical interface, with which the user is able to interact to perform various tasks and conduct activities. Also included here is the development of the user experience, user interaction, participation and usability aspects where a person’s perceptions and needs of the practical dimensions such as utility, ease of use, and efficiency of the system are taken into consideration."@en ;
+    skos:prefLabel "Design"@de,
         "Designing"@en,
         "Diseño"@es,
         "Design"@fr,
@@ -1204,14 +1204,14 @@ tadirah:designing a owl:NamedIndividual,
         "Дизајнирање"@sr .
 
 tadirah:enriching a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=21> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:annotating,
+        skos:Concept ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=21> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:annotating,
         tadirah:dataCleansing,
         tadirah:editing ;
-    ns1:note "enriching refers to the activity of annotating, editing, or cleaning information to an object of enquiry, by making its origin, nature, structure, meaning, or elements explicit."@en ;
-    ns1:prefLabel "Anreichern"@de,
+    skos:note "enriching refers to the activity of annotating, editing, or cleaning information to an object of enquiry, by making its origin, nature, structure, meaning, or elements explicit."@en ;
+    skos:prefLabel "Anreichern"@de,
         "Enriching"@en,
         "Enriquecimiento"@es,
         "Enrichissement"@fr,
@@ -1219,17 +1219,17 @@ tadirah:enriching a owl:NamedIndividual,
         "拡充化"@ja,
         "Enriquecimento"@pt,
         "Обогаћивање"@sr ;
-    ns1:topConceptOf tadirah: .
+    skos:topConceptOf tadirah: .
 
 tadirah:interpreting a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=33&/5_interpretation> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:contextualizing,
+        skos:Concept ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=33&/5_interpretation> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:contextualizing,
         tadirah:modeling,
         tadirah:theorizing ;
-    ns1:note "interpreting is the activity of explaining and ascribing the intended meaning to phenomena observed in analysis. Therefore, interpretation usually follows analysis, although it could also be considered that interpretation defines the hermeneutic perspective of any method of analysis. It refers to processes opening up the discussed phenomenon to a wider debate (contextualisation), of deductive and inductive reasoning (theorizing), or  formalizing specific aspects (modeling)."@en ;
-    ns1:prefLabel "Interpretation"@de,
+    skos:note "interpreting is the activity of explaining and ascribing the intended meaning to phenomena observed in analysis. Therefore, interpretation usually follows analysis, although it could also be considered that interpretation defines the hermeneutic perspective of any method of analysis. It refers to processes opening up the discussed phenomenon to a wider debate (contextualisation), of deductive and inductive reasoning (theorizing), or  formalizing specific aspects (modeling)."@en ;
+    skos:prefLabel "Interpretation"@de,
         "Interpreting"@en,
         "Interpretación"@es,
         "Interprétation"@fr,
@@ -1237,42 +1237,42 @@ tadirah:interpreting a owl:NamedIndividual,
         "解釈"@ja,
         "Interpretação"@pt,
         "Тумачење"@sr ;
-    ns1:topConceptOf tadirah: .
+    skos:topConceptOf tadirah: .
 
 tadirah:machineLearning a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:altLabel "ML"@en ;
-    ns1:broader tadirah:contentAnalysis,
+        skos:Concept ;
+    skos:altLabel "ML"@en ;
+    skos:broader tadirah:contentAnalysis,
         tadirah:relationalAnalysis,
         tadirah:structuralAnalysis,
         tadirah:stylisticAnalysis ;
-    ns1:definition "branch of statistics and computer science, which studies algorithms and architectures that learn from observed facts (Wikidata contributors, \"Q2539,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2539&oldid=1228523395 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Machine Learning"@en,
+    skos:definition "branch of statistics and computer science, which studies algorithms and architectures that learn from observed facts (Wikidata contributors, \"Q2539,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q2539&oldid=1228523395 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Machine Learning"@en,
         "機械学習"@ja .
 
 tadirah:namedEntityRecognition a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:altLabel "NER"@en ;
-    ns1:broader tadirah:annotating,
+        skos:Concept ;
+    skos:altLabel "NER"@en ;
+    skos:broader tadirah:annotating,
         tadirah:contentAnalysis,
         tadirah:networkAnalysis,
         tadirah:spatialAnalysis ;
-    ns1:definition "extraction of named entity mentions in unstructured text into pre-defined categories (Wikidata contributors, \"Q403574,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q403574&oldid=1232404694 (accessed July 30, 2020)."@en ;
-    ns1:inScheme tadirah: ;
-    ns1:prefLabel "Named Entity Recognition"@en,
+    skos:definition "extraction of named entity mentions in unstructured text into pre-defined categories (Wikidata contributors, \"Q403574,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q403574&oldid=1232404694 (accessed July 30, 2020)."@en ;
+    skos:inScheme tadirah: ;
+    skos:prefLabel "Named Entity Recognition"@en,
         "固有表現認識"@ja .
 
 tadirah:programming a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:creating ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=17&/programming> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:encoding,
+        skos:Concept ;
+    skos:broader tadirah:creating ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=17&/programming> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:encoding,
         tadirah:graphicsProgramming,
         tadirah:pseudoCoding ;
-    ns1:note "programming describes the process of creating executable code for a computer including scripts or application software. Often programming comprises pseudo coding and editing ac source code or algorithm and is varying for different programming languages."@en ;
-    ns1:prefLabel "Programmieren"@de,
+    skos:note "programming describes the process of creating executable code for a computer including scripts or application software. Often programming comprises pseudo coding and editing ac source code or algorithm and is varying for different programming languages."@en ;
+    skos:prefLabel "Programmieren"@de,
         "Programming"@en,
         "Programación"@es,
         "Programmation"@fr,
@@ -1282,15 +1282,15 @@ tadirah:programming a owl:NamedIndividual,
         "Програмирање"@sr .
 
 tadirah:recording a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:capturing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=13&/recording> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:audioRecording,
+        skos:Concept ;
+    skos:broader tadirah:capturing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=13&/recording> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:audioRecording,
         tadirah:screencast,
         tadirah:videoCapture ;
-    ns1:note "recording refers to capturing audio and/or video. The  result is a digital audio (e.g. WAV, MP3, etc.) or video (e.g. MP4, Quicktime, etc.) file that can be manipulated, analyzed and/or stored."@en ;
-    ns1:prefLabel "Aufzeichnen"@de,
+    skos:note "recording refers to capturing audio and/or video. The  result is a digital audio (e.g. WAV, MP3, etc.) or video (e.g. MP4, Quicktime, etc.) file that can be manipulated, analyzed and/or stored."@en ;
+    skos:prefLabel "Aufzeichnen"@de,
         "Recording"@en,
         "Grabación"@es,
         "Enregistrement"@fr,
@@ -1300,15 +1300,15 @@ tadirah:recording a owl:NamedIndividual,
         "Снимање"@sr .
 
 tadirah:sharing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:disseminating,
+        skos:Concept ;
+    skos:broader tadirah:disseminating,
         tadirah:organizing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=48&/sharing> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:posting,
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=48&/sharing> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:posting,
         tadirah:upload ;
-    ns1:note "sharing refers to the activity of making objects such as digital information, documents, files, software and other publically findable, accessible, interoperable and reusable according to the fair principles and in the sense of open science through communication channels such as blogs, code sharing sites such as GitHUB, social media sites or other web-based services, collaborative and network applications."@en ;
-    ns1:prefLabel "Teilen"@de,
+    skos:note "sharing refers to the activity of making objects such as digital information, documents, files, software and other publically findable, accessible, interoperable and reusable according to the fair principles and in the sense of open science through communication channels such as blogs, code sharing sites such as GitHUB, social media sites or other web-based services, collaborative and network applications."@en ;
+    skos:prefLabel "Teilen"@de,
         "Sharing"@en,
         "Intercambio"@es,
         "Partage"@fr,
@@ -1318,16 +1318,16 @@ tadirah:sharing a owl:NamedIndividual,
         "Дељење"@sr .
 
 tadirah:dataCleansing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:enriching ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=23&/cleanup> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:correcting,
+        skos:Concept ;
+    skos:broader tadirah:enriching ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=23&/cleanup> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:correcting,
         tadirah:debugging,
         tadirah:improving,
         tadirah:removing ;
-    ns1:note "data cleansing involves improving the quality of an existing digital object. This could include correcting errors in a written text, errors in OCR results or  debugging code."@en ;
-    ns1:prefLabel "Bereinigen"@de,
+    skos:note "data cleansing involves improving the quality of an existing digital object. This could include correcting errors in a written text, errors in OCR results or  debugging code."@en ;
+    skos:prefLabel "Bereinigen"@de,
         "Data Cleansing"@en,
         "Limpieza de datos"@es,
         "Nettoyage"@fr,
@@ -1337,16 +1337,16 @@ tadirah:dataCleansing a owl:NamedIndividual,
         "Чишћење"@sr .
 
 tadirah:dataRecognition a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:capturing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=9&/data-recognition> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:encoding,
+        skos:Concept ;
+    skos:broader tadirah:capturing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=9&/data-recognition> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:encoding,
         tadirah:opticalCharacterRecognition,
         tadirah:opticalMusicRecognition,
         tadirah:preprocessing ;
-    ns1:note "data recognition, e.g. optical character recognition (OCR), refers to the process of treating the immediate products of digital data capturing (recording or imaging), such as digital facsimiles of texts or of music score, in a way to extract discrete, machine-readable units from them, such as plain text words, musical notes, still or moving image elements."@en ;
-    ns1:prefLabel "Datenerkennung"@de,
+    skos:note "data recognition, e.g. optical character recognition (OCR), refers to the process of treating the immediate products of digital data capturing (recording or imaging), such as digital facsimiles of texts or of music score, in a way to extract discrete, machine-readable units from them, such as plain text words, musical notes, still or moving image elements."@en ;
+    skos:prefLabel "Datenerkennung"@de,
         "Data Recognition"@en,
         "Reconocimiento de datos"@es,
         "Reconnaissance de données"@fr,
@@ -1356,28 +1356,28 @@ tadirah:dataRecognition a owl:NamedIndividual,
         "Препознавање података"@sr .
 
 tadirah:extracting a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:capturing ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:dataMining,
+        skos:Concept ;
+    skos:broader tadirah:capturing ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:dataMining,
         tadirah:informationMining,
         tadirah:knowledgeDiscovery,
         tadirah:knowledgeExtraction ;
-    ns1:note "extracting refers to the process to distill structured information from texts, images or other machine-readable digital documents of a certain domain not necessarily in a human understandable form. Information extraction, knowledge extraction, knowledge discovery, information mining and data mining are methodologically similar. The activity of extracting also concerns processing human language texts by means of natural language processing (NLP)."@en ;
-    ns1:prefLabel "Extracting"@en,
+    skos:note "extracting refers to the process to distill structured information from texts, images or other machine-readable digital documents of a certain domain not necessarily in a human understandable form. Information extraction, knowledge extraction, knowledge discovery, information mining and data mining are methodologically similar. The activity of extracting also concerns processing human language texts by means of natural language processing (NLP)."@en ;
+    skos:prefLabel "Extracting"@en,
         "抽出"@ja .
 
 tadirah:organizing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:collaborating,
+        skos:Concept ;
+    skos:broader tadirah:collaborating,
         tadirah:storing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=40&/organizing> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:finding,
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=40&/organizing> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:finding,
         tadirah:managing,
         tadirah:sharing ;
-    ns1:note "organizing refers to the arrangement of objects (research materials, data sets, images, etc.) in a way that facilitates other research activities. May also include activities that support discovery such as metadata creation and enhancement."@en ;
-    ns1:prefLabel "Organisieren"@de,
+    skos:note "organizing refers to the arrangement of objects (research materials, data sets, images, etc.) in a way that facilitates other research activities. May also include activities that support discovery such as metadata creation and enhancement."@en ;
+    skos:prefLabel "Organisieren"@de,
         "Organizing"@en,
         "Organisation"@fr,
         "Organizzazione"@it,
@@ -1385,15 +1385,15 @@ tadirah:organizing a owl:NamedIndividual,
         "Организовање"@sr .
 
 tadirah:storing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=37&/6_storage> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:archiving,
+        skos:Concept ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=37&/6_storage> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:archiving,
         tadirah:identifying,
         tadirah:organizing,
         tadirah:preserving ;
-    ns1:note "storing refers to the activity of making digital copies of objects of inquiry, results of research, software and services, or any media keeping (preserving) them long-term accessible (archiving), without necessarily making them available to the public. This includes management activities (organizing) and processes of identifying the resource."@en ;
-    ns1:prefLabel "Speicherung"@de,
+    skos:note "storing refers to the activity of making digital copies of objects of inquiry, results of research, software and services, or any media keeping (preserving) them long-term accessible (archiving), without necessarily making them available to the public. This includes management activities (organizing) and processes of identifying the resource."@en ;
+    skos:prefLabel "Speicherung"@de,
         "Storing"@en,
         "Almacenamiento"@es,
         "Stockage"@fr,
@@ -1401,19 +1401,19 @@ tadirah:storing a owl:NamedIndividual,
         "保存"@ja,
         "Armazenamento"@pt,
         "Похрањивање"@sr ;
-    ns1:topConceptOf tadirah: .
+    skos:topConceptOf tadirah: .
 
 tadirah:visualAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:analyzing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=32&/visualization> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:dataVisualization,
+        skos:Concept ;
+    skos:broader tadirah:analyzing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=32&/visualization> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:dataVisualization,
         tadirah:mapping,
         tadirah:mindMapping,
         tadirah:plotting ;
-    ns1:note "visual analysis refers to activities to aggregate and graphically represent patterns, structures, trends or points of interest in large and complex data sets using them analytically and making them visually explorable with methods of automatic data analysis in order to gain new insights. Virtually any type of data, information or knowledge can be visualized in static, dynamic or interactive visual formats such as images, maps, timelines, charts or tables, 2D, 3D and the like."@en ;
-    ns1:prefLabel "Visualisierung"@de,
+    skos:note "visual analysis refers to activities to aggregate and graphically represent patterns, structures, trends or points of interest in large and complex data sets using them analytically and making them visually explorable with methods of automatic data analysis in order to gain new insights. Virtually any type of data, information or knowledge can be visualized in static, dynamic or interactive visual formats such as images, maps, timelines, charts or tables, 2D, 3D and the like."@en ;
+    skos:prefLabel "Visualisierung"@de,
         "Visual Analysis"@en,
         "Visualización"@es,
         "Visualisation"@fr,
@@ -1423,17 +1423,17 @@ tadirah:visualAnalysis a owl:NamedIndividual,
         "Визуализација"@sr .
 
 tadirah:converting a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:capturing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=8&/conversion> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:compiling,
+        skos:Concept ;
+    skos:broader tadirah:capturing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=8&/conversion> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:compiling,
         tadirah:lemmatizing,
         tadirah:naturalLanguageProcessing,
         tadirah:parsing,
         tadirah:transcoding ;
-    ns1:note "converting refers to changing the file format of an object, e.g. converting a .wmv video to a .mov file or converting VHS into a digital format. A conversion is not lossless and generates a different data format, digital representation, or a different digital object. When converting concerns metadata, it may involve mapping one metadata schema to another."@en ;
-    ns1:prefLabel "Konvertieren"@de,
+    skos:note "converting refers to changing the file format of an object, e.g. converting a .wmv video to a .mov file or converting VHS into a digital format. A conversion is not lossless and generates a different data format, digital representation, or a different digital object. When converting concerns metadata, it may involve mapping one metadata schema to another."@en ;
+    skos:prefLabel "Konvertieren"@de,
         "Converting"@en,
         "Conversión"@es,
         "Conversion"@fr,
@@ -1443,16 +1443,16 @@ tadirah:converting a owl:NamedIndividual,
         "Конвертовање"@sr .
 
 tadirah:creating a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=15&/2_creation> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:designing,
+        skos:Concept ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=15&/2_creation> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:designing,
         tadirah:programming,
         tadirah:translating,
         tadirah:webDevelopment,
         tadirah:writing ;
-    ns1:note "creating generally refers to an achievement of producing born-digital objects as an own contribution, rather than creating an output by capturing and digitizing existing analog objects or enrichment of information. Creating can involve writing or translating natural language texts or could also concern other forms of expressions, such as creating an executable code (programming), composing a musical score, creating an image, or developing any design (designing) for any media or implementing these design concepts (web development)."@en ;
-    ns1:prefLabel "Erzeugen"@de,
+    skos:note "creating generally refers to an achievement of producing born-digital objects as an own contribution, rather than creating an output by capturing and digitizing existing analog objects or enrichment of information. Creating can involve writing or translating natural language texts or could also concern other forms of expressions, such as creating an executable code (programming), composing a musical score, creating an image, or developing any design (designing) for any media or implementing these design concepts (web development)."@en ;
+    skos:prefLabel "Erzeugen"@de,
         "Creating"@en,
         "Creación"@es,
         "Création"@fr,
@@ -1460,20 +1460,20 @@ tadirah:creating a owl:NamedIndividual,
         "作成"@ja,
         "Criação"@pt,
         "Стварање"@sr ;
-    ns1:topConceptOf tadirah: .
+    skos:topConceptOf tadirah: .
 
 tadirah:discovering a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:capturing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=10&/discovering> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:browsing,
+        skos:Concept ;
+    skos:broader tadirah:capturing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=10&/discovering> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:browsing,
         tadirah:exploration,
         tadirah:informationRetrieval,
         tadirah:querying,
         tadirah:searching ;
-    ns1:note "discovering describes the activity of advanced querying, simple searching and more serendipitous browsing in archives, library catalogs, indexes and abstracts of scholarly journals, web directories, databases and seeking out objects of research, research results, or other information which is useful for a given search interest."@en ;
-    ns1:prefLabel "Entdecken"@de,
+    skos:note "discovering describes the activity of advanced querying, simple searching and more serendipitous browsing in archives, library catalogs, indexes and abstracts of scholarly journals, web directories, databases and seeking out objects of research, research results, or other information which is useful for a given search interest."@en ;
+    skos:prefLabel "Entdecken"@de,
         "Discovering"@en,
         "Localización"@es,
         "Découverte"@fr,
@@ -1483,17 +1483,17 @@ tadirah:discovering a owl:NamedIndividual,
         "Проналажење"@sr .
 
 tadirah:publishing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:disseminating ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=47&/publishing> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:academicPublishing,
+        skos:Concept ;
+    skos:broader tadirah:disseminating ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=47&/publishing> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:academicPublishing,
         tadirah:blogging,
         tadirah:digitalPublishing,
         tadirah:linkedOpenData,
         tadirah:tweet ;
-    ns1:note "publishing refers to the activity of making any kind of object formally available to the wider public. This can involve objects of research, research data, research results, or tools and services. Publishing can be closed or open access / open source, and research results can be published in print or digital formats."@en ;
-    ns1:prefLabel "Veröffentlichen"@de,
+    skos:note "publishing refers to the activity of making any kind of object formally available to the wider public. This can involve objects of research, research data, research results, or tools and services. Publishing can be closed or open access / open source, and research results can be published in print or digital formats."@en ;
+    skos:prefLabel "Veröffentlichen"@de,
         "Publishing"@en,
         "Publicación"@es,
         "Publication"@fr,
@@ -1503,17 +1503,17 @@ tadirah:publishing a owl:NamedIndividual,
         "Објављивање"@sr .
 
 tadirah:structuralAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:analyzing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=30&/structural-analysis> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:collocationAnalysis,
+        skos:Concept ;
+    skos:broader tadirah:analyzing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=30&/structural-analysis> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:collocationAnalysis,
         tadirah:concordance,
         tadirah:machineLearning,
         tadirah:posTagging,
         tadirah:treeTagging ;
-    ns1:note "structural analysis involves analysis of dimensions of the language system on the level of the relations between these structural elements such as morphology or syntax."@en ;
-    ns1:prefLabel "Strukturanalyse"@de,
+    skos:note "structural analysis involves analysis of dimensions of the language system on the level of the relations between these structural elements such as morphology or syntax."@en ;
+    skos:prefLabel "Strukturanalyse"@de,
         "Structural Analysis"@en,
         "Análisis estructural"@es,
         "Analyse structurelle"@fr,
@@ -1523,17 +1523,17 @@ tadirah:structuralAnalysis a owl:NamedIndividual,
         "Структурална анализа"@sr .
 
 tadirah:theorizing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:interpreting ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=36&/theorizing> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:abstractThinking,
+        skos:Concept ;
+    skos:broader tadirah:interpreting ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=36&/theorizing> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:abstractThinking,
         tadirah:conceptualizing,
         tadirah:defining,
         tadirah:explanation,
         tadirah:reasoning ;
-    ns1:note "theorizing is a method which aims to relate a number of elements or ideas into a coherent system based on some general principles and capable of explaining relevant phenomena or observations that can be tested. Theorizing can take different forms while a theory may be implemented in the form of a model, or a model may give rise to formulating a theory."@en ;
-    ns1:prefLabel "Theoriebildung"@de,
+    skos:note "theorizing is a method which aims to relate a number of elements or ideas into a coherent system based on some general principles and capable of explaining relevant phenomena or observations that can be tested. Theorizing can take different forms while a theory may be implemented in the form of a model, or a model may give rise to formulating a theory."@en ;
+    skos:prefLabel "Theoriebildung"@de,
         "Theorizing"@en,
         "Teorización"@es,
         "Théorisation"@fr,
@@ -1543,18 +1543,18 @@ tadirah:theorizing a owl:NamedIndividual,
         "Теоретизовање"@sr .
 
 tadirah:archiving a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:gathering,
+        skos:Concept ;
+    skos:broader tadirah:gathering,
         tadirah:storing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=38&/archiving> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:cataloging,
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=38&/archiving> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:cataloging,
         tadirah:collecting,
         tadirah:dataIngestion,
         tadirah:scanning,
         tadirah:webScraping ;
-    ns1:note "archiving includes the process of moving data and other resources to a separate space for retention. If long-term archiving is involved, activities related to data preservation may also be involved."@en ;
-    ns1:prefLabel "Archivieren"@de,
+    skos:note "archiving includes the process of moving data and other resources to a separate space for retention. If long-term archiving is involved, activities related to data preservation may also be involved."@en ;
+    skos:prefLabel "Archivieren"@de,
         "Archiving"@en,
         "Archivage"@fr,
         "Archiviazione"@it,
@@ -1562,18 +1562,18 @@ tadirah:archiving a owl:NamedIndividual,
         "Архивирање"@sr .
 
 tadirah:communicating a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:disseminating ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=45&/communicating> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:audioConferencing,
+        skos:Concept ;
+    skos:broader tadirah:disseminating ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=45&/communicating> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:audioConferencing,
         tadirah:eMailing,
         tadirah:instantMessaging,
         tadirah:microblogging,
         tadirah:textMessaging,
         tadirah:videoConference ;
-    ns1:note "communicating refers to the activity of exchanging ideas with other people, primarily, but not exclusively, using linguistic means."@en ;
-    ns1:prefLabel "Kommunizieren"@de,
+    skos:note "communicating refers to the activity of exchanging ideas with other people, primarily, but not exclusively, using linguistic means."@en ;
+    skos:prefLabel "Kommunizieren"@de,
         "Communicating"@en,
         "Comunicación"@es,
         "Communication"@fr,
@@ -1583,18 +1583,18 @@ tadirah:communicating a owl:NamedIndividual,
         "Комуницирање"@sr .
 
 tadirah:analyzing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=25> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:contentAnalysis,
+        skos:Concept ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=25> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:contentAnalysis,
         tadirah:networkAnalysis,
         tadirah:relationalAnalysis,
         tadirah:spatialAnalysis,
         tadirah:structuralAnalysis,
         tadirah:stylisticAnalysis,
         tadirah:visualAnalysis ;
-    ns1:note "analyzing  refers to the activity of examining any kind of information from collections of data, of discovering recurring phenomena, units, elements, patterns, groupings, and the like. This can refer to structural, formal or semantic aspects of data."@en ;
-    ns1:prefLabel "Analyse"@de,
+    skos:note "analyzing  refers to the activity of examining any kind of information from collections of data, of discovering recurring phenomena, units, elements, patterns, groupings, and the like. This can refer to structural, formal or semantic aspects of data."@en ;
+    skos:prefLabel "Analyse"@de,
         "Analyzing"@en,
         "Análisis"@es,
         "Analyse"@fr,
@@ -1602,22 +1602,22 @@ tadirah:analyzing a owl:NamedIndividual,
         "分析"@ja,
         "Análise"@pt,
         "Анализа"@sr ;
-    ns1:topConceptOf tadirah: .
+    skos:topConceptOf tadirah: .
 
 tadirah:contextualizing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:annotating,
+        skos:Concept ;
+    skos:broader tadirah:annotating,
         tadirah:commenting,
         tadirah:interpreting ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=34&/contextualizing> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:associate,
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=34&/contextualizing> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:associate,
         tadirah:coOccurrence,
         tadirah:integrating,
         tadirah:mapping,
         tadirah:semantification ;
-    ns1:note "contextualizing  refers to  creating associations between an object of investigation and other, more established or better-understood objects in a relation of geographical, temporal, or thematic proximity to the object of investigation, with the aim of ascribing meaning to that object."@en ;
-    ns1:prefLabel "Kontextualisieren"@de,
+    skos:note "contextualizing  refers to  creating associations between an object of investigation and other, more established or better-understood objects in a relation of geographical, temporal, or thematic proximity to the object of investigation, with the aim of ascribing meaning to that object."@en ;
+    skos:prefLabel "Kontextualisieren"@de,
         "Contextualizing"@en,
         "Contextualización"@es,
         "Contextualisation"@fr,
@@ -1627,18 +1627,18 @@ tadirah:contextualizing a owl:NamedIndividual,
         "Контекстуализовање"@sr .
 
 tadirah:disseminating a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=42&/7_dissemination> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:collaborating,
+        skos:Concept ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=42&/7_dissemination> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:collaborating,
         tadirah:commenting,
         tadirah:communicating,
         tadirah:crowdsourcing,
         tadirah:publishing,
         tadirah:sharing,
         tadirah:teaching ;
-    ns1:note "disseminating refers to the activity of making objects of inquiry, results of research, or software and services available to fellow researchers or the wider public in a variety of more or less formal ways. It builds on or requires storing and can include releasing (publishing and commenting) and sharing (collaborating, crowdsourcing, and communicating) of data using a variety of methods and techniques including the application of linked open data."@en ;
-    ns1:prefLabel "Dissemination"@de,
+    skos:note "disseminating refers to the activity of making objects of inquiry, results of research, or software and services available to fellow researchers or the wider public in a variety of more or less formal ways. It builds on or requires storing and can include releasing (publishing and commenting) and sharing (collaborating, crowdsourcing, and communicating) of data using a variety of methods and techniques including the application of linked open data."@en ;
+    skos:prefLabel "Dissemination"@de,
         "Disseminating"@en,
         "Difusión"@es,
         "Dissémination"@fr,
@@ -1646,13 +1646,13 @@ tadirah:disseminating a owl:NamedIndividual,
         "普及"@ja,
         "Difusão"@pt,
         "Дисеминација"@sr ;
-    ns1:topConceptOf tadirah: .
+    skos:topConceptOf tadirah: .
 
 tadirah:capturing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=7> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:converting,
+        skos:Concept ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=7> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:converting,
         tadirah:dataRecognition,
         tadirah:discovering,
         tadirah:extracting,
@@ -1660,8 +1660,8 @@ tadirah:capturing a owl:NamedIndividual,
         tadirah:imaging,
         tadirah:recording,
         tadirah:transcribing ;
-    ns1:note "capturing generally refers to the activity of creating digital surrogates of real world objects, or expressing existing artifacts in a digital representation. This refers basically to learning and noticing something (as in discovering) and could be enhanced by a manual process (as in transcribing) or an automated procedure (as in imaging, data recognition or recording). This also includes aggregating resources, information and data (as in gathering)."@en ;
-    ns1:prefLabel "Erfassen"@de,
+    skos:note "capturing generally refers to the activity of creating digital surrogates of real world objects, or expressing existing artifacts in a digital representation. This refers basically to learning and noticing something (as in discovering) and could be enhanced by a manual process (as in transcribing) or an automated procedure (as in imaging, data recognition or recording). This also includes aggregating resources, information and data (as in gathering)."@en ;
+    skos:prefLabel "Erfassen"@de,
         "Capturing"@en,
         "Captura"@es,
         "Acquisition"@fr,
@@ -1669,14 +1669,14 @@ tadirah:capturing a owl:NamedIndividual,
         "キャプチャ"@ja,
         "Captura"@pt,
         "Захватање"@sr ;
-    ns1:topConceptOf tadirah: .
+    skos:topConceptOf tadirah: .
 
 tadirah:contentAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:analyzing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=26&/content-analysis> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:discourseAnalysis,
+        skos:Concept ;
+    skos:broader tadirah:analyzing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=26&/content-analysis> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:discourseAnalysis,
         tadirah:identifying,
         tadirah:informationRetrieval,
         tadirah:machineLearning,
@@ -1684,8 +1684,8 @@ tadirah:contentAnalysis a owl:NamedIndividual,
         tadirah:sentimentAnalysis,
         tadirah:tagging,
         tadirah:topicModeling ;
-    ns1:note "content analysis includes researching/studying aspects of objects relating to their meaning, such as identifying concepts or meaningful units."@en ;
-    ns1:prefLabel "Inhaltsanalyse"@de,
+    skos:note "content analysis includes researching/studying aspects of objects relating to their meaning, such as identifying concepts or meaningful units."@en ;
+    skos:prefLabel "Inhaltsanalyse"@de,
         "Content Analysis"@en,
         "Análisis de contenido"@es,
         "Analyse de contenu"@fr,
@@ -1695,11 +1695,11 @@ tadirah:contentAnalysis a owl:NamedIndividual,
         "Анализа садржаја"@sr .
 
 tadirah:gathering a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:capturing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=11&/gathering> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:aggregating,
+        skos:Concept ;
+    skos:broader tadirah:capturing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=11&/gathering> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:aggregating,
         tadirah:archiving,
         tadirah:cataloging,
         tadirah:collating,
@@ -1707,8 +1707,8 @@ tadirah:gathering a owl:NamedIndividual,
         tadirah:preserving,
         tadirah:webCrawling,
         tadirah:webScraping ;
-    ns1:note "gathering refers to aggregating discovered resources, usually in some structured way (e.g. bringing together all papers that address a certain topic, as part of a literature review, or pulling all works by a particular author out of a digital collection for further analysis)."@en ;
-    ns1:prefLabel "Sammeln"@de,
+    skos:note "gathering refers to aggregating discovered resources, usually in some structured way (e.g. bringing together all papers that address a certain topic, as part of a literature review, or pulling all works by a particular author out of a digital collection for further analysis)."@en ;
+    skos:prefLabel "Sammeln"@de,
         "Gathering"@en,
         "Recolección"@es,
         "Collecte"@fr,
@@ -1718,20 +1718,20 @@ tadirah:gathering a owl:NamedIndividual,
         "Прикупљање"@sr .
 
 tadirah:identifying a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:contentAnalysis,
+        skos:Concept ;
+    skos:broader tadirah:contentAnalysis,
         tadirah:networkAnalysis,
         tadirah:relationalAnalysis,
         tadirah:storing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=39&/identifying> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:digitalObjectIdentifier,
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=39&/identifying> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:digitalObjectIdentifier,
         tadirah:identifier,
         tadirah:namingConvention,
         tadirah:persistentIdentifier,
         tadirah:uniformResourceIdentifier ;
-    ns1:note "identifying refers to the activity of naming and/or assigning (possibly unique and/or persistent) identifiers such as a word, number, letter, symbol, or any combination to objects of enquiry or to any kind of digital object."@en ;
-    ns1:prefLabel "Identifizieren"@de,
+    skos:note "identifying refers to the activity of naming and/or assigning (possibly unique and/or persistent) identifiers such as a word, number, letter, symbol, or any combination to objects of enquiry or to any kind of digital object."@en ;
+    skos:prefLabel "Identifizieren"@de,
         "Identifying"@en,
         "Identification"@fr,
         "Identificazione"@it,
@@ -1739,20 +1739,20 @@ tadirah:identifying a owl:NamedIndividual,
         "Идентификовање"@sr .
 
 tadirah:preserving a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:gathering,
+        skos:Concept ;
+    skos:broader tadirah:gathering,
         tadirah:storing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=41&/preservation> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:bitStreamPreservation,
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=41&/preservation> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:bitStreamPreservation,
         tadirah:description,
         tadirah:emulation,
         tadirah:migration,
         tadirah:preservationMetadata,
         tadirah:replication,
         tadirah:versioning ;
-    ns1:note "preserving refers to the application of specific strategies, activities and technologies for the purpose of ensuring an accurate rendering of digital content over time. It facilitates the reuse of research data, objects, and related resources and may include activities related to sustainability and interoperability."@en ;
-    ns1:prefLabel "Konservierung"@de,
+    skos:note "preserving refers to the application of specific strategies, activities and technologies for the purpose of ensuring an accurate rendering of digital content over time. It facilitates the reuse of research data, objects, and related resources and may include activities related to sustainability and interoperability."@en ;
+    skos:prefLabel "Konservierung"@de,
         "Preserving"@en,
         "Preservación"@es,
         "Conservation"@fr,
@@ -1762,11 +1762,11 @@ tadirah:preserving a owl:NamedIndividual,
         "Очување"@sr .
 
 tadirah:editing a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:enriching ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=24&/editing> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:adding,
+        skos:Concept ;
+    skos:broader tadirah:enriching ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=24&/editing> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:adding,
         tadirah:correcting,
         tadirah:cropping,
         tadirah:formatting,
@@ -1775,8 +1775,8 @@ tadirah:editing a owl:NamedIndividual,
         tadirah:subtracting,
         tadirah:supplementing,
         tadirah:videoEditing ;
-    ns1:note "editing refers to adding, correcting, condensating, organizing or in other form modifying information of a specific object with the intention to complete and finalize it by making structural, layout-related, semantic, or other scholarly explicit inline or stand-off markup."@en ;
-    ns1:prefLabel "Bearbeiten"@de,
+    skos:note "editing refers to adding, correcting, condensating, organizing or in other form modifying information of a specific object with the intention to complete and finalize it by making structural, layout-related, semantic, or other scholarly explicit inline or stand-off markup."@en ;
+    skos:prefLabel "Bearbeiten"@de,
         "Editing"@en,
         "Edición"@es,
         "Édition"@fr,
@@ -1786,11 +1786,11 @@ tadirah:editing a owl:NamedIndividual,
         "Уређивање"@sr .
 
 tadirah:relationalAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:analyzing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=28&/relational-analysis> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:clusterAnalysis,
+        skos:Concept ;
+    skos:broader tadirah:analyzing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=28&/relational-analysis> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:clusterAnalysis,
         tadirah:collating,
         tadirah:comparing,
         tadirah:identifying,
@@ -1799,8 +1799,8 @@ tadirah:relationalAnalysis a owl:NamedIndividual,
         tadirah:principalComponentAnalysis,
         tadirah:sequenceAlignment,
         tadirah:stylometry ;
-    ns1:note "relational analysis refers to computational techniques serving to discover specific relations between several objects of study. In textual studies, this could mean discovering overlap between different texts (e.g. text reuse or  plagiarism), or comparison of texts variations regarding completeness and correctness (e.g. collation), or assessing the similarity of texts in terms of stylistic features (e.g. stylometry). By analogy, such methods can also be applied to other cultural artefacts, such as music, film or painting."@en ;
-    ns1:prefLabel "Analyse von Relationen"@de,
+    skos:note "relational analysis refers to computational techniques serving to discover specific relations between several objects of study. In textual studies, this could mean discovering overlap between different texts (e.g. text reuse or  plagiarism), or comparison of texts variations regarding completeness and correctness (e.g. collation), or assessing the similarity of texts in terms of stylistic features (e.g. stylometry). By analogy, such methods can also be applied to other cultural artefacts, such as music, film or painting."@en ;
+    skos:prefLabel "Analyse von Relationen"@de,
         "Relational Analysis"@en,
         "Análisis relacional"@es,
         "Analyse relationnelle"@fr,
@@ -1810,11 +1810,11 @@ tadirah:relationalAnalysis a owl:NamedIndividual,
         "Релациона анализа"@sr .
 
 tadirah:stylisticAnalysis a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:analyzing ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=31&/stylistic-analysis> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:authorshipAttribution,
+        skos:Concept ;
+    skos:broader tadirah:analyzing ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=31&/stylistic-analysis> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:authorshipAttribution,
         tadirah:clusterAnalysis,
         tadirah:contrastiveAnalysis,
         tadirah:distanceMeasures,
@@ -1824,8 +1824,8 @@ tadirah:stylisticAnalysis a owl:NamedIndividual,
         tadirah:rhetoricalAnalysis,
         tadirah:stylometry,
         tadirah:textCategorization ;
-    ns1:note "stylistic analysis consists of identifying stylistic or formal features as a particular variety of digital objects such as language, physical artifacts, painting, music or movies. Computational stylistics analysis is in many cases applied to texts and based on linguistic features."@en ;
-    ns1:prefLabel "Stilistische Analyse"@de,
+    skos:note "stylistic analysis consists of identifying stylistic or formal features as a particular variety of digital objects such as language, physical artifacts, painting, music or movies. Computational stylistics analysis is in many cases applied to texts and based on linguistic features."@en ;
+    skos:prefLabel "Stilistische Analyse"@de,
         "Stylistic Analysis"@en,
         "Análisis estilístico"@es,
         "Analyse stylistique"@fr,
@@ -1835,11 +1835,11 @@ tadirah:stylisticAnalysis a owl:NamedIndividual,
         "Стилистичка анализа"@sr .
 
 tadirah:annotating a owl:NamedIndividual,
-        ns1:Concept ;
-    ns1:broader tadirah:enriching ;
-    ns1:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=22&/annotating> ;
-    ns1:inScheme tadirah: ;
-    ns1:narrower tadirah:associating,
+        skos:Concept ;
+    skos:broader tadirah:enriching ;
+    skos:closeMatch <http://tadirah.dariah.eu/vocab/index.php?tema=22&/annotating> ;
+    skos:inScheme tadirah: ;
+    skos:narrower tadirah:associating,
         tadirah:audioAnnotation,
         tadirah:contextualizing,
         tadirah:encoding,
@@ -1851,8 +1851,8 @@ tadirah:annotating a owl:NamedIndividual,
         tadirah:segmenting,
         tadirah:tagging,
         tadirah:visualAnnotation ;
-    ns1:note "annotating  refers to the activity of making information about a digital object explicit by adding notes, metadata, keywords, tags or links to a digitized representation or to an annotation file associated with it. This can be in the form of explanatory annotations that comments or contextualize a passage, annotations that make structural or linguistic information explicit, as linked open data making the relationships between objects machine-readable, or in the case of general metadata, adding information about the object as a whole."@en ;
-    ns1:prefLabel "Annotieren"@de,
+    skos:note "annotating  refers to the activity of making information about a digital object explicit by adding notes, metadata, keywords, tags or links to a digitized representation or to an annotation file associated with it. This can be in the form of explanatory annotations that comments or contextualize a passage, annotations that make structural or linguistic information explicit, as linked open data making the relationships between objects machine-readable, or in the case of general metadata, adding information about the object as a whole."@en ;
+    skos:prefLabel "Annotieren"@de,
         "Annotating"@en,
         "Anotación"@es,
         "Annotation"@fr,
@@ -1861,29 +1861,27 @@ tadirah:annotating a owl:NamedIndividual,
         "Anotação"@pt,
         "Анотирање"@sr .
 
-ns1:Concept a owl:Class .
+skos:Concept a owl:Class .
 
 tadirah: a owl:NamedIndividual,
         owl:Ontology,
-        ns1:ConceptScheme ;
-    ns3:contributor "Elisabeth Burr, Francesca Tomasi, Tiziana Mancinelli, Monica Berti, Klaus Thoden, Luise Borek, Christof Schöch, Claudia Müller-Birn, Melanie Siemund, Saskia Lindner, Tamara Butigan, Vanja Savic, Toma Tasovac, Aurélien Berra, Thibault Clérice, Martin Grandjean, Vincent Razanajao, Gimena del Rio Riande" ;
-    ns3:creator "Luise Borek, Canan Hastik, Vera Khramova, Jonathan Geiger" ;
-    ns3:language "English"@en ;
-    ns2:created "2020" ;
-    ns2:description "Taxonomy of Digital Research Activities in the Humanities"@en ;
-    ns2:issued "2020-09-28" ;
-    ns2:license "https://creativecommons.org/publicdomain/zero/1.0" ;
-    ns2:modified "2020-10-29" ;
-    ns2:rightsHolder "Luise Borek, Quinn Dombrowski, Christoph Schöch, Jody Perkins, Matthew Munson" ;
-    ns2:title "TaDiRAH"@en ;
+        skos:ConceptScheme ;
+    dc:contributor "Elisabeth Burr, Francesca Tomasi, Tiziana Mancinelli, Monica Berti, Klaus Thoden, Luise Borek, Christof Schöch, Claudia Müller-Birn, Melanie Siemund, Saskia Lindner, Tamara Butigan, Vanja Savic, Toma Tasovac, Aurélien Berra, Thibault Clérice, Martin Grandjean, Vincent Razanajao, Gimena del Rio Riande" ;
+    dc:creator "Luise Borek, Canan Hastik, Vera Khramova, Jonathan Geiger" ;
+    dc:language "English"@en ;
+    dcterms:created "2020" ;
+    dcterms:description "Taxonomy of Digital Research Activities in the Humanities"@en ;
+    dcterms:issued "2020-09-28" ;
+    dcterms:license "https://creativecommons.org/publicdomain/zero/1.0" ;
+    dcterms:modified "2020-10-29" ;
+    dcterms:rightsHolder "Luise Borek, Quinn Dombrowski, Christoph Schöch, Jody Perkins, Matthew Munson" ;
+    dcterms:title "TaDiRAH"@en ;
     owl:imports <http://www.w3.org/2004/02/skos/core> ;
     owl:versionInfo "2.0.0" ;
-    ns1:hasTopConcept tadirah:analyzing,
+    skos:hasTopConcept tadirah:analyzing,
         tadirah:capturing,
         tadirah:creating,
         tadirah:disseminating,
         tadirah:enriching,
         tadirah:interpreting,
         tadirah:storing .
-
-
