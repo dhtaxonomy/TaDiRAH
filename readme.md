@@ -3,8 +3,10 @@ TaDiRAH - Taxonomy of Digital Research Activities in the Humanities (v. 0.5.1, 0
 
 This taxonomy of digital research activities in the humanities has been developed for use by community-driven sites and projects that aim to structure information relevant to digital humanities and make it more easily discoverable. The taxonomy is expected to be particularly useful to endeavors aiming to collect information on digital humanities tools, methods, projects, or readings.
 
-<a href="https://zenodo.org/badge/latestdoi/1105/dhtaxonomy/TaDiRAH"><img src="https://zenodo.org/badge/1105/dhtaxonomy/TaDiRAH.svg" alt="10.5281/zenodo.32492"></a>
+NB!: For the most up-to-date version, see the vocabulary service at [https://vocabs.dariah.eu/tadirah/](https://vocabs.dariah.eu/tadirah/). 
 
+<a href="https://zenodo.org/badge/latestdoi/1105/dhtaxonomy/TaDiRAH"><img src="https://zenodo.org/badge/1105/dhtaxonomy/TaDiRAH.svg" alt="10.5281/zenodo.32492"></a>
+ 
 Repository content
 ------------------
 
@@ -38,7 +40,7 @@ Contributors
 Places where TaDiRAH is available
 ---------------------------------
 
-* Reference: https://vocabs.dariah.eu/tadirah2/en/
+* Reference: https://vocabs.dariah.eu/tadirah/
 * Legacy: https://vocabularyserver.com/tadirah/en/index.php
 * Legacy: http://tadirah.dariah.eu/vocab/index.php
 
