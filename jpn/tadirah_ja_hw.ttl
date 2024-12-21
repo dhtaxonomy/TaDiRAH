@@ -689,7 +689,7 @@ tadirah:sequenceAlignment a owl:NamedIndividual,
     skos:definition "process in bioinformatics that aligns (identifies equivalent sites within) molecular sequences (Wikidata contributors, \"Q827246,\" Wikidata, https://www.wikidata.org/w/index.php?title=Q827246&oldid=1228152501 (accessed July 30, 2020)."@en ;
     skos:inScheme tadirah: ;
     skos:prefLabel "Sequence Alignment"@en,
-        "配列調整？"@ja .
+        "配列アラインメント"@ja .
 
 tadirah:socialNetworking a owl:NamedIndividual,
         skos:Concept ;

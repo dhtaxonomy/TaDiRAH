@@ -744,7 +744,7 @@ tadirah:sequenceAlignment a owl:NamedIndividual,
         "分子配列中の等価部位を同定するバイオインフォマティクスにおけるプロセス 。"@ja ;
     skos:inScheme tadirah: ;
     skos:prefLabel "Sequence Alignment"@en,
-        "配列調整？"@ja .
+        "配列アラインメント"@ja .
 
 tadirah:socialNetworking a owl:NamedIndividual,
         skos:Concept ;
