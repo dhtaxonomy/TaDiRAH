@@ -23,7 +23,9 @@ Initiatives using TaDiRAH
 * TAPoR3: Discover research tools for studying text: http://tapor.ca/home
 * The Social Sciences and Humanities Open Marketplace: https://marketplace.sshopencloud.eu/
 * Open Methods - Digital Humanities Methods and Tools: https://openmethods.dariah.eu/
+* HERMES Hub: https://hermes-hub.de/
 * HERMES Expertbase: https://hermes-hub.de/vernetzen/expertbase/
+* HERMES Blog "Humanities Data Literacy": https://hdl.hypotheses.org/
 * NFDI4Culture Registry: https://nfdi4culture.de/de/ressourcen/registry.html
 * Doing Digital Humanities - A DARIAH Bibliography: https://www.zotero.org/groups/113737/doing_digital_humanities_-_a_dariah_bibliography
 
