@@ -25,6 +25,7 @@ Initiatives using TaDiRAH
 * Open Methods - Digital Humanities Methods and Tools: https://openmethods.dariah.eu/
 * HERMES Hub: https://hermes-hub.de/
 * HERMES Expertbase: https://hermes-hub.de/vernetzen/expertbase/
+* HERMES Resoucebase: https://hermes-hub.de/lernen/resourcebase/
 * HERMES Blog "Humanities Data Literacy": https://hdl.hypotheses.org/
 * NFDI4Culture Registry: https://nfdi4culture.de/de/ressourcen/registry.html
 * Doing Digital Humanities - A DARIAH Bibliography: https://www.zotero.org/groups/113737/doing_digital_humanities_-_a_dariah_bibliography
