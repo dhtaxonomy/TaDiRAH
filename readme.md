@@ -38,3 +38,22 @@ Publications and Presentations
 Good to know
 ------------
 TaDiRAH is usually pronounced "ta-DEE-ra" and is not an animal. However, DiRT and DARIAH are both partial anagrams of it.
+
+Community and Ongoing Development
+------------
+TaDiRAH is currently entering a new phase of collaborative development. 
+
+We invite researchers, practitioners, and institutions from the Digital Humanities community to actively participate in the further development of the taxonomy.
+
+Contributions may include:
+- feedback and conceptual discussions
+- editorial contributions
+- translations and language adaptations
+- technical review and support
+- community dissemination and networking
+
+Discussions, proposals, and ongoing coordination take place via GitHub Discussions:
+[https://github.com/dhtaxonomy/TaDiRAH/discussions](https://github.com/dhtaxonomy/TaDiRAH/discussions)
+
+For more information about the collaborative workflow, governance structure, translations, and participation opportunities, see:
+[WORKFLOW.md](./WORKFLOW.md)
