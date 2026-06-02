@@ -1,3 +1,7 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20508948.svg)](https://doi.org/10.5281/zenodo.20508948)
+
+
+
 TaDiRAH - Taxonomy of Digital Research Activities in the Humanities
 =====================================================================================
 
